@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Event2</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/flickity.css">
+	<style>
+	.gallery {
+  background: #EEE;
+}
+
+
+.gallery img{
+  max-height:210px;
+  min-height: 210px;
+}
+@media (min-width: 769px){
+  .gallery img{
+    max-height: 460px;
+      min-height: 460px;
+  }
+}
+</style>
+</head>
+<body>
+<div class="gallery js-flickity"
+  data-flickity-options='{ "imagesLoaded": true, "percentPosition": false, "autoPlay":2000, "wrapAround":true }'>
+  <img src="../images/event2/1.jpg" alt="ACM VIT" />
+ <img src="../images/event2/2.jpg" alt="ACM VIT" />
+ <img src="../images/event2/3.jpg" alt="ACM VIT" />
+ <img src="../images/event2/4.jpg" alt="ACM VIT" />
+ <img src="../images/event2/5.jpg" alt="ACM VIT" />
+ <img src="../images/event2/6.jpg" alt="ACM VIT" />
+</div>
+	<script src="js/flickity.pkgd.min.js"></script>
+</body>
+</html>

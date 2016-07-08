@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  
+    }
+  @media (max-width: 769px){
+    *{/*
+      overflow-x:hidden;*/
+    }
+  }
+  #large-header{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+#header {
+  background-image: url("../images/bghome.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   width: 100% !important;
+   overflow-x:hidden;
+   }
+
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: inherit;
+  }
