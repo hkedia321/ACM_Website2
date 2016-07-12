@@ -285,7 +285,7 @@ li blockquote .yelloww{
 }
 #photo img{
 	background-color: #000000;
-	transition:opacity 1s , transform 1s;
+	transition:opacity 1s ease , transform 1s ease;
 	opacity: 0.8 !important;
 }
 #photo img:hover{

@@ -1,0 +1,6 @@
+https://remixjobs.com/remixjobsday
+https://docs.google.com/document/d/1Vz-RBtRHLB6tAH9npMr4tH4FfUwQCVDETf0B4roq2Gw/edit?ts=57755bef
+
+card reveal animation        : http://bootsnipp.com/snippets/featured/material-card-reveal-with-image-effect
+Animated Background          : http://codepen.io/tag/animated%20background/
+TUC triangle animation source: https://github.com/msurguy

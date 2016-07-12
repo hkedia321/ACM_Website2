@@ -1,0 +1,100 @@
+/*--------------------Only contact us css------------------*/
+#contactus{
+  background-image:url('../images/contactusbg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin-top: 1px;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+}
+.contactusdiv1{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 25px;
+   color: #f2f2f2;
+   margin-top: 4rem;
+  /* margin-left: 7rem;*/
+   text-align: center;
+}
+.contactusdiv2{
+  margin-top: 10rem;
+}
+.contactusdiv2 p{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+   font-size: 25px;
+   color: rgba(255, 255, 255, 0.8);
+}
+.addressdiv,.emaildiv,.phndiv{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactusdiv1 i{
+  vertical-align: middle;
+  transition:all 0.3s ease;
+}
+.contactusdiv1 i:hover{
+  color: #1a8af3;
+}
+/*--------------------Only contact us css ends------------------*/
+
+#contactus form input[type="text"],#contactus form input[type="email"], #contactus textarea {
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 2rem;
+  background: none;
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 18px;
+  outline: none;
+  font-weight: 400;
+  text-indent: 38px;
+  border: none;
+  border-bottom: solid 2px #fff;
+  transition:all 0.5s ease;
+}
+#contactus textarea{
+  height: 25rem !important;
+  border: solid 2px #fff;
+  border-radius: 4px;
+}
+#contactus form input[type="submit"] {
+    padding: 0.75em 1em;
+    color: #FFFFFF;
+    background-color: rgb(9, 114, 213);
+    font-size: 19px;
+    font-weight: 400;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    width: 100%;
+     transition:all 0.5s ease;
+}
+#contactus form input:hover,#contactus form input:focus{
+  border-bottom: solid 2px #1a8af3 !important;
+}
+#contactus textarea:hover,#contactus textarea:focus{
+  border: solid 2px #1a8af3 !important;
+}
+#contactus form input[type="submit"]:hover {
+    background-color: #1a8af3;
+    border: none !important;
+}
+
+@media(min-width:769px){
+  #contactus .formdiv{
+    margin-top: 5rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+  }
+}
+@media (max-width: 768px){
+#contactus form input {
+    font-size: 16px;
+}
+#contactusdiv1{
+  font-size: 14px;
+}
+}
