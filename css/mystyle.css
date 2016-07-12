@@ -285,11 +285,11 @@ li blockquote .yelloww{
 }
 #photo img{
 	background-color: #000000;
-	transition:all 0.5s;
+	transition:opacity 1s , transform 1s;
 	opacity: 0.8 !important;
 }
 #photo img:hover{
-	/*transform:scale(1.5,1.5);*/
+	transform:scale(1.2,1.2);
 	opacity: 1 !important;
 
 }

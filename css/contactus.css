@@ -5,8 +5,8 @@
   background-repeat: no-repeat;
   min-height: 100vh;
   margin-top: 1px;
-  padding-top: 10rem;
-  padding-bottom: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .contactusdiv1{
    font-family: 'Source Sans Pro', sans-serif;
@@ -17,7 +17,7 @@
    text-align: center;
 }
 .contactusdiv2{
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
 .contactusdiv2 p{
   text-align: center;
@@ -55,7 +55,7 @@
   transition:all 0.5s ease;
 }
 #contactus textarea{
-  height: 25rem !important;
+  height: 20rem !important;
   border: solid 2px #fff;
   border-radius: 4px;
 }
@@ -85,7 +85,7 @@
 
 @media(min-width:769px){
   #contactus .formdiv{
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-right: 20rem;
     margin-left: 20rem;
   }

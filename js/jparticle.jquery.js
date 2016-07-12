@@ -145,7 +145,7 @@
 				ParticlesSandbox.params = $.extend({
 				particlesNumber: 180,
 				linkDist: 3,
-				createLinkDist: 250,
+				createLinkDist: 200,
 				disableLinks: true,
 				disableMouse: false,
 				
