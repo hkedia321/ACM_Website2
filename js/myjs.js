@@ -5,6 +5,14 @@ $(window).scroll(function() {
 		$("#main-nav").fadeOut("slow");
 	}
 });
+// When the DOM is ready, run this function
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
+});
 
 var evecli1=0;
 $(document).ready(function(){

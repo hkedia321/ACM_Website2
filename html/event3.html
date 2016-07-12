@@ -24,10 +24,10 @@
 </head>
 <body>
 <div class="gallery js-flickity"
-  data-flickity-options='{ "imagesLoaded": true, "percentPosition": false, "autoPlay":2000, "wrapAround":true }'>
-  <img src="../images/event3/1.jpg" alt="ACM VIT" />
- <img src="../images/event3/2.jpg" alt="ACM VIT" />
- <img src="../images/event3/3.jpg" alt="ACM VIT" />
+  data-flickity-options='{ "imagesLoaded": true, "percentPosition": false, "autoPlay":2000, "wrapAround":true, "lazyLoad": true }'>
+  <img data-flickity-lazyload="../images/event3/1.jpg" alt="loading..." />
+ <img data-flickity-lazyload="../images/event3/2.jpg" alt="loading..." />
+ <img data-flickity-lazyload="../images/event3/3.jpg" alt="loading..." />
 </div>
 	<script src="js/flickity.pkgd.min.js"></script>
 </body>

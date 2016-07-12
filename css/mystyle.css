@@ -211,7 +211,7 @@ li blockquote .yelloww{
 		max-width: 100% !important;
 		padding: 1rem;
 		padding-top: 0.5rem;
-		    font-size: 15px;
+		font-size: 15px;
 	}
 }
 /*------------Only for achievements ends---------*/
@@ -338,83 +338,201 @@ li blockquote .yelloww{
 	border: none;
 	overflow: hidden;
 }
-	@media (min-width: 769px){
-		#calendar{
-			padding-top: -10rem !important;
-			margin-top: -10rem !important;
-		}
-		#calendar header{
-			margin-top: 0px !important;
-		}
-		#aboutus p{
-			padding-left: 20rem;
-			padding-right: 20rem;
-		}
-		.evecol{
-			margin-left: 2rem;
-			padding-left: 1rem;
-			border-left: 2px solid #e8ecf0;
-		}
-		#calendar .events3dots{
-			top:40%;
-			font-size: 1.6rem;
-		}
-		#calendar .evecol p{
-			text-align: left;
-		}
-		#aboutus{
-			padding-bottom: 3rem !important	;
-		}
-		#calendar iframe{
-			height: 500px;
-		}
+@media (min-width: 769px){
+	#calendar{
+		padding-top: -10rem !important;
+		margin-top: -10rem !important;
 	}
-	@media(max-width: 769px){
-		.eveupdiv{
-			margin-left: 0px;
-			margin-right: 0px;
-		}
-		#calendar{
-			padding-left: 0px;
-			padding-right: 0px;
-			width: 95vw;
-		}
-		#calendar ul{
-			padding-left: 0px !important;
-			padding-right: 0px !important;
-			margin-left: 0px !important;
-			margin-right: 0px !important;
-			width: 100%;
-		}
-		#calendar li{
-			margin-left: 0px !important;
-			width: 99% !important;
-		}
-		
-		#calendar .events3dots{
-			right: 12px;
-		}
+	#calendar header{
+		margin-top: 0px !important;
+	}
+	#aboutus p{
+		padding-left: 20rem;
+		padding-right: 20rem;
+	}
+	.evecol{
+		margin-left: 2rem;
+		padding-left: 1rem;
+		border-left: 2px solid #e8ecf0;
+	}
+	#calendar .events3dots{
+		top:40%;
+		font-size: 1.6rem;
+	}
+	#calendar .evecol p{
+		text-align: left;
+	}
+	#aboutus{
+		padding-bottom: 3rem !important	;
+	}
+	#calendar iframe{
+		height: 500px;
+	}
+}
+@media(max-width: 769px){
+	.eveupdiv{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	#calendar{
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 95vw;
+	}
+	#calendar ul{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+		width: 100%;
+	}
+	#calendar li{
+		margin-left: 0px !important;
+		width: 99% !important;
 	}
 
-
-
-
-	/*--------------------Only events css end------------------*/
-
-
-	@media (min-width:400px){
-		#bottomlogo{
-			width: 300px;
-		}
+	#calendar .events3dots{
+		right: 12px;
 	}
-	@media (max-width: 600px){
-		#presmesh3{
-			display: none;
-		}
-		#mainacmlogo{
-			width: 95vw !important;
-		}
+}
+
+
+
+
+/*--------------------Only events css end------------------*/
+
+
+@media (min-width:400px){
+	#bottomlogo{
+		width: 300px;
 	}
-	.navactive{
-		color: #bbc3cf !important;
+}
+@media (max-width: 600px){
+	#presmesh3{
+		display: none;
 	}
+	#mainacmlogo{
+		width: 95vw !important;
+	}
+}
+.navactive{
+	color: #bbc3cf !important;
+}
+
+
+
+/*************************Only quotes slider******************************/
+/* carousel */
+#quote-carousel 
+{
+
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+	background: none;
+	color: #222;
+	font-size: 2.3em;
+	text-shadow: none;
+	margin-top: 12rem;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+	left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+	right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+	background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+	background: #333333;
+}
+
+/* End carousel */
+
+.item blockquote {
+	border-left: none; 
+	margin: 0;
+}
+
+.item blockquote img {
+	margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+	
+	float: left;
+	margin-right: 10px;
+}
+.quoteimg{
+	vertical-align: middle;
+	margin-top: 5px;
+}
+.famper{
+	font-weight: 700;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.thequote{
+	font-style: italic;
+}
+#quote-carousel .phototext{
+  		margin-top: 15px;
+  	}
+/**
+  MEDIA QUERIES
+  */
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+  	#quote-carousel 
+  	{
+  		margin-bottom: 0;
+  		padding: 0 40px 30px 40px;
+  	}
+  	#quote-carousel .phototext{
+  		margin-top: 35px;
+  	}
+  }
+
+  /* Small devices (tablets, up to 768px) */
+  @media (max-width: 768px) { 
+
+  	/* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+
+  	#quote-carousel .carousel-indicators {
+  		bottom: -20px !important;  
+  	}
+  	#quote-carousel .carousel-indicators li {
+  		display: inline-block;
+  		margin: 0px 5px;
+  		width: 15px;
+  		height: 15px;
+  	}
+  	#quote-carousel .carousel-indicators li.active {
+  		margin: 0px 5px;
+  		width: 20px;
+  		height: 20px;
+  	}
+  	#quote-carousel .carousel-control
+  	{
+  		margin-top: 7rem;
+  	}
+  }

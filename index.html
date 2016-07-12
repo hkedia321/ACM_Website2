@@ -87,8 +87,8 @@
 
                     <header>
 
-                     <!--  <canvas class='connecting-dots'></canvas> -->
-                     <div class="head-elem-wrap">
+                       <!--  <canvas class='connecting-dots'></canvas> -->
+                       <div class="head-elem-wrap">
                         <h1><img src="images/ourlogo.png" id="mainacmlogo" alt="ACM VIT"></h1>
                         <p>Helping Technology grow since 2009.</p>
                     </div>
@@ -234,12 +234,12 @@
                     </div>
                     <div class="place">#IteratePython - 
                         <span>
-                           Basic and advanced python workshop.
-                       </span>
-                   </div>
-                   <i class="fa events3dots"></i>
-               </li>
-               <div class="evecol collapse" id="evecol2">
+                         Basic and advanced python workshop.
+                     </span>
+                 </div>
+                 <i class="fa events3dots"></i>
+             </li>
+             <div class="evecol collapse" id="evecol2">
                 <p>ACM conducted a free series of workshop called #IteratePython. The basics of python programming language were taught in this session. The session includes the basic introduction to python and the scope of python in future tech world.The Basic Python ,Data structures and intricacies of indentation were studied next. String manipulation programs and built in string functions were explained. File handling was briefly brushed upon. The session ended with a small introduction to beautifulsoup.py which is used for scraping any website’s entire resources!</p>
                 <h4 class="text-center">Photos of the event</h4>
                 <iframe src="html/event2.html"></iframe>
@@ -287,11 +287,11 @@
                     </div>
                     <div class="place">Google App Engine - 
                         <span>
-                           Python, JSON, and Google App Engine.
-                       </span></div>
-                       <i class="fa events3dots"></i>
-                   </li>
-                   <div class="evecol collapse" id="evecol5">
+                         Python, JSON, and Google App Engine.
+                     </span></div>
+                     <i class="fa events3dots"></i>
+                 </li>
+                 <div class="evecol collapse" id="evecol5">
                     <p>The workshop covered the basics of Python, which included operators, lists, tuples, dictionaries, modules and file handling. The participants where then taught how to use urllib2, and shown the uses of JavaScript Object Notation (JSON). They were then introduced to Google App Engine, and shown the benefits of GAE.Along with that, they were shown how to deploy the app on a Google developer console, with a unique URL.</p>
                     <h4 class="text-center">Photos of the event</h4>
                     <iframe src="html/event5.html"></iframe>
@@ -336,15 +336,85 @@
 
     <section id="testimonial" class="box scrollable upable">
         <ul class="unstyled-list">
-            <li class="active">
-                <blockquote>
+          <!--  <iframe src="html/quotes.html"></iframe> -->
+          <li class="active" id="quoteli0">
+            <!-- <blockquote>
                     “The people who are crazy enough to think they can<br> <span class="yelloww">change the world</span><br> are the ones who do.”
                 </blockquote>
                 <div class="meta">
                     <img src="images/steve.png" alt="Steve Jobs">
                     <span>Steve Jobs</span>
 
+                </div> -->
+              <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                  <!-- Bottom Carousel Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#quote-carousel" data-slide-to="1"></li>
+                    <li data-target="#quote-carousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Carousel Slides / Quotes -->
+                <div class="carousel-inner">
+
+                    <!-- Quote 1 -->
+                    <div class="item active">
+                      <blockquote>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="thequote">“The people who are crazy enough to think they can<br> <span class="yelloww">change the world</span><br> are the ones who do.”</p>
+                                </div>
+                            </div>
+                            <div class="row phototext">
+                                <div class="col-sm-12 text-center">
+                                    <img class="img-circle quoteimg" src="images/steve.png" alt="Steve Jobs">
+                                    <span class="famper yelloww">Steve Jobs</span>
+
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <!-- Quote 2 -->
+                    <div class="item">
+                      <blockquote>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="thequote">“If you are born poor it's not your mistake,<br><span class="yelloww"> but if you die poor</span><br> it's your mistake.”</p>
+                                </div>
+                            </div>
+                            <div class="row phototext">
+                                <div class="col-sm-12 text-center">
+                                    <img class="img-circle quoteimg" src="images/bill.png" alt="Steve Jobs">
+                                    <span class="famper yelloww">Bill Gates</span>
+
+                                </div>
+                            </div>
+                        </blockquote>
                 </div>
+                <!-- Quote 3 -->
+                <div class="item">
+                   <blockquote>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="thequote">“Move fast and break things.<br> <span class="yelloww">Unless you are breaking stuff</span><br> you are not moving fast enough.”</p>
+                                </div>
+                            </div>
+                            <div class="row phototext">
+                                <div class="col-sm-12 text-center">
+                                    <img class="img-circle quoteimg" src="images/mark.png" alt="Steve Jobs">
+                                    <span class="famper yelloww">Mark Zuckerberg</span>
+
+                                </div>
+                            </div>
+                        </blockquote>
+            </div>
+        </div>
+
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+    </div>    
+                
             </li>
         </ul>
     </section>
@@ -375,7 +445,7 @@
 
                     <div class="card">
                         <div id="show1">
-                           <div class="threedotshover">
+                         <div class="threedotshover">
                             <i class="fa fa-ellipsis-v"></i>
                         </div>
                         <div style="clear:both;"></div>
@@ -399,9 +469,9 @@
                 </li>
             </div>
             <li id="companyli2">
-               <div class="card">
+             <div class="card">
                 <div id="show2">
-                 <div class="threedotshover">
+                   <div class="threedotshover">
                     <i class="fa fa-ellipsis-v"></i>
                 </div>
                 <div style="clear:both;"></div>
@@ -417,14 +487,14 @@
 
             <div class="card-reveal card-reveal2">
                 <h3 class="card-title">Pranay Gupta</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                <p>A line or two about me...A line or two about me...A line or two about me...</p>
+                <p>Being an integral part of ACM, I have learnt a lot which all started in first year. ACM has being a welll known in-core chapter and the environment here is brilliant.</p>
             </div>
         </div>
     </li>
     <li id="companyli3">
-       <div class="card">
+     <div class="card">
         <div id="show3">
-         <div class="threedotshover">
+           <div class="threedotshover">
             <i class="fa fa-ellipsis-v"></i>
         </div>
         <div style="clear:both;"></div>
@@ -445,9 +515,9 @@
 </div>
 </li>
 <li id="companyli4">
-   <div class="card">
+ <div class="card">
     <div id="show4">
-     <div class="threedotshover">
+       <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -471,7 +541,7 @@
 <li id="companyli5">
     <div class="card">
         <div id="show5">
-         <div class="threedotshover">
+           <div class="threedotshover">
             <i class="fa fa-ellipsis-v"></i>
         </div>
         <div style="clear:both;"></div>
@@ -488,14 +558,14 @@
 
     <div class="card-reveal card-reveal5">
         <h3 class="card-title">Rishi Raj</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-        <p>A line or two about me...A line or two about me...A line or two about me...</p>
+        <p>I believe in learning new things everyday and keep myself updated with the latest trends in technology.</p>
     </div>
 </div>
 </li>
 <li id="companyli6">
-   <div class="card">
+ <div class="card">
     <div id="show6">
-     <div class="threedotshover">
+       <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -516,9 +586,9 @@
 </div>
 </li>
 <li id="companyli7">
-   <div class="card">
+ <div class="card">
     <div id="show7">
-     <div class="threedotshover">
+       <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -533,14 +603,14 @@
 <a href="https://www.facebook.com/AartiSusanKuruvilla?fref=ts" target="_blank"><span class="fb12"></span></a>
 <div class="card-reveal card-reveal7">
     <h3 class="card-title">Aarti Susan Kuruvilla</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-    <p>A line or two about me...A line or two about me...A line or two about me...</p>
+    <p>I joined this chapter in my first year, and it has become an integral part of my college life. ACM has shaped me and helped me grow, and I take great joy in helping it progress.</p>
 </div>
 </div>
 </li>
 <li id="companyli8">
-   <div class="card">
+ <div class="card">
     <div id="show8">
-     <div class="threedotshover">
+       <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -562,7 +632,7 @@
 <li id="companyli9">
     <div class="card">
         <div id="show9">
-         <div class="threedotshover">
+           <div class="threedotshover">
             <i class="fa fa-ellipsis-v"></i>
         </div>
         <div style="clear:both;"></div>
@@ -577,14 +647,14 @@
     <a href="https://www.facebook.com/mallika.rai.96" target="_blank"><span class="fb12"></span></a>
     <div class="card-reveal card-reveal9">
         <h3 class="card-title">Mallika Rai</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-        <p>A line or two about me...A line or two about me...A line or two about me...</p>
+        <p>A programming enthusiast, specialising in Web development, I see myself as a knowledge hungry person, receptive to any new trend or discovery in the field of information technology.</p>
     </div>
 </div>
 </li>
 <li id="companyli10">
-   <div class="card">
+ <div class="card">
     <div id="show10">
-     <div class="threedotshover">
+       <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -599,7 +669,7 @@
 <a href="https://www.facebook.com/lekhani.ray?fref=pb_other" target="_blank"><span class="fb12"></span></a>
 <div class="card-reveal card-reveal10">
     <h3 class="card-title">Lekhani Ray</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-    <p>A line or two about me...A line or two about me...A line or two about me...</p>
+    <p>I have been a part of ACM for more than a year now and it has helped me not only keep in touch with the changing technology but also understand it much better.</p>
 </div>
 </div>
 </li>
@@ -666,27 +736,27 @@
         <p>Got any queries? Just leave your details below, along with whatever you want to ask us.</p>
         <div class="formdiv">
           <!--   <iframe src="html/contactusform.html"></iframe> -->
-            <form method="post" action="contactus.php" class="">
-                <div class="text-field-name col-md-6">
-                    <input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}">
-                </div>
-                <div class="text-field-name col-md-6">
-                    <input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
-                </div>
+          <form method="post" action="contactus.php" class="">
+            <div class="text-field-name col-md-6">
+                <input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}">
+            </div>
+            <div class="text-field-name col-md-6">
+                <input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
+            </div>
                <!--  <div class="text-field-email col-md-12">
                  <input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
              </div> -->
              <div class="text-field-subject col-md-12">
-                 <input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}">
-             </div>
-             <div class="text-field-message col-md-12">
-                <textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
-            </div>
-            <div class="text-field-submit col-md-offset-4 col-md-4">
-             <input type="submit" value="Submit">
-         </div>
-     </form>
- </div>
+               <input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}">
+           </div>
+           <div class="text-field-message col-md-12">
+            <textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
+        </div>
+        <div class="text-field-submit col-md-offset-4 col-md-4">
+           <input type="submit" value="Submit">
+       </div>
+   </form>
+</div>
 </div>
 </section>
 <footer id="footer">
