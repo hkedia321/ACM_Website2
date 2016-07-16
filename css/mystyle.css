@@ -12,6 +12,31 @@
 .navactive{
 	color: #bbc3cf !important;
 }
+.downheaderdiv{
+	margin-top: 22vh;
+}
+.downimg{
+	position: absolute;
+	z-index: 1001;
+}
+.head-elem-wrap{
+	color: white;
+}
+.headfullform{
+	font-size: 4.5rem;
+	color:#1a8af3;
+}
+.headvit{
+	font-size: 3.6rem;
+}
+@media (max-width:769px){
+	.headfullform{
+	font-size: 3rem;
+}
+.headvit{
+	font-size: 2.6rem;
+}
+}
 @media (min-width:1000px) and (max-width:1110px){
 	#main-nav ul li{
 		font-size: 0.3rem !important;
@@ -56,7 +81,7 @@ body {
 	display: none;
 }
 #large-header,#header{
-	min-height: 110vh !important;
+	min-height: 105vh !important;
 }
 .border{
 	border: solid 1px red;
@@ -389,6 +414,7 @@ li blockquote .yelloww{
 	#calendar li{
 		margin-left: 0px !important;
 		width: 99% !important;
+		padding-right: 3rem !important;
 	}
 
 	#calendar .events3dots{
@@ -402,11 +428,7 @@ li blockquote .yelloww{
 /*--------------------Only events css end------------------*/
 
 
-@media (min-width:400px){
-	#bottomlogo{
-		width: 300px;
-	}
-}
+
 @media (max-width: 600px){
 	#presmesh3{
 		display: none;
@@ -494,8 +516,8 @@ li blockquote .yelloww{
 	font-style: italic;
 }
 #quote-carousel .phototext{
-  		margin-top: 15px;
-  	}
+	margin-top: 15px;
+}
 /**
   MEDIA QUERIES
   */
@@ -533,6 +555,22 @@ li blockquote .yelloww{
   	}
   	#quote-carousel .carousel-control
   	{
+  		margin-left: 1rem;
+  		margin-right: 1rem;
   		margin-top: 7rem;
   	}
   }
+  .bottomlogo{
+  	width: 300px;
+  	max-width: 95vw;
+  }
+  #bottomlogo2{
+  	width: 280px;
+  	max-width: 93vw;
+  }
+  @media (min-width: 769px){
+  footer{
+  	padding-left: 18vw;
+  	padding-right: 20vw;
+  }
+}

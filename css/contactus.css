@@ -5,8 +5,8 @@
   background-repeat: no-repeat;
   min-height: 100vh;
   margin-top: 1px;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .contactusdiv1{
    font-family: 'Source Sans Pro', sans-serif;
@@ -55,7 +55,7 @@
   transition:all 0.5s ease;
 }
 #contactus textarea{
-  height: 20rem !important;
+  height: 15rem !important;
   border: solid 2px #fff;
   border-radius: 4px;
 }
@@ -94,7 +94,7 @@
 #contactus form input {
     font-size: 16px;
 }
-#contactusdiv1{
-  font-size: 14px;
+.contusp{
+  font-size: 16px !important;
 }
 }

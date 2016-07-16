@@ -415,9 +415,9 @@ th {
 }
 #main-nav .close {
     display: none;
-    position: relative;
-    top: -14px;
-    left: -14px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
     z-index: 8200;
     width: 41px;
     height: 35px;
@@ -1275,8 +1275,8 @@ header {
     text-align: right
 }
 #footer {
-    margin-top: 170px;
-    padding-bottom: 85px
+    margin-top: 17px;
+    padding-bottom: 10px;
 }
 html.ie #main-nav .first-choice.display,
 html.ie #main-nav .where.display {

@@ -183,3 +183,20 @@ Source:http://bootsnipp.com/snippets/featured/material-card-reveal-with-image-ef
 .fb12:hover {
     background-position: 0px -33px;
 }
+.card>div .underline{
+    background-color:#ffc526; /* same as link color */
+  display: block;
+  height: 2px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.card>div:hover .underline{
+    -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
