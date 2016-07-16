@@ -44,7 +44,7 @@
     <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet"  type="text/css" href="css/normalize.css">
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/particlejs.css">
 
     <link rel="stylesheet" type="text/css" href="css/contactus.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -76,24 +76,18 @@
             <!--#071871-->
 
             <div id="large-header" class="large-header">
-                <script>
-                $(function(){
-                    $("#large-header").jParticle({
 
-                        color: "#1a8af3"
-                    });
-                });
-                </script>
                 <section id="header" class="spied target">
-
+                    <div id="particles-js">
+                    </div>
                     <header>
 
                        <!--  <canvas class='connecting-dots'></canvas> -->
                        <div class="head-elem-wrap">
                         <h1><img src="images/ourlogo.png" id="mainacmlogo" alt="ACM VIT"></h1>
-                       
+
                         <p>Helping Technology grow since 2009.</p>
-                         <br><br><br>
+                        <br><br><br>
                         <h1 class="headfullform">Association For Computing Machinery</h1>
                         <h2 class="headvit">Vellore Institute of Technology</h2>
                     </div>
@@ -123,8 +117,8 @@
                 <ul class="unstyled-list" id="anim">
                 </ul>
             </div>
-
         </section>
+        
     </div>
     <nav id="main-nav">
         <button type="button" class="menu">
@@ -361,7 +355,7 @@
                     <span class="cd-date">2013</span>
                 </div> <!-- cd-timeline-content -->
             </div> <!-- cd-timeline-block -->
-<div class="cd-timeline-block">
+            <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-movie">
                     <img src="images/achi/prerak.png" alt="ACM VIT">
                 </div> <!-- cd-timeline-img -->
@@ -372,7 +366,7 @@
                     <span class="cd-date">2014</span>
                 </div> <!-- cd-timeline-content -->
             </div> 
-             <div class="cd-timeline-block">
+            <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-movie">
                     <img src="images/achi/deepankar.png" alt="ACM VIT">
                 </div> <!-- cd-timeline-img -->
@@ -409,7 +403,7 @@
                     <span class="cd-date">2015</span>
                 </div> <!-- cd-timeline-content -->
             </div> <!-- cd-timeline-block -->
-           
+
             <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-movie">
                     <img src="images/achi/parag.png" alt="ACM VIT">
@@ -520,7 +514,7 @@
     <header>
         <h2>The Board</h2>
         <p>
-            Our board comprises ten fine, hard-working individuals, dedicated to the progress of this chapter.
+            Our board comprises hard-working individuals, dedicated to the progress of this chapter.
         </p>
     </header>
     <nav>
@@ -538,7 +532,36 @@
     <ul class="unstyled-list clearfix upable" id="theboardul">
 
         <div class="row" id="theboard1uprow">
-            <li class="active" id="theboardli1">
+            <div id="li01wrap">
+                <li class="active" id="theboardli0">
+
+                    <div class="card">
+                        <div id="show0">
+                         <div class="threedotshover">
+                            <i class="fa fa-ellipsis-v"></i>
+                        </div>
+                        <div style="clear:both;"></div>
+                        <div class="">
+                            <img src="images/hrv.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="">HRV Sir<span class="underline"></span></h3>
+                            <h4><b>Faculty Coordinator</b></h4>
+                        </div>
+                    </div>
+                    <span class="" style="visibility:hidden;">
+                        <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span></a>
+                        <a target href="https://github.com/abhinav-adtechs" target="_blank"><!-- <i class="fa fa-2x fa-github" href="https://github.com/abhinav-adtechs" aria-hidden="true"></i>
+                        --> <span class="git12"></span></a>
+                    </span>
+
+                    <div class="card-reveal card-reveal0">
+                        <h3 class="card-title">Abhinav jordiie Das</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <p>I am a strong believer of technology and innovation. Here at ACM VIT, we are just about that.</p>
+                    </div>
+                </div>
+            </li>
+            <li id="theboardli1">
 
                 <div class="card">
                     <div id="show1">
@@ -565,50 +588,51 @@
                     </div>
                 </li>
             </div>
-            <li id="companyli2">
-             <div class="card">
-                <div id="show2">
-                   <div class="threedotshover">
-                    <i class="fa fa-ellipsis-v"></i>
-                </div>
-                <div style="clear:both;"></div>
-                <div class="">
-                    <img src="images/pranay.png" alt="Pranay" class="img-responsive img-circle img-thumbnail">
-                </div>
-                <div class="card-content">
-                    <h3 class="">Pranay Gupta<span class="underline"></span></h3>
-                    <h4><b>Vice President</b></h4>
-                </div>
+        </div>
+        <li id="companyli2">
+         <div class="card">
+            <div id="show2">
+               <div class="threedotshover">
+                <i class="fa fa-ellipsis-v"></i>
             </div>
-            <a href="https://www.facebook.com/pranay.gupta.3597" target="_blank"><span class="fb12"></span></a>
-
-            <div class="card-reveal card-reveal2">
-                <h3 class="card-title">Pranay Gupta</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                <p>Working at ACM from the very beginning of my Engineering, I have build up my marketing and technical skills suitable for a professional career.</p>
+            <div style="clear:both;"></div>
+            <div class="">
+                <img src="images/pranay.png" alt="Pranay" class="img-responsive img-circle img-thumbnail">
+            </div>
+            <div class="card-content">
+                <h3 class="">Pranay Gupta<span class="underline"></span></h3>
+                <h4><b>Vice President</b></h4>
             </div>
         </div>
-    </li>
-    <li id="companyli3">
-     <div class="card">
-        <div id="show3">
-           <div class="threedotshover">
-            <i class="fa fa-ellipsis-v"></i>
-        </div>
-        <div style="clear:both;"></div>
-        <div class="">
-            <img src="images/mugdha.png" alt="Mugdha" class="img-responsive img-circle img-thumbnail">
-        </div>
-        <div class="card-content">
-            <h3 class="">Mugdha Pandya<span class="underline"></span></h3>
-            <h4><b>General Secretary</b></h4>
-        </div>
-    </div>
-    <a href="https://www.facebook.com/mugdha.pandya.3?fref=ts" target="_blank"><span class="fb12"></span></a>
+        <a href="https://www.facebook.com/pranay.gupta.3597" target="_blank"><span class="fb12"></span></a>
 
-    <div class="card-reveal card-reveal3">
-        <h3 class="card-title">Mugdha Pandya</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-        <p>A line or two about me...A line or two about me...A line or two about me...</p>
+        <div class="card-reveal card-reveal2">
+            <h3 class="card-title">Pranay Gupta</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <p>Working at ACM from the very beginning of my Engineering, I have build up my marketing and technical skills suitable for a professional career.</p>
+        </div>
     </div>
+</li>
+<li id="companyli3">
+ <div class="card">
+    <div id="show3">
+       <div class="threedotshover">
+        <i class="fa fa-ellipsis-v"></i>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="">
+        <img src="images/mugdha.png" alt="Mugdha" class="img-responsive img-circle img-thumbnail">
+    </div>
+    <div class="card-content">
+        <h3 class="">Mugdha Pandya<span class="underline"></span></h3>
+        <h4><b>General Secretary</b></h4>
+    </div>
+</div>
+<a href="https://www.facebook.com/mugdha.pandya.3?fref=ts" target="_blank"><span class="fb12"></span></a>
+
+<div class="card-reveal card-reveal3">
+    <h3 class="card-title">Mugdha Pandya</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <p>A line or two about me...A line or two about me...A line or two about me...</p>
+</div>
 </div>
 </li>
 <li id="companyli4">
@@ -863,7 +887,7 @@
         <li id="githubicon"><a class="github" href="https://github.com/ACM-VIT"><img src="images/githubicon.png" class="img-responsive"></a></li>
     </ul>
     <a href="index.html"><img src="images/ourlogo2.png" class="bottomlogo pull-left" id="bottomlogo1" alt="ACM"></a>
-    <a href="http://vit.ac.in"><img src="images/vitlogo.png" class="bottomlogo pull-right" id="bottomlogo2" alt="ACM"></a>
+    <a href="http://www.vit.ac.in" target="_blank"><img src="images/vitlogo.png" class="bottomlogo pull-right" id="bottomlogo2" alt="ACM"></a>
 </footer>
 <script>
 var require = {"baseUrl":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/scripts\/modules\/","cacheVersion":0,"urlArgs":"v=0","waitSeconds":30,"paths":{"core":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/core\/js","employer":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/employer\/js","admin":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/admin\/js","jobseeker":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/nonemployer\/js","payment":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/payment\/js","media":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/media\/js","fselectmenu":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fselectmenu\/js\/modules","affiliate":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/affiliate\/js","rjcvclient":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjcvclient\/js","rjmap":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjmap\/js","fpswfupload":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fpswfupload\/js\/swfupload"}};
@@ -878,6 +902,29 @@ var CACHE_VER = require.cacheVersion;
 <script src="js/c4a545dcfcd.js?0"></script>
 <script src="js/card.js"></script>
 <script src="js/achi.js"></script>
+
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+<!-- stats.js -->
+<script>
+var count_particles, stats, update;
+stats = new Stats;
+stats.setMode(0);
+stats.domElement.style.position = 'absolute';
+stats.domElement.style.left = '0px';
+stats.domElement.style.top = '0px';
+document.body.appendChild(stats.domElement);
+count_particles = document.querySelector('.js-count-particles');
+update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+  }
+  requestAnimationFrame(update);
+};
+requestAnimationFrame(update);
+</script>
 <script src="js/myjs.js"></script>
 
 </body>

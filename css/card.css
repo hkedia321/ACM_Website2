@@ -92,10 +92,22 @@ Source:http://bootsnipp.com/snippets/featured/material-card-reveal-with-image-ef
 #theboard1uprow{
     padding-right: 1rem;
 }
-#theboardli1{
+#li01wrap{
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto !important;
     margin-right: auto !important;
-    display: block !important;
+    text-align: center;
+}
+#theboardli1,#theboardli0{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: inline-block !important;
+}
+@media (min-width: 769px){
+#theboardli1{
+    margin-left: 30px !important;
+}
 }
 #theboardul li{
     transition: all 0.5s 0.1s;

@@ -1,5 +1,7 @@
 $(function(){
 
+    
+
     $('#show1').on('click',function(){        
         $('.card-reveal1').slideToggle('slow');
     });
