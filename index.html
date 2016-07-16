@@ -43,9 +43,6 @@
     <link rel="icon" type="image/png" href="images/favicon.ico" sizes="128x128" />
     <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet"  type="text/css" href="css/normalize.css">
-
-    <link rel="stylesheet" type="text/css" href="css/particlejs.css">
-
     <link rel="stylesheet" type="text/css" href="css/contactus.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <!--  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css"> -->
@@ -76,10 +73,8 @@
             <!--#071871-->
 
             <div id="large-header" class="large-header">
-
+                <div id="particles">
                 <section id="header" class="spied target">
-                    <div id="particles-js">
-                    </div>
                     <header>
 
                        <!--  <canvas class='connecting-dots'></canvas> -->
@@ -118,7 +113,8 @@
                 </ul>
             </div>
         </section>
-        
+    </div>
+
     </div>
     <nav id="main-nav">
         <button type="button" class="menu">
@@ -545,7 +541,7 @@
                             <img src="images/hrv.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav">
                         </div>
                         <div class="card-content">
-                            <h3 class="">HRV Sir<span class="underline"></span></h3>
+                            <h3 class="">Hari Ram Vishwakarma<span class="underline"></span></h3>
                             <h4><b>Faculty Coordinator</b></h4>
                         </div>
                     </div>
@@ -631,7 +627,7 @@
 
 <div class="card-reveal card-reveal3">
     <h3 class="card-title">Mugdha Pandya</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-    <p>A line or two about me...A line or two about me...A line or two about me...</p>
+    <p>ACM has been quite an experience! I've got a great team and they've helped me learn so many things.</p>
 </div>
 </div>
 </li>
@@ -655,7 +651,7 @@
 
 <div class="card-reveal card-reveal4">
     <h3 class="card-title">Ashwini Purohit</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-    <p>A line or two about me...A line or two about me...A line or two about me...</p>
+    <p>Just do git.</p>
 </div>
 </div>
 </li>
@@ -903,28 +899,8 @@ var CACHE_VER = require.cacheVersion;
 <script src="js/card.js"></script>
 <script src="js/achi.js"></script>
 
-<script src="js/particles.min.js"></script>
-<script src="js/app.js"></script>
-<!-- stats.js -->
-<script>
-var count_particles, stats, update;
-stats = new Stats;
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector('.js-count-particles');
-update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);
-</script>
+<script src="js/jquery.particleground.min.js"></script>
+<script src="js/demo.js"></script>
 <script src="js/myjs.js"></script>
 
 </body>
