@@ -12,8 +12,12 @@ $(document).ready(function() {
     pause: true,
     interval: 5000,
   });
-});
+  if(window.width>769){
+  	$('#bottomlogo1').addClass('pull-left');
+  	$('#bottomlogo2').addClass('pull-right');
 
+  }
+});
 var evecli1=0;
 $(document).ready(function(){
 	$("#eveliid1").click(function(){

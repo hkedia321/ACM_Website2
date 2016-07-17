@@ -450,7 +450,8 @@ Main components
   margin-right: auto;
 }
 .cd-timeline-block .underline {
-  background-color:#a52a2a; /* same as link color */
+  /*background-color:#a52a2a;*/
+  background-color: #001cac;
   display: block;
   height: 2px;
   width: 90%;
@@ -466,4 +467,16 @@ Main components
 .cd-timeline-block:hover .underline {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+#moreless{
+  display: none;
+  transition: all 0.5s ease;
+}
+
+#showbutton{
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: none !important;
 }

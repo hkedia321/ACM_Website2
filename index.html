@@ -51,13 +51,32 @@
     <link rel="stylesheet" type="text/css" href="css/card.css">
     <link rel="stylesheet" type="text/css" href="css/achi.css">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <script src="js/jquery.js"></script>
+    <script>
+    var noclick=0;
+    function showclicked(){
+      noclick++;
+      var moreless=document.getElementById('moreless');
+      var but=document.getElementById('showbutton');
+      if(noclick%2!=0){
+        moreless.style.display="block";
+         moreless.style.transform="scale(1)";
+         but.innerHTML="Show less";
+     }
+     else{
+        moreless.style.display="none";
+        moreless.style.transform="scale(0)";
+        but.innerHTML="Show more";
+        window.location="#showless";
+    }
+}
+</script>
+
+<!--[if gt IE 9]><!-->
 
 
-    <!--[if gt IE 9]><!-->
-    
-
-    <!--    <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-button/paper-button.html"> -->
-    <!--<![endif]-->
+<!--    <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-button/paper-button.html"> -->
+<!--<![endif]-->
 
 </head>
 <body>
@@ -73,12 +92,13 @@
             <!--#071871-->
 
             <div id="large-header" class="large-header">
-                <div id="particles">
+
+               <div id="particles">
                 <section id="header" class="spied target">
                     <header>
 
-                       <!--  <canvas class='connecting-dots'></canvas> -->
-                       <div class="head-elem-wrap">
+                     <!--  <canvas class='connecting-dots'></canvas> -->
+                     <div class="head-elem-wrap">
                         <h1><img src="images/ourlogo.png" id="mainacmlogo" alt="ACM VIT"></h1>
 
                         <p>Helping Technology grow since 2009.</p>
@@ -115,32 +135,32 @@
         </section>
     </div>
 
-    </div>
-    <nav id="main-nav">
-        <button type="button" class="menu">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <button type="button" class="close"></button>
-        <ul class="unstyled-list anchors">
-            <div id="nav">
-                <nav>
-                    <li><a class="navbara" href="#header" class="aactive">Home</a></li>
-                    <li><a class="navbara" href="#aboutus">About us</a></li>
-                    <li><a class="navbara" href="#calendar">Events</a></li>
-                    <li><a class="navbara" href="#achievements">Achievements</a></li>
-                    <li><a class="navbara" href="#yellow">The Board</a></li>
-                    <li><a class="navbara" href="#photo">Gallery</a></li>
-                    <li><a class="navbara" href="#contactus">Contact us</a></li>
-                </nav>
-            </div>
-        </ul>
-        <ul class="unstyled-list social">
-            <li style="display:none;"><a target="_blank" href="https://googleplus.com/" class="gitclass google"><span class=" navgit12"><!-- <i class="fa fa-2x fa-github" href="www.github.com" aria-hidden="true"></i> -->Github</span></a></li>
-            <li><a target="_blank" class="facebook" href="http://facebook.com/ACM.VITU">Facebook</a></li>
-            <li><a target="_blank" class="twitter" href="http://twitter.com/ACMVITU">Twitter</a></li>
-        </ul>
+</div>
+<nav id="main-nav">
+    <button type="button" class="menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <button type="button" class="close"></button>
+    <ul class="unstyled-list anchors">
+        <div id="nav">
+            <nav>
+                <li><a class="navbara" href="#header" class="aactive">Home</a></li>
+                <li><a class="navbara" href="#aboutus">About us</a></li>
+                <li><a class="navbara" href="#calendar">Events</a></li>
+                <li><a class="navbara" href="#achievements">Achievements</a></li>
+                <li><a class="navbara" href="#yellow">The Board</a></li>
+                <li><a class="navbara" href="#photo">Gallery</a></li>
+                <li><a class="navbara" href="#contactus">Contact us</a></li>
+            </nav>
+        </div>
+    </ul>
+    <ul class="unstyled-list social">
+        <li style="display:none;"><a target="_blank" href="https://googleplus.com/" class="gitclass google"><span class=" navgit12"><!-- <i class="fa fa-2x fa-github" href="www.github.com" aria-hidden="true"></i> -->Github</span></a></li>
+        <li><a target="_blank" class="facebook" href="http://facebook.com/ACM.VITU">Facebook</a></li>
+        <li><a target="_blank" class="twitter" href="http://twitter.com/ACMVITU">Twitter</a></li>
+    </ul>
             <!--[if lte IE 9]>
             <button class="signin">Participer</button>
             <![endif]-->
@@ -233,12 +253,12 @@
                     </div>
                     <div class="place">#IteratePython - 
                         <span>
-                         Basic and advanced python workshop.
-                     </span>
-                 </div>
-                 <i class="fa events3dots"></i>
-             </li>
-             <div class="evecol collapse" id="evecol2">
+                           Basic and advanced python workshop.
+                       </span>
+                   </div>
+                   <i class="fa events3dots"></i>
+               </li>
+               <div class="evecol collapse" id="evecol2">
                 <p>ACM conducted a free series of workshop called #IteratePython. The basics of python programming language were taught in this session. The session includes the basic introduction to python and the scope of python in future tech world.The Basic Python ,Data structures and intricacies of indentation were studied next. String manipulation programs and built in string functions were explained. File handling was briefly brushed upon. The session ended with a small introduction to beautifulsoup.py which is used for scraping any website’s entire resources!</p>
                 <h4 class="text-center">Photos of the event</h4>
                 <iframe src="html/event2.html"></iframe>
@@ -286,11 +306,11 @@
                     </div>
                     <div class="place">Google App Engine - 
                         <span>
-                         Python, JSON, and Google App Engine.
-                     </span></div>
-                     <i class="fa events3dots"></i>
-                 </li>
-                 <div class="evecol collapse" id="evecol5">
+                           Python, JSON, and Google App Engine.
+                       </span></div>
+                       <i class="fa events3dots"></i>
+                   </li>
+                   <div class="evecol collapse" id="evecol5">
                     <p>The workshop covered the basics of Python, which included operators, lists, tuples, dictionaries, modules and file handling. The participants where then taught how to use urllib2, and shown the uses of JavaScript Object Notation (JSON). They were then introduced to Google App Engine, and shown the benefits of GAE.Along with that, they were shown how to deploy the app on a Google developer console, with a unique URL.</p>
                     <h4 class="text-center">Photos of the event</h4>
                     <iframe src="html/event5.html"></iframe>
@@ -306,12 +326,11 @@
     </header>
     <div class="container achidivupcon">
         <div class="achidiv col-md-12">
-           <section id="cd-timeline" class="cd-container">
-               <div class="cd-timeline-block">
+         <section id="cd-timeline" class="cd-container">
+             <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-movie">
                     <img src="images/achi/harsh.png" alt="ACM VIT">
                 </div> <!-- cd-timeline-img -->
-
                 <div class="cd-timeline-content">
                     <h2>Harsh U. Kothari<span class="underline"></span></h2>
                     <p>Co-founder and CEO of <a href="http://www.neongamingstudio.com/" target="_blank">Neon Gaming Studio</a>. In ACM the most amazing experiences were the ones which were the bonding a we created with the faculties and co-working of team in synergies of the management. We organized good events and motivated everyone in and outside the team to contribute and share their knowledge and develop a team which was self sustained.</p>
@@ -340,7 +359,7 @@
                     <span class="cd-date">2012</span>
                 </div> <!-- cd-timeline-content -->
             </div> 
-            <div class="cd-timeline-block">
+            <div class="cd-timeline-block" id="showless">
                 <div class="cd-timeline-img cd-picture">
                     <img src="images/achi/saumya.png" alt="ACM VIT">
                 </div> <!-- cd-timeline-img -->
@@ -351,72 +370,75 @@
                     <span class="cd-date">2013</span>
                 </div> <!-- cd-timeline-content -->
             </div> <!-- cd-timeline-block -->
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-movie">
-                    <img src="images/achi/prerak.png" alt="ACM VIT">
-                </div> <!-- cd-timeline-img -->
+            <div id="moreless">
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-movie">
+                        <img src="images/achi/prerak.png" alt="ACM VIT">
+                    </div> <!-- cd-timeline-img -->
 
-                <div class="cd-timeline-content">
-                    <h2>Prerak Mody<span class="underline"></span></h2>
-                    <p>My experience at ACM-VIT primarily introduced me to a lot of new technologies and helped me learn more about team and project management. I'm pursuing a field of machine learning called reinforcement learning and studying their applications in robotics in my free time. I currently work as a data scientist in a smart home automation company (<a href="http://leaf.co.in" target="_blank">leaf.co.in</a>).</p>
-                    <span class="cd-date">2014</span>
-                </div> <!-- cd-timeline-content -->
-            </div> 
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-movie">
-                    <img src="images/achi/deepankar.png" alt="ACM VIT">
-                </div> <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content">
+                        <h2>Prerak Mody<span class="underline"></span></h2>
+                        <p>My experience at ACM-VIT primarily introduced me to a lot of new technologies and helped me learn more about team and project management. I'm pursuing a field of machine learning called reinforcement learning and studying their applications in robotics in my free time. I currently work as a data scientist in a smart home automation company (<a href="http://leaf.co.in" target="_blank">leaf.co.in</a>).</p>
+                        <span class="cd-date">2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> 
 
-                <div class="cd-timeline-content">
-                    <h2>Deepankar Saxena<span class="underline"></span></h2>
-                    <p>It was amazing to be a part of a student chapter that revolves around holistic development of any individual related to it. ACM-VIT gives you the freedom to choose any domain or field because you will always find likeminded people in the group who can help and guide you to pursue your desired path. I worked on different applications for SITE School and a few research papers. All these contributions bagged me Achiever's Award from VIT University in the year 2014.</p>
-                    <span class="cd-date">2014</span>
-                </div> <!-- cd-timeline-content -->
-            </div> <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-movie">
+                        <img src="images/achi/deepankar.png" alt="ACM VIT">
+                    </div> <!-- cd-timeline-img -->
 
-
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-location">
-                    <img src="images/achi/rohit.png" alt="ACM VIT">
-                </div> <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>Rohit Sunkari<span class="underline"></span></h2>
-                    <p>I was a part of ACM-VIT for three long years. ACM-VIT has helped me develop my technical and management skills. I was the lead organiser for the design and media team in graVITas’14. I founded a start-up during my college years called XCFactors. It later merged with another start-up, Browseasy. I am now the city manager for Hyderabad and I take care of hyperlocal delivery.</p>
-                    <span class="cd-date">2014</span>
-                </div> <!-- cd-timeline-content -->
-            </div> <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-location">
-                    <img src="images/achi/shiva.png" alt="ACM VIT">
-                </div> <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>Shivaranjini Shankar<span class="underline"></span></h2>
-                    <p>My experience as a part of ACM-VIT was good. ACM helped develop my technical and management skills. I learnt a lot and helped organize events. I was the runner up of the Bafky Million Dollar Challenge’14 and also worked as a technological associate at Microsoft. I currently work as an analyst at BlackRock Services, Gurgaon.</p>
-                    <span class="cd-date">2015</span>
-                </div> <!-- cd-timeline-content -->
-            </div> <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-movie">
-                    <img src="images/achi/parag.png" alt="ACM VIT">
-                </div> <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>Parag Agarwal<span class="underline"></span></h2>
-                    <p>I joined ACM-VIT in my first semester and it was the best experience of my college life. During my tenure, I met many wonderful people and learnt a lot. I was a member for three years and also a part of the board. I now work at Tata Consultancy Services.</p>
-                    <span class="cd-date">2015</span>
-                </div> <!-- cd-timeline-content -->
-            </div> 
+                    <div class="cd-timeline-content">
+                        <h2>Deepankar Saxena<span class="underline"></span></h2>
+                        <p>It was amazing to be a part of a student chapter that revolves around holistic development of any individual related to it. ACM-VIT gives you the freedom to choose any domain or field because you will always find likeminded people in the group who can help and guide you to pursue your desired path. I worked on different applications for SITE School and a few research papers. All these contributions bagged me Achiever's Award from VIT University in the year 2014.</p>
+                        <span class="cd-date">2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
 
 
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-location">
+                        <img src="images/achi/rohit.png" alt="ACM VIT">
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Rohit Sunkari<span class="underline"></span></h2>
+                        <p>I was a part of ACM-VIT for three long years. ACM-VIT has helped me develop my technical and management skills. I was the lead organiser for the design and media team in graVITas’14. I founded a start-up during my college years called XCFactors. It later merged with another start-up, Browseasy. I am now the city manager for Hyderabad and I take care of hyperlocal delivery.</p>
+                        <span class="cd-date">2014</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-location">
+                        <img src="images/achi/shiva.png" alt="ACM VIT">
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Shivaranjini Shankar<span class="underline"></span></h2>
+                        <p>My experience as a part of ACM-VIT was good. ACM helped develop my technical and management skills. I learnt a lot and helped organize events. I was the runner up of the Bafky Million Dollar Challenge’14 and also worked as a technological associate at Microsoft. I currently work as an analyst at BlackRock Services, Gurgaon.</p>
+                        <span class="cd-date">2015</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-movie">
+                        <img src="images/achi/parag.png" alt="ACM VIT">
+                    </div> <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>Parag Agarwal<span class="underline"></span></h2>
+                        <p>I joined ACM-VIT in my first semester and it was the best experience of my college life. During my tenure, I met many wonderful people and learnt a lot. I was a member for three years and also a part of the board. I now work at Tata Consultancy Services.</p>
+                        <span class="cd-date">2015</span>
+                    </div> <!-- cd-timeline-content -->
+                </div>
+            </div>
         </section> <!-- cd-timeline -->
     </div>
 </div>
-
+<div class="text-center">
+<button id="showbutton" class="btn btn-primary text-center" onclick="showclicked()"></button>
+</div>
 </div>
 <div id="yellow" class="wrapper yellow spied target">
 
@@ -480,7 +502,7 @@
             </div>
             <!-- Quote 3 -->
             <div class="item">
-               <blockquote>
+             <blockquote>
                 <div class="row">
                     <div class="col-sm-12">
                         <p class="thequote">“Move fast and break things.<br> <span class="yelloww">Unless you are breaking stuff</span><br> you are not moving fast enough.”</p>
@@ -533,7 +555,7 @@
 
                     <div class="card">
                         <div id="show0">
-                         <div class="threedotshover">
+                           <div class="threedotshover">
                             <i class="fa fa-ellipsis-v"></i>
                         </div>
                         <div style="clear:both;"></div>
@@ -550,18 +572,13 @@
                         <a target href="https://github.com/abhinav-adtechs" target="_blank"><!-- <i class="fa fa-2x fa-github" href="https://github.com/abhinav-adtechs" aria-hidden="true"></i>
                         --> <span class="git12"></span></a>
                     </span>
-
-                    <div class="card-reveal card-reveal0">
-                        <h3 class="card-title">Abhinav jordiie Das</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                        <p>I am a strong believer of technology and innovation. Here at ACM VIT, we are just about that.</p>
-                    </div>
                 </div>
             </li>
             <li id="theboardli1">
 
                 <div class="card">
                     <div id="show1">
-                     <div class="threedotshover">
+                       <div class="threedotshover">
                         <i class="fa fa-ellipsis-v"></i>
                     </div>
                     <div style="clear:both;"></div>
@@ -579,16 +596,16 @@
 
                         <div class="card-reveal card-reveal1">
                             <h3 class="card-title">Abhinav jordiie Das</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <p>I am a strong believer of technology and innovation. Here at ACM VIT, we are just about that.</p>
+                            <p>I am a strong believer of technology and innovation.</p>
                         </div>
                     </div>
                 </li>
             </div>
         </div>
         <li id="companyli2">
-         <div class="card">
+           <div class="card">
             <div id="show2">
-               <div class="threedotshover">
+             <div class="threedotshover">
                 <i class="fa fa-ellipsis-v"></i>
             </div>
             <div style="clear:both;"></div>
@@ -609,9 +626,9 @@
     </div>
 </li>
 <li id="companyli3">
- <div class="card">
+   <div class="card">
     <div id="show3">
-       <div class="threedotshover">
+     <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -632,9 +649,9 @@
 </div>
 </li>
 <li id="companyli4">
- <div class="card">
+   <div class="card">
     <div id="show4">
-       <div class="threedotshover">
+     <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -658,7 +675,7 @@
 <li id="companyli5">
     <div class="card">
         <div id="show5">
-           <div class="threedotshover">
+         <div class="threedotshover">
             <i class="fa fa-ellipsis-v"></i>
         </div>
         <div style="clear:both;"></div>
@@ -680,9 +697,9 @@
 </div>
 </li>
 <li id="companyli6">
- <div class="card">
+   <div class="card">
     <div id="show6">
-       <div class="threedotshover">
+     <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -703,9 +720,9 @@
 </div>
 </li>
 <li id="companyli7">
- <div class="card">
+   <div class="card">
     <div id="show7">
-       <div class="threedotshover">
+     <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -725,9 +742,9 @@
 </div>
 </li>
 <li id="companyli8">
- <div class="card">
+   <div class="card">
     <div id="show8">
-       <div class="threedotshover">
+     <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -749,7 +766,7 @@
 <li id="companyli9">
     <div class="card">
         <div id="show9">
-           <div class="threedotshover">
+         <div class="threedotshover">
             <i class="fa fa-ellipsis-v"></i>
         </div>
         <div style="clear:both;"></div>
@@ -769,9 +786,9 @@
 </div>
 </li>
 <li id="companyli10">
- <div class="card">
+   <div class="card">
     <div id="show10">
-       <div class="threedotshover">
+     <div class="threedotshover">
         <i class="fa fa-ellipsis-v"></i>
     </div>
     <div style="clear:both;"></div>
@@ -864,26 +881,26 @@
                  <input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
              </div> -->
              <div class="text-field-subject col-md-12">
-               <input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}">
-           </div>
-           <div class="text-field-message col-md-12">
-            <textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
-        </div>
-        <div class="text-field-submit col-md-offset-4 col-md-4">
-           <input type="submit" value="Submit">
-       </div>
-   </form>
-</div>
+                 <input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}">
+             </div>
+             <div class="text-field-message col-md-12">
+                <textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
+            </div>
+            <div class="text-field-submit col-md-offset-4 col-md-4">
+             <input type="submit" value="Submit">
+         </div>
+     </form>
+ </div>
 </div>
 </section>
 <footer id="footer">
-    <ul class="unstyled-list social">
+    <ul class="unstyled-list social footersocialul">
         <li><a class="twitter" href="http://twitter.com/ACMVITU"><span></span></a></li>
         <li><a class="facebook" href="http://facebook.com/ACM.VITU"><span></span></a></li>
         <li id="githubicon"><a class="github" href="https://github.com/ACM-VIT"><img src="images/githubicon.png" class="img-responsive"></a></li>
     </ul>
-    <a href="index.html"><img src="images/ourlogo2.png" class="bottomlogo pull-left" id="bottomlogo1" alt="ACM"></a>
-    <a href="http://www.vit.ac.in" target="_blank"><img src="images/vitlogo.png" class="bottomlogo pull-right" id="bottomlogo2" alt="ACM"></a>
+    <a href="index.html"><img src="images/ourlogo2.png" class="bottomlogo" id="bottomlogo1" alt="ACM"></a>
+    <a href="http://www.vit.ac.in" target="_blank"><img src="images/vitlogo.png" class="bottomlogo" id="bottomlogo2" alt="ACM"></a>
 </footer>
 <script>
 var require = {"baseUrl":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/scripts\/modules\/","cacheVersion":0,"urlArgs":"v=0","waitSeconds":30,"paths":{"core":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/core\/js","employer":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/employer\/js","admin":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/admin\/js","jobseeker":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/nonemployer\/js","payment":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/payment\/js","media":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/media\/js","fselectmenu":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fselectmenu\/js\/modules","affiliate":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/affiliate\/js","rjcvclient":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjcvclient\/js","rjmap":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjmap\/js","fpswfupload":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fpswfupload\/js\/swfupload"}};
@@ -902,6 +919,10 @@ var CACHE_VER = require.cacheVersion;
 <script src="js/jquery.particleground.min.js"></script>
 <script src="js/demo.js"></script>
 <script src="js/myjs.js"></script>
+<script>
+document.getElementById('moreless').style.display="none";
+document.getElementById('showbutton').innerHTML="Show more";
+</script>
 
 </body>
 </html>

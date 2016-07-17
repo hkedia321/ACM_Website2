@@ -1,5 +1,5 @@
 #bottomlogo{
-	width: 220px;
+	width: 120px;
 	/*margin-left: auto;
 	margin-right: auto;*/
 }
@@ -25,9 +25,12 @@
 .headfullform{
 	font-size: 4.5rem;
 	color:#1a8af3;
+	text-align: center;
 }
 .headvit{
 	font-size: 3.6rem;
+	text-align: center;
+	color: #fff;
 }
 @media (max-width:769px){
 	.headfullform{
@@ -134,7 +137,8 @@ li blockquote .yelloww{
 #achievements{
 	padding-top: 17rem;
 	min-height: 100vh;
-	background-color: #a52a2a;
+	/*background-color: #a52a2a;*/
+	background-color: #071350;
 	margin-top: -4rem;
 	padding-bottom: 35rem;
 	margin-bottom: -7rem;
@@ -561,17 +565,22 @@ li blockquote .yelloww{
   	}
   }
   .bottomlogo{
-  	width: 300px;
+  	width: 200px;
   	max-width: 95vw;
+  	margin-top: 0px;
   }
   #bottomlogo2{
-  	width: 280px;
+  	width: 190px;
   	max-width: 93vw;
+  	margin-top: 0px;
+  }
+  .footersocialul{
+  	margin-bottom: 0px;
   }
   @media (min-width: 769px){
   footer{
-  	padding-left: 18vw;
-  	padding-right: 20vw;
+  	padding-left: 15vw;
+  	padding-right: 16vw;
   }
 }
 #particles {
@@ -579,7 +588,9 @@ li blockquote .yelloww{
   height: 110vh;
   overflow: hidden;
   /* background-color: #b61924;*/
-  background-color: #8c0812;
+  /*background-color: #8c0812;*/
+  background-image: url('../images/bgmain2.png');
+  background-size: cover;
 }
 
 #header {
