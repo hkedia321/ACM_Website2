@@ -51,26 +51,8 @@
     <link rel="stylesheet" type="text/css" href="css/card.css">
     <link rel="stylesheet" type="text/css" href="css/achi.css">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="js/jquery.js"></script>
-    <script>
-    var noclick=0;
-    function showclicked(){
-      noclick++;
-      var moreless=document.getElementById('moreless');
-      var but=document.getElementById('showbutton');
-      if(noclick%2!=0){
-        moreless.style.display="block";
-         moreless.style.transform="scale(1)";
-         but.innerHTML="Show less";
-     }
-     else{
-        moreless.style.display="none";
-        moreless.style.transform="scale(0)";
-        but.innerHTML="Show more";
-        window.location="#showless";
-    }
-}
-</script>
 
 <!--[if gt IE 9]><!-->
 
@@ -370,7 +352,7 @@
                     <span class="cd-date">2013</span>
                 </div> <!-- cd-timeline-content -->
             </div> <!-- cd-timeline-block -->
-            <div id="moreless">
+            <div id="moreless" class="hidden visuallyhidden">
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-movie">
                         <img src="images/achi/prerak.png" alt="ACM VIT">
@@ -437,7 +419,7 @@
     </div>
 </div>
 <div class="text-center">
-<button id="showbutton" class="btn btn-primary text-center" onclick="showclicked()"></button>
+<button id="showbutton" class="btn btn-primary text-center">Show more</button>
 </div>
 </div>
 <div id="yellow" class="wrapper yellow spied target">
@@ -546,6 +528,7 @@
         <span></span>
         <span></span>
         <span></span>
+         <span></span>
     </nav>
     <ul class="unstyled-list clearfix upable" id="theboardul">
 
@@ -920,8 +903,6 @@ var CACHE_VER = require.cacheVersion;
 <script src="js/demo.js"></script>
 <script src="js/myjs.js"></script>
 <script>
-document.getElementById('moreless').style.display="none";
-document.getElementById('showbutton').innerHTML="Show more";
 </script>
 
 </body>

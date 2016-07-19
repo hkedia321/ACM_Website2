@@ -470,8 +470,8 @@ Main components
 }
 
 #moreless{
-  display: none;
-  transition: all 0.5s ease;
+  display: block;
+  transition: all 1s;
 }
 
 #showbutton{
@@ -479,4 +479,11 @@ Main components
   margin-left: auto;
   margin-right: auto;
   border: none !important;
+}
+.hidden {
+  display: none;
+}
+
+.visuallyhidden {
+  opacity: 0;
 }

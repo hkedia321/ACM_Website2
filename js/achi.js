@@ -8,3 +8,31 @@ jQuery(document).ready(function($){
     }
   });
 });
+
+
+var box = $('#moreless');
+
+$('#showbutton').on('click', function () {
+
+  if (box.hasClass('hidden')) {
+
+    box.removeClass('hidden');
+    setTimeout(function () {
+      box.removeClass('visuallyhidden');
+      document.getElementById('showbutton').innerHTML="Show Less";
+    }, 20);
+
+  } else {
+
+    box.addClass('visuallyhidden');
+    $('html,body').animate({
+        scrollTop: $("#showless").offset().top -40},
+        'slow');
+    box.one('transitionend', function(e) {
+      document.getElementById('showbutton').innerHTML="Show more";
+      box.addClass('hidden');
+    });
+    
+  }
+
+});
