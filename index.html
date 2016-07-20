@@ -46,6 +46,7 @@
     <link rel="stylesheet" type="text/css" href="css/contactus.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <!--  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/defcss1.css">
     <link rel="stylesheet" type="text/css" href="css/card.css">
@@ -81,12 +82,11 @@
 
                      <!--  <canvas class='connecting-dots'></canvas> -->
                      <div class="head-elem-wrap">
-                        <h1><img src="images/ourlogo.png" id="mainacmlogo" alt="ACM VIT"></h1>
+                        <h1><img src="images/logowhite.png" id="mainacmlogo" alt="ACM VIT"></h1>
 
-                        <p>Helping Technology grow since 2009.</p>
+                        <p class="helping">Helping Technology grow since 2009.</p>
                         <br><br><br>
-                        <h1 class="headfullform">Association For Computing Machinery</h1>
-                        <h2 class="headvit">Vellore Institute of Technology</h2>
+                        <h2 class="headvit">VIT University Student's Chapter</h2>
                     </div>
                     <!-- <a href="#aboutus">
                     <div class="text-center downheaderdiv">
@@ -307,7 +307,9 @@
         <p>Many of our members have made some noteworthy achievements and contributions in and to the field of computer science.</p>
     </header>
     <div class="container achidivupcon">
-        <div class="achidiv col-md-12">
+        <div class="corner cornerleft col-md-1">
+        </div> 
+        <div class="achidiv col-md-10" id="achidivscroll">
          <section id="cd-timeline" class="cd-container">
              <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-movie">
@@ -352,7 +354,7 @@
                     <span class="cd-date">2013</span>
                 </div> <!-- cd-timeline-content -->
             </div> <!-- cd-timeline-block -->
-            <div id="moreless" class="hidden visuallyhidden">
+            <div id="moreless" class="hiddenn visuallyhidden">
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-movie">
                         <img src="images/achi/prerak.png" alt="ACM VIT">
@@ -414,101 +416,19 @@
                         <span class="cd-date">2015</span>
                     </div> <!-- cd-timeline-content -->
                 </div>
+                <div id="achiscrollto"></div>
             </div>
         </section> <!-- cd-timeline -->
     </div>
+
+    <div class="corner cornerright col-md-1">
+        </div>
 </div>
 <div class="text-center">
 <button id="showbutton" class="btn btn-primary text-center">Show more</button>
 </div>
 </div>
 <div id="yellow" class="wrapper yellow spied target">
-
-
-    <section id="testimonial" class="box scrollable upable">
-        <ul class="unstyled-list">
-          <!--  <iframe src="html/quotes.html"></iframe> -->
-          <li class="active" id="quoteli0">
-            <!-- <blockquote>
-                    “The people who are crazy enough to think they can<br> <span class="yelloww">change the world</span><br> are the ones who do.”
-                </blockquote>
-                <div class="meta">
-                    <img src="images/steve.png" alt="Steve Jobs">
-                    <span>Steve Jobs</span>
-
-                </div> -->
-                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                  <!-- Bottom Carousel Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#quote-carousel" data-slide-to="1"></li>
-                    <li data-target="#quote-carousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Carousel Slides / Quotes -->
-                <div class="carousel-inner">
-
-                    <!-- Quote 1 -->
-                    <div class="item active">
-                      <blockquote>
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <p class="thequote">“The people who are crazy enough to think they can<br> <span class="yelloww">change the world</span><br> are the ones who do.”</p>
-                            </div>
-                        </div>
-                        <div class="row phototext">
-                            <div class="col-sm-12 text-center">
-                                <img class="img-circle quoteimg" src="images/steve.png" alt="Steve Jobs">
-                                <span class="famper yelloww">Steve Jobs</span>
-
-                            </div>
-                        </div>
-                    </blockquote>
-                </div>
-                <!-- Quote 2 -->
-                <div class="item">
-                  <blockquote>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <p class="thequote">“If you are born poor it's not your mistake,<br><span class="yelloww"> but if you die poor</span><br> it's your mistake.”</p>
-                        </div>
-                    </div>
-                    <div class="row phototext">
-                        <div class="col-sm-12 text-center">
-                            <img class="img-circle quoteimg" src="images/bill.png" alt="Steve Jobs">
-                            <span class="famper yelloww">Bill Gates</span>
-
-                        </div>
-                    </div>
-                </blockquote>
-            </div>
-            <!-- Quote 3 -->
-            <div class="item">
-             <blockquote>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="thequote">“Move fast and break things.<br> <span class="yelloww">Unless you are breaking stuff</span><br> you are not moving fast enough.”</p>
-                    </div>
-                </div>
-                <div class="row phototext">
-                    <div class="col-sm-12 text-center">
-                        <img class="img-circle quoteimg" src="images/mark.png" alt="Steve Jobs">
-                        <span class="famper yelloww">Mark Zuckerberg</span>
-
-                    </div>
-                </div>
-            </blockquote>
-        </div>
-    </div>
-
-    <!-- Carousel Buttons Next/Prev -->
-    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-</div>    
-
-</li>
-</ul>
-</section>
 <section id="company" class="scrollable">
 
     <header>
@@ -736,7 +656,7 @@
     </div>
     <div class="card-content">
         <h3 class="">Rahul Nigam<span class="underline"></span></h3>
-        <h4><b>Design Head</b></h4>
+        <h4><b>Marketing & Design Head</b></h4>
     </div>
 </div>
 <a href="https://www.facebook.com/rahulnigam95?fref=pb_other" target="_blank"><span class="fb12"></span></a>
@@ -836,15 +756,15 @@
         <h2 class="navh2s">Contact Us</h2>
     </header>
     <div class="contactusdiv1 container">
-        <div class="addressdiv col-md-4"><i class="fa fa-map-marker fa-2x hidden-xs" aria-hidden="true"></i><i class="fa fa-map-marker visible-xs" aria-hidden="true"></i>
+        <div class="addressdiv col-md-4"><i class="fa fa-map-marker fa-1x hidden-xs" aria-hidden="true"></i><i class="fa fa-map-marker visible-xs" aria-hidden="true"></i>
             VIT University, Vellore
         </div>
         <div class="emaildiv col-md-4">
-            <i class="fa fa-envelope fa-2x hidden-xs" aria-hidden="true"></i> <i class="fa fa-envelope visible-xs" aria-hidden="true"></i>
+            <i class="fa fa-envelope fa-1x hidden-xs" aria-hidden="true"></i> <i class="fa fa-envelope visible-xs" aria-hidden="true"></i>
             vituacm@gmail.com
         </div>
         <div class="phndiv col-md-4">
-            <i class="fa fa-phone-square fa-2x hidden-xs" aria-hidden="true"></i><i class="fa fa-phone-square visible-xs" aria-hidden="true"></i>
+            <i class="fa fa-phone-square fa-1x hidden-xs" aria-hidden="true"></i><i class="fa fa-phone-square visible-xs" aria-hidden="true"></i>
             +91 90878 58900
         </div>
 
@@ -878,12 +798,12 @@
 </section>
 <footer id="footer">
     <ul class="unstyled-list social footersocialul">
-        <li><a class="twitter" href="http://twitter.com/ACMVITU"><span></span></a></li>
-        <li><a class="facebook" href="http://facebook.com/ACM.VITU"><span></span></a></li>
-        <li id="githubicon"><a class="github" href="https://github.com/ACM-VIT"><img src="images/githubicon.png" class="img-responsive"></a></li>
+        <li id="fooli1"><a class="twitter" href="http://twitter.com/ACMVITU"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+        <li id="fooli2"><a class="facebook" href="http://facebook.com/ACM.VITU"><span></span><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        <li id="fooli3"><a class="github" href="https://github.com/ACM-VIT"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
     </ul>
-    <a href="index.html"><img src="images/ourlogo2.png" class="bottomlogo" id="bottomlogo1" alt="ACM"></a>
-    <a href="http://www.vit.ac.in" target="_blank"><img src="images/vitlogo.png" class="bottomlogo" id="bottomlogo2" alt="ACM"></a>
+    <a href="index.html"><img src="images/ourlogo2.png" class="bottomlogo pull-left" id="bottomlogo1" alt="ACM"></a>
+    <a href="http://www.vit.ac.in" target="_blank"><img src="images/vitlogo.png" class="bottomlogo pull-right" id="bottomlogo2" alt="ACM"></a>
 </footer>
 <script>
 var require = {"baseUrl":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/scripts\/modules\/","cacheVersion":0,"urlArgs":"v=0","waitSeconds":30,"paths":{"core":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/core\/js","employer":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/employer\/js","admin":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/admin\/js","jobseeker":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/nonemployer\/js","payment":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/payment\/js","media":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/media\/js","fselectmenu":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fselectmenu\/js\/modules","affiliate":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/affiliate\/js","rjcvclient":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjcvclient\/js","rjmap":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjmap\/js","fpswfupload":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fpswfupload\/js\/swfupload"}};
