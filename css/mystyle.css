@@ -107,7 +107,7 @@ body {
 }
 #header,
 #large-header {
-    min-height: 105vh!important
+    min-height: 100vh!important
 }
 .border {
     border: 1px solid red
@@ -541,14 +541,14 @@ li blockquote .yelloww {
 #header,
 #particles {
     width: 100%;
-    height: 110vh
+    height: 100vh
 }
 .footersocialul {
     margin-bottom: 0
 }
 #particles {
     overflow: hidden;
-    background-image: url(../images/bgred2.png);
+    background: linear-gradient(to right bottom, #FF9800 50%, #212531 50%);
     background-size: cover
 }
 #header {
