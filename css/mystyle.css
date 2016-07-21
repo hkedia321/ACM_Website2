@@ -9,6 +9,14 @@
 .no-js #pre-div {
     display: none
 }
+h1,h2,h3,h4,h5,h6,b,p{
+ font-family:Source Sans Pro !important;
+}
+b, optgroup, strong {
+    font-weight: 700;
+    font-family: Source Sans Pro;
+    color: #727272;
+}
 #achievements i.fa,
 .famper,
 .quoteimg {
@@ -23,6 +31,15 @@
 .downimg {
     z-index: 1001
 }
+#header p {
+    margin: 14px 0 0;
+    font-size: 37px;
+    font-weight: 100;
+    text-transform: none; 
+    letter-spacing: .09em;
+    line-height: 30px;
+    font-family: Source Sans Pro;
+}
 .head-elem-wrap {
     color: #fff
 }
@@ -30,6 +47,11 @@
     font-size: 4.5rem;
     color: #1a8af3;
     text-align: center
+}
+.headvit {
+    font-size: 3.6rem !important;
+    font-weight: 800 !important;
+    color: #f2f2f2 !important;
 }
 .headvit,
 .navh2s {
