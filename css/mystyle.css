@@ -1,3 +1,4 @@
+
 #loader,
 .downimg {
     position: absolute
@@ -11,6 +12,13 @@
 }
 h1,h2,h3,h4,h5,h6,b,p{
  font-family:Source Sans Pro !important;
+}
+@media (max-width: 767px){
+#header header p {
+    margin-top: 27px;
+    font-size: 31px !important;
+    line-height: 42px !important;
+}
 }
 b, optgroup, strong {
     font-weight: 700;
