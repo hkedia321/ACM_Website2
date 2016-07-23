@@ -7,12 +7,7 @@
 <head>
     <meta charset="utf-8">
     <script src="js/jquery.js"></script>
-    <script>
-    $(window).load(function () {
-        $("#loader").delay(2000).fadeOut();
-        $("#pre-div").delay(2000).fadeOut("slow");
-    });
-    </script>
+    
     <meta name="Language" content="en" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ACM-VIT Student's chapter</title>
@@ -37,7 +32,6 @@
     <meta name="twitter:title" content="ACM VIT Student's chapter" />
     <meta name="twitter:description" content="We are ACM International's official student chapter in VIT-Vellore promoting new and upcoming computing concepts within the student community." />
     <meta name="twitter:image" content="images/favicon.ico" />
-
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/rjday/apple-touch-icon-152x152.png" />
     <link rel="icon" type="image/png" href="images/favicon.ico" sizes="16x16" />
     <link rel="icon" type="image/png" href="images/favicon.ico" sizes="128x128" />
@@ -51,24 +45,20 @@
     <link rel="stylesheet" type="text/css" href="css/achi.css">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
     <script src="js/jquery.js"></script>
+   
+    <!--[if gt IE 9]><!-->
 
-<!--[if gt IE 9]><!-->
 
-
-<!--    <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-button/paper-button.html"> -->
-<!--<![endif]-->
+    <!--    <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-button/paper-button.html"> -->
+    <!--<![endif]-->
 
 </head>
 <body>
         <!--[if lt IE 9]>
             <p class="browserupgrade">your brower is<strong>obsolete</strong>. please <a target="_blank" href="http://browsehappy.com/">update your browser</a> for better experience.</p>
             <![endif]-->
-            <div id="pre-div">
-                <div id="loader">
-                    <img src="images/ourlogo2.png" alt="acmvit">
-                    <img src="images/loading.gif" alt="loading">
-                </div>
-            </div>
+          
+            <div id="content">
             <div id="large-header" class="large-header">
 
                <div id="particles">
@@ -292,7 +282,7 @@
     <div class="container achidivupcon">
         <div class="corner cornerleft col-md-1">
         </div> 
-        <div class="achidiv col-md-10" id="achidivscroll">
+        <div class="achidiv col-md-10" id="achidivscroll" onmouseenter="onnscroll()" onmouseleave="offscroll()">
          <section id="cd-timeline" class="cd-container">
              <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-movie">
@@ -405,109 +395,109 @@
     </div>
 
     <div class="corner cornerright col-md-1">
-        </div>
+    </div>
 </div>
 <div class="text-center">
-<button id="showbutton" class="btn btn-primary text-center">Show more</button>
+    <button id="showbutton" class="btn btn-primary text-center">Show more</button>
 </div>
 </div>
 <div id="yellow" class="wrapper yellow spied target">
-<section id="company" class="scrollable">
+    <section id="company" class="scrollable">
 
-    <header>
-        <h2>The Board</h2>
-        <p>
-            Our board comprises hard-working individuals, dedicated to the progress of this chapter.
-        </p>
-    </header>
-    <nav>
-        <span class="active"></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-         <span></span>
-    </nav>
-    <ul class="unstyled-list clearfix upable" id="theboardul">
+        <header>
+            <h2>The Board</h2>
+            <p>
+                Our board comprises hard-working individuals, dedicated to the progress of this chapter.
+            </p>
+        </header>
+        <nav>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </nav>
+        <ul class="unstyled-list clearfix upable" id="theboardul">
 
-        <div class="row" id="theboard1uprow">
-            <div id="li01wrap">
-                <li class="active" id="theboardli0">
+            <div class="row" id="theboard1uprow">
+                <div id="li01wrap">
+                    <li class="active" id="theboardli0">
+
+                        <div class="card">
+                            <div id="show0">
+                               <div class="threedotshover">
+                                <i class="fa fa-ellipsis-v"></i>
+                            </div>
+                            <div style="clear:both;"></div>
+                            <div class="">
+                                <img src="images/hrv.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="smallintablet">Hari Ram Vishwakarma<span class="underline"></span></h3>
+                                <h4><b>Faculty Coordinator</b></h4>
+                            </div>
+                        </div>
+                        <span class="" style="visibility:hidden;">
+                            <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span></a>
+                            <a target href="https://github.com/abhinav-adtechs" target="_blank"><span class="git12"></span></a>
+                        </span>
+                    </div>
+                </li>
+                <li id="theboardli1">
 
                     <div class="card">
-                        <div id="show0">
+                        <div id="show1">
                            <div class="threedotshover">
                             <i class="fa fa-ellipsis-v"></i>
                         </div>
                         <div style="clear:both;"></div>
                         <div class="">
-                            <img src="images/hrv.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav">
+                            <img src="images/abhinav.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav">
                         </div>
                         <div class="card-content">
-                            <h3 class="">Hari Ram Vishwakarma<span class="underline"></span></h3>
-                            <h4><b>Faculty Coordinator</b></h4>
+                            <h3 class="">Abhinav Das<span class="underline"></span></h3>
+                            <h4><b>President</b></h4>
                         </div>
                     </div>
-                    <span class="" style="visibility:hidden;">
-                        <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span></a>
-                        <a target href="https://github.com/abhinav-adtechs" target="_blank"><span class="git12"></span></a>
-                    </span>
+                    <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span></a>
+                    <a target href="https://github.com/abhinav-adtechs" target="_blank"><span class="git12"></span></a>
+
+                    <div class="card-reveal card-reveal1">
+                        <h3 class="card-title">Abhinav Das</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <p>I am a strong believer of technology and innovation. Here at ACM VIT, we are just about that.</p>
+                    </div>
                 </div>
             </li>
-            <li id="theboardli1">
-
-                <div class="card">
-                    <div id="show1">
-                       <div class="threedotshover">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </div>
-                    <div style="clear:both;"></div>
-                    <div class="">
-                        <img src="images/abhinav.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav">
-                    </div>
-                    <div class="card-content">
-                        <h3 class="">Abhinav Das<span class="underline"></span></h3>
-                        <h4><b>President</b></h4>
-                    </div>
-                </div>
-                <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span></a>
-                        <a target href="https://github.com/abhinav-adtechs" target="_blank"><span class="git12"></span></a>
-
-                        <div class="card-reveal card-reveal1">
-                            <h3 class="card-title">Abhinav Das</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <p>I am a strong believer of technology and innovation. Here at ACM VIT, we are just about that.</p>
-                        </div>
-                    </div>
-                </li>
-            </div>
-        </div>
-        <li id="companyli2">
-           <div class="card">
-            <div id="show2">
-             <div class="threedotshover">
-                <i class="fa fa-ellipsis-v"></i>
-            </div>
-            <div style="clear:both;"></div>
-            <div class="">
-                <img src="images/pranay.png" alt="Pranay" class="img-responsive img-circle img-thumbnail">
-            </div>
-            <div class="card-content">
-                <h3 class="">Pranay Gupta<span class="underline"></span></h3>
-                <h4><b>Vice President</b></h4>
-            </div>
-        </div>
-        <a href="https://www.facebook.com/pranay.gupta.3597" target="_blank"><span class="fb12"></span></a>
-
-        <div class="card-reveal card-reveal2">
-            <h3 class="card-title">Pranay Gupta</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-            <p>Working at ACM from the very beginning of my Engineering, I have build up my marketing and technical skills suitable for a professional career.</p>
         </div>
     </div>
+    <li id="companyli2">
+       <div class="card">
+        <div id="show2">
+         <div class="threedotshover">
+            <i class="fa fa-ellipsis-v"></i>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="">
+            <img src="images/pranay.png" alt="Pranay" class="img-responsive img-circle img-thumbnail">
+        </div>
+        <div class="card-content">
+            <h3 class="">Pranay Gupta<span class="underline"></span></h3>
+            <h4><b>Vice President</b></h4>
+        </div>
+    </div>
+    <a href="https://www.facebook.com/pranay.gupta.3597" target="_blank"><span class="fb12"></span></a>
+
+    <div class="card-reveal card-reveal2">
+        <h3 class="card-title">Pranay Gupta</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <p>Working at ACM from the very beginning of my Engineering, I have build up my marketing and technical skills suitable for a professional career.</p>
+    </div>
+</div>
 </li>
 <li id="companyli3">
    <div class="card">
@@ -746,31 +736,31 @@
         </div>
         <div class="phndiv col-md-4">
            <i class="fa fa-phone-square" aria-hidden="true"></i>
-            +91 90878 58900
-        </div>
+           +91 90878 58900
+       </div>
 
+   </div>
+   <div class="contactusdiv2 container">
+    <p class="contusp">Got any queries? Just leave your details below, along with whatever you want to ask us.</p>
+    <div class="formdiv">
+      <form method="post" action="contactus.php" class="">
+        <div class="text-field-name col-md-6">
+            <input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}">
+        </div>
+        <div class="text-field-name col-md-6">
+            <input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
+        </div>
+        <div class="text-field-subject col-md-12">
+         <input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}">
+     </div>
+     <div class="text-field-message col-md-12">
+        <textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
     </div>
-    <div class="contactusdiv2 container">
-        <p class="contusp">Got any queries? Just leave your details below, along with whatever you want to ask us.</p>
-        <div class="formdiv">
-          <form method="post" action="contactus.php" class="">
-            <div class="text-field-name col-md-6">
-                <input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}">
-            </div>
-            <div class="text-field-name col-md-6">
-                <input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
-            </div>
-             <div class="text-field-subject col-md-12">
-                 <input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}">
-             </div>
-             <div class="text-field-message col-md-12">
-                <textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
-            </div>
-            <div class="text-field-submit col-md-offset-4 col-md-4">
-             <input type="submit" value="Submit">
-         </div>
-     </form>
+    <div class="text-field-submit col-md-offset-4 col-md-4">
+     <input type="submit" value="Submit">
  </div>
+</form>
+</div>
 </div>
 </section>
 <footer id="footer">
@@ -782,6 +772,7 @@
     <a href="index.html"><img src="images/ourlogo2.png" class="bottomlogo pull-left" id="bottomlogo1" alt="ACM"></a>
     <a href="http://www.vit.ac.in" target="_blank"><img src="images/vitlogo.png" class="bottomlogo pull-right" id="bottomlogo2" alt="ACM"></a>
 </footer>
+</div>
 <script>
 var require = {"baseUrl":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/scripts\/modules\/","cacheVersion":0,"urlArgs":"v=0","waitSeconds":30,"paths":{"core":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/core\/js","employer":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/employer\/js","admin":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/admin\/js","jobseeker":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/nonemployer\/js","payment":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/payment\/js","media":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/media\/js","fselectmenu":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fselectmenu\/js\/modules","affiliate":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/affiliate\/js","rjcvclient":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjcvclient\/js","rjmap":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjmap\/js","fpswfupload":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fpswfupload\/js\/swfupload"}};
 var CACHE_VER = require.cacheVersion;
