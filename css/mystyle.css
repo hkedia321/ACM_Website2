@@ -76,6 +76,9 @@ b, optgroup, strong {
     .headvit {
         font-size: 2rem
     }
+    #contactus i.fa{
+        display: inline !important;
+   }
 }
 @media (min-width: 1000px) and (max-width: 1110px) {
     #main-nav ul li {
@@ -248,7 +251,7 @@ li blockquote .yelloww {
         text-align: center
     }
     #achievements {
-        padding-bottom: 25rem
+        padding-bottom: 15rem
     }
     .achidivupcon {
         width: 95vw!important
@@ -263,6 +266,9 @@ li blockquote .yelloww {
         max-width: 100%!important;
         padding: .5rem 1rem 1rem;
         font-size: 15px
+    }
+    #showbutton{
+        margin-top: 0px;
     }
 }
 .modal-body form input {
