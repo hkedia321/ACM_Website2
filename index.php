@@ -143,8 +143,8 @@
         <div id="aboutus" class="yellow wrapper spied target">
             <header>
                 <h2 class="navh2s">About us</h2> </header>
-            <p>ACM VIT is one of the most popular chapters in VIT. ACM VIT student chapter was started up in October 2009 by Kuldeep Singh. Since then we at the ACM VIT student chapter have carried on the legacy of ACM international.</p>
-            <p>ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession’s collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking.</p>
+            <p>ACM VIT is one of the most popular chapters at VIT, and was started in October, 2009 by Kuldeep Singh. Since then, we at ACM VIT have carried on the legacy of ACM international.</p>
+            <p>ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession’s collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for lifelong learning, career development, and professional networking.</p>
             <p style="margin-bottom:0px;">Every year we impart knowledge to hundreds of students and help them understand how they can contribute to the field of computing science. We conduct several technical events in a year. We nurture the growth of inquisitive minds by providing them with the toolkit to excel in various fields.</p>
         </div>
         <div class="wrapper grey">
@@ -222,7 +222,7 @@
                             <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
                                 <h2>Harsh U. Kothari<span class="underline"></span></h2>
-                                <p>Co-founder and CEO of <a href="http://www.neongamingstudio.com/" target="_blank">Neon Gaming Studio</a>. In ACM the most amazing experiences were the ones which were the bonding a we created with the faculties and co-working of team in synergies of the management. We organized good events and motivated everyone in and outside the team to contribute and share their knowledge and develop a team which was self sustained.</p> <span class="cd-date">2012</span> </div>
+                                <p>The best parts about ACM VIT were the bonds we created with the faculty and the way the team worked in sync with each other, in terms of management. We organized our events well, and motivated people both in and out of the team into contributing and sharing their knowledge. I am the co-founder and CEO of <a href="http://www.neongamingstudio.com/" target="_blank">Neon Gaming Studio</a>.</p><span class="cd-date">2012</span> </div>
                             <!-- cd-timeline-content -->
                         </div>
                         <!-- cd-timeline-block -->
@@ -231,7 +231,7 @@
                             <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
                                 <h2>Shreya Dhal<span class="underline"></span></h2>
-                                <p>I had an amazing experience with ACM. I joined as a member of the editorial board and was responsible for documentation. As a core committee coordinator, I had a great experience organizing talks, quizzes and other events. After my graduation I was working as a technology consultant on surgical data projects. Currently, I am doing my masters in information systems management at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.</p> <span class="cd-date">2012</span> </div>
+                                <p>I joined as a member of the editorial board of ACM VIT and was responsible for documentation. As a core committee coordinator, I had a great experience organizing talks, quizzes and other events. After my graduation I was working as a technology consultant on surgical data projects. Currently, I am doing my masters in information systems management at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.</p> <span class="cd-date">2012</span> </div>
                             <!-- cd-timeline-content -->
                         </div>
                         <!-- cd-timeline-block -->
@@ -240,7 +240,7 @@
                             <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
                                 <h2>Rahul Manglik<span class="underline"></span></h2>
-                                <p>I got to work alongside the team of ACM-VIT, which in turn also helped me create a very strong network. During my tenure, I got the opportunity to organise a national level android workshop and also conduct a few events during graVITas. The exposure I got there helped me in conducting VITerary'14, which was VIT's first literary fest and also helped me in shaping my career in content writing and marketing.</p> <span class="cd-date">2012</span> </div>
+                                <p>I got to work alongside the team of ACM VIT, which helped me create a strong network. During my tenure, I got the opportunity to organise a national level android workshop and also conduct a few events during graVITas. The exposure I got there helped me in conducting VITerary'14, which was VIT's first literary fest and also helped shape my career in content writing and marketing.</p> <span class="cd-date">2012</span> </div>
                             <!-- cd-timeline-content -->
                         </div>
                         <div class="cd-timeline-block" id="showless">
@@ -248,7 +248,7 @@
                             <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
                                 <h2>Saumya Pant<span class="underline"></span></h2>
-                                <p>I joined ACM in my first semester at VIT and the experience was overwhelming. I got to learn a lot from my seniors. I was the organiser of events in GraVITas and the responsibility taught me event management. In my third year, I was elected as the treasurer. That was a brilliant experience too. I now work as a developer Oracle in Bangalore.</p> <span class="cd-date">2013</span> </div>
+                                <p>I joined ACM VIT in my first semester of college and the experience was overwhelming. I learnt a lot from my seniors. I was the organiser of events during graVITas and the responsibility taught me event management. In my third year, I was elected as the treasurer. That was a brilliant experience too. I now work as a developer Oracle in Bangalore.</p> <span class="cd-date">2013</span> </div>
                             <!-- cd-timeline-content -->
                         </div>
                         <!-- cd-timeline-block -->
@@ -258,7 +258,7 @@
                                 <!-- cd-timeline-img -->
                                 <div class="cd-timeline-content">
                                     <h2>Prerak Mody<span class="underline"></span></h2>
-                                    <p>My experience at ACM-VIT primarily introduced me to a lot of new technologies and helped me learn more about team and project management. I'm pursuing a field of machine learning called reinforcement learning and studying their applications in robotics in my free time. I currently work as a data scientist in a smart home automation company (<a href="http://leaf.co.in" target="_blank">leaf.co.in</a>).</p> <span class="cd-date">2014</span> </div>
+                                    <p>My experience at ACM VIT primarily introduced me to a lot of new technologies and helped me learn more about team and project management. I'm pursuing a field of machine learning called reinforcement learning and studying their applications in robotics in my free time. I currently work as a data scientist in a smart home automation company (<a href="http://leaf.co.in" target="_blank">leaf.co.in</a>).</p> <span class="cd-date">2014</span> </div>
                                 <!-- cd-timeline-content -->
                             </div>
                             <div class="cd-timeline-block">
@@ -266,7 +266,7 @@
                                 <!-- cd-timeline-img -->
                                 <div class="cd-timeline-content">
                                     <h2>Deepankar Saxena<span class="underline"></span></h2>
-                                    <p>It was amazing to be a part of a student chapter that revolves around holistic development of any individual related to it. ACM-VIT gives you the freedom to choose any domain or field because you will always find likeminded people in the group who can help and guide you to pursue your desired path. I worked on different applications for SITE School and a few research papers. All these contributions bagged me Achiever's Award from VIT University in the year 2014.</p> <span class="cd-date">2014</span> </div>
+                                    <p>It was amazing to be a part of a student chapter that revolves around the holistic development of any individual related to it. ACM VIT gives you the freedom to choose any domain or field because you will always find like-minded people in the group who can help and guide you to pursue your desired path. I worked on different applications for SITE School and a few research papers. All these contributions bagged me the Achiever's Award from VIT University in the year 2014.</p> <span class="cd-date">2014</span> </div>
                                 <!-- cd-timeline-content -->
                             </div>
                             <!-- cd-timeline-block -->
@@ -275,7 +275,7 @@
                                 <!-- cd-timeline-img -->
                                 <div class="cd-timeline-content">
                                     <h2>Rohit Sunkari<span class="underline"></span></h2>
-                                    <p>I was a part of ACM-VIT for three long years. ACM-VIT has helped me develop my technical and management skills. I was the lead organiser for the design and media team in graVITas’14. I founded a start-up during my college years called XCFactors. It later merged with another start-up, Browseasy. I am now the city manager for Hyderabad and I take care of hyperlocal delivery.</p> <span class="cd-date">2014</span> </div>
+                                    <p>I was a part of ACM VIT for three long years. This chapter helped me develop my technical and management skills. I was the lead organiser for the design and media team in graVITas’14. I also founded a start-up during my college years called XCFactors. It later merged with another start-up, Browseasy. I am now the city manager for Hyderabad and I take care of hyperlocal delivery.</p> <span class="cd-date">2014</span> </div>
                                 <!-- cd-timeline-content -->
                             </div>
                             <!-- cd-timeline-block -->
@@ -284,7 +284,7 @@
                                 <!-- cd-timeline-img -->
                                 <div class="cd-timeline-content">
                                     <h2>Shivaranjini Shankar<span class="underline"></span></h2>
-                                    <p>My experience as a part of ACM-VIT was good. ACM helped develop my technical and management skills. I learnt a lot and helped organize events. I was the runner up of the Bafky Million Dollar Challenge’14 and also worked as a technological associate at Microsoft. I currently work as an analyst at BlackRock Services, Gurgaon.</p> <span class="cd-date">2015</span> </div>
+                                    <p>My experience as a part of ACM VIT was good. This chapter helped develop my technical and management skills. I learnt a lot and helped organize events. I was the runner up of the Bafky Million Dollar Challenge’14 and also worked as a technological associate at Microsoft. I currently work as an analyst at BlackRock Services, Gurgaon.</p> <span class="cd-date">2015</span> </div>
                                 <!-- cd-timeline-content -->
                             </div>
                             <!-- cd-timeline-block -->
@@ -293,7 +293,7 @@
                                 <!-- cd-timeline-img -->
                                 <div class="cd-timeline-content">
                                     <h2>Parag Agarwal<span class="underline"></span></h2>
-                                    <p>I joined ACM-VIT in my first semester and it was the best experience of my college life. During my tenure, I met many wonderful people and learnt a lot. I was a member for three years and also a part of the board. I now work at Tata Consultancy Services.</p> <span class="cd-date">2015</span> </div>
+                                    <p>I joined ACM VIT in my first semester and it was the best experience of my college life. During my tenure, I met many wonderful people and learnt a lot. I was a member for three years and also a part of the board. I now work at Tata Consultancy Services.</p> <span class="cd-date">2015</span> </div>
                                 <!-- cd-timeline-content -->
                             </div>
                             <div id="achiscrollto"></div>
@@ -344,7 +344,7 @@
                                         <h3 class="card-title">Abhinav Das</h3>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                         </button>
-                                        <p>I am a strong believer of technology and innovation. Here at ACM VIT, we are just about that.</p>
+                                        <p>I am a strong believer in technology and innovation. Here at ACM VIT, we are just about that.</p>
                                     </div>
                                 </div>
                             </li>
@@ -364,7 +364,7 @@
                                 <h3 class="card-title">Pranay Gupta</h3>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                 </button>
-                                <p>Working at ACM from the very beginning of my Engineering, I have build up my marketing and technical skills suitable for a professional career.</p>
+                                <p>Working with ACM VIT from the very beginning of my first year, I have built up my marketing and technical skills.</p>
                             </div>
                         </div>
                     </li>
@@ -382,7 +382,7 @@
                                 <h3 class="card-title">Mugdha Pandya</h3>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                 </button>
-                                <p>ACM has been quite an experience! I've got a great team and they've helped me learn so many things.</p>
+                                <p>ACM VIT has been quite an experience! I’ve got a great team and they’ve helped me learn so many things.</p>
                             </div>
                         </div>
                     </li>
