@@ -436,7 +436,7 @@
                                 <h3 class="card-title">Tanish Noah</h3>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                 </button>
-                                <p>Acmvit made me reckon the fact that in today's world, none of the businesses can exist without technical intervention.</p>
+                                <p>ACM VIT made me reckon the fact that in today’s world, no business can exist without technical intervention.</p>
                             </div>
                         </div>
                     </li>
@@ -472,7 +472,7 @@
                                 <h3 class="card-title">Rahul Nigam</h3>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                 </button>
-                                <p>Its only through innovation that we can make this world a better place.</p>
+                                <p>It’s only through innovation that we can make this world a better place.</p>
                             </div>
                         </div>
                     </li>
@@ -508,7 +508,7 @@
                                 <h3 class="card-title">Lekhani Ray</h3>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                 </button>
-                                <p>I have been a part of ACM for more than a year now and it has helped me not only keep in touch with the changing technology but also understand it much better.</p>
+                                <p>I have been a part of ACM VIT for more than a year now, and it has helped me understand and keep in touch with the ever-changing world of technology.</p>
                             </div>
                         </div>
                     </li>
