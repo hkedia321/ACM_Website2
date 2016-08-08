@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Event0</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/flickity.css">
+	<style>
+	.gallery {
+  background: #EEE;
+}
+
+
+.gallery img{
+  max-height:210px;
+  min-height: 210px;
+}
+@media (min-width: 769px){
+  .gallery img{
+    max-height: 460px;
+      min-height: 460px;
+  }
+}
+</style>
+</head>
+<body>
+<div class="gallery js-flickity"
+  data-flickity-options='{ "imagesLoaded": true, "percentPosition": false, "autoPlay":2000, "wrapAround":true, "lazyLoad": true }'>
+  <img data-flickity-lazyload="../images/event0/1.jpg" alt="loading..." />
+ <img data-flickity-lazyload="../images/event0/2.jpg" alt="loading..." />
+</div>
+	<script src="js/flickity.pkgd.min.js"></script>
+</body>
+</html>
