@@ -282,6 +282,14 @@
                                                                                 <p>I joined ACM VIT in my first semester of college and the experience was overwhelming. I learnt a lot from my seniors. I was the organiser of events during graVITas and the responsibility taught me event management. In my third year, I was elected as the treasurer. That was a brilliant experience too. I now work as a developer Oracle in Bangalore.</p> <span class="cd-date">2013</span> </div>
                                                                                 <!-- cd-timeline-content -->
                                                                             </div>
+                                                                             <div class="cd-timeline-block" id="showless">
+                                                                            <div class="cd-timeline-img cd-picture"> <img src="images/achi/abha.png" alt="ACM VIT"> </div>
+                                                                            <!-- cd-timeline-img -->
+                                                                            <div class="cd-timeline-content">
+                                                                                <h2>Abha Pandey<span class="underline"></span></h2>
+                                                                                <p>I got into ACM in my first year, after I went to a session on Cloud Computing. I liked it very much, and followed up on the club. Soon I became a club member, and later a core committee member. I got to interact with awesome club members- Kuldeep Singh, Arjun Kapur, Ruchir Patwa to name a few. Over and out, awesome experience. One that I proudly recall from my college life.</p> <span class="cd-date">2013</span> </div>
+                                                                                <!-- cd-timeline-content -->
+                                                                            </div>
                                                                             <!-- cd-timeline-block -->
                                                                             <div id="moreless" class="hiddenn visuallyhidden">
                                                                                 <div class="cd-timeline-block">
@@ -309,6 +317,14 @@
                                                                                                 <p>I was a part of ACM VIT for three long years. This chapter helped me develop my technical and management skills. I was the lead organiser for the design and media team in graVITas’14. I also founded a start-up during my college years called XCFactors. It later merged with another start-up, Browseasy. I am now the city manager for Hyderabad and I take care of hyperlocal delivery.</p> <span class="cd-date">2014</span> </div>
                                                                                                 <!-- cd-timeline-content -->
                                                                                             </div>
+                                                                                             <div class="cd-timeline-block">
+                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/charul.png" alt="ACM VIT"> </div>
+                                                                                                    <!-- cd-timeline-img -->
+                                                                                                    <div class="cd-timeline-content">
+                                                                                                        <h2>Charul Pant<span class="underline"></span></h2>
+                                                                                                        <p>I joined ACM during my second year of college. The journey from a volunteer to a leader has been empowering. I am currently working as an Associate Consultant at Microsoft. I work on interesting projects around devices and internet of things. I get to work with brilliant people and learn something new every day. I believe that we should all continue to nurture our creativity because science and technology is for the mind but the soul needs music, poetry and art.</p> <span class="cd-date">2014</span> </div>
+                                                                                                        <!-- cd-timeline-content -->
+                                                                                                    </div>
                                                                                             <!-- cd-timeline-block -->
                                                                                             <div class="cd-timeline-block">
                                                                                                 <div class="cd-timeline-img cd-location"> <img src="images/achi/shiva.png" alt="ACM VIT"> </div>
@@ -327,6 +343,31 @@
                                                                                                         <p>I joined ACM VIT in my first semester and it was the best experience of my college life. During my tenure, I met many wonderful people and learnt a lot. I was a member for three years and also a part of the board. I now work at Tata Consultancy Services.</p> <span class="cd-date">2015</span> </div>
                                                                                                         <!-- cd-timeline-content -->
                                                                                                     </div>
+                                                                                                     <div class="cd-timeline-block">
+                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/arjun.png" alt="ACM VIT"> </div>
+                                                                                                    <!-- cd-timeline-img -->
+                                                                                                    <div class="cd-timeline-content">
+                                                                                                        <h2>Arjun Jain<span class="underline"></span></h2>
+                                                                                                        <p>Being the Vice President of ACM, I built my management and technical skills. My area of expertise was Web designing. I designed websites for ACM and made a structure on hiring and firing of recruits. I made softwares for gravitas. For the final year project, I created an analysis system for stock analysis using artificial neural networks. I am formally associated with Indian Emerge Youth Summit.</p> <span class="cd-date">2015</span> </div>
+                                                                                                        <!-- cd-timeline-content -->
+                                                                                                    </div>
+                                                                                                     <div class="cd-timeline-block">
+                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/sachin.png" alt="ACM VIT"> </div>
+                                                                                                    <!-- cd-timeline-img -->
+                                                                                                    <div class="cd-timeline-content">
+                                                                                                        <h2>Sachin Vasista<span class="underline"></span></h2>
+                                                                                                        <p>The Android and Web Developer who has a habit of winning hackathons has won aadhaar hackathon, eduhackathon ,Cold Play and won the smart city challenge conducted by Government of India. His love for the coding and his hardwork paid off and he is currently working in Quiddle.</p> <span class="cd-date">2015</span> </div>
+                                                                                                        <!-- cd-timeline-content -->
+                                                                                                    </div>
+                                                                                                    <div class="cd-timeline-block">
+                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/shreyansh.png" alt="ACM VIT"> </div>
+                                                                                                    <!-- cd-timeline-img -->
+                                                                                                    <div class="cd-timeline-content">
+                                                                                                        <h2>Shreyansh Srivastava<span class="underline"></span></h2>
+                                                                                                        <p> He has been placed at. Futures First. His love for finance, lead him to create the Bulls & Bears: The Finance Club VIT Vellore. Playing very important leadership roles at ACM VIT Student Chapter as a Manager for GDG VIT Vellore, made his 4 years run fruitfully. His internships at ICICIdirect and IIFCL, he believes, have given him a good amount of experience to enter the real world scenario.</p> <span class="cd-date">2015</span> </div>
+                                                                                                        <!-- cd-timeline-content -->
+                                                                                                    </div>
+                                                                                                    
                                                                                                     <div id="achiscrollto"></div>
                                                                                                 </div>
                                                                                             </section>
