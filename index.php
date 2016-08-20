@@ -253,7 +253,7 @@
                                                                 <!-- cd-timeline-img -->
                                                                 <div class="cd-timeline-content">
                                                                     <h2>Harsh U. Kothari<span class="underline"></span></h2>
-                                                                    <p>The best parts about ACM VIT were the bonds we created with the faculty and the way the team worked in sync with each other, in terms of management. We organized our events well, and motivated people both in and out of the team into contributing and sharing their knowledge. I am the co-founder and CEO of <a href="http://www.neongamingstudio.com/" target="_blank">Neon Gaming Studio</a>.</p><span class="cd-date">2012</span> </div>
+                                                                    <p>The best parts about ACM VIT were the bonds we created with the faculty and the way the team worked in sync with each other, in terms of management. We organized our events well, and motivated people both in and out of the team into contributing and sharing their knowledge. I am the co-founder and CEO of <a href="http://www.neongamingstudio.com/" target="_blank">Neon Gaming Studio</a>.</p><span class="cd-date">2011-12, <i>President</i></span> </div>
                                                                     <!-- cd-timeline-content -->
                                                                 </div>
                                                                 <!-- cd-timeline-block -->
@@ -262,7 +262,7 @@
                                                                     <!-- cd-timeline-img -->
                                                                     <div class="cd-timeline-content">
                                                                         <h2>Shreya Dhal<span class="underline"></span></h2>
-                                                                        <p>I joined as a member of the editorial board of ACM VIT and was responsible for documentation. As a core committee coordinator, I had a great experience organizing talks, quizzes and other events. After my graduation I was working as a technology consultant on surgical data projects. Currently, I am doing my masters in information systems management at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.</p> <span class="cd-date">2012</span> </div>
+                                                                        <p>I joined as a member of the editorial board of ACM VIT and was responsible for documentation. As a core committee coordinator, I had a great experience organizing talks, quizzes and other events. After my graduation I was working as a technology consultant on surgical data projects. Currently, I am doing my masters in information systems management at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.</p> <span class="cd-date">2011-12, <i>Core Committee Co-ordinator</i></span> </div>
                                                                         <!-- cd-timeline-content -->
                                                                     </div>
                                                                     <!-- cd-timeline-block -->
@@ -271,430 +271,432 @@
                                                                         <!-- cd-timeline-img -->
                                                                         <div class="cd-timeline-content">
                                                                             <h2>Rahul Manglik<span class="underline"></span></h2>
-                                                                            <p>I got to work alongside the team of ACM VIT, which helped me create a strong network. During my tenure, I got the opportunity to organise a national level android workshop and also conduct a few events during graVITas. The exposure I got there helped me in conducting VITerary'14, which was VIT's first literary fest and also helped shape my career in content writing and marketing.</p> <span class="cd-date">2012</span> </div>
+                                                                            <p>I got to work alongside the team of ACM VIT, which helped me create a strong network. During my tenure, I got the opportunity to organise a national level android workshop and also conduct a few events during graVITas. The exposure I got there helped me in conducting VITerary'14, which was VIT's first literary fest and also helped shape my career in content writing and marketing.</p> <span class="cd-date">2011-12, <i>Gravitas Event Co-ordinator</i></span> </div>
                                                                             <!-- cd-timeline-content -->
                                                                         </div>
                                                                         <div class="cd-timeline-block" id="showless">
-                                                                            <div class="cd-timeline-img cd-picture"> <img src="images/achi/saumya.png" alt="ACM VIT"> </div>
-                                                                            <!-- cd-timeline-img -->
-                                                                            <div class="cd-timeline-content">
-                                                                                <h2>Saumya Pant<span class="underline"></span></h2>
-                                                                                <p>I joined ACM VIT in my first semester of college and the experience was overwhelming. I learnt a lot from my seniors. I was the organiser of events during graVITas and the responsibility taught me event management. In my third year, I was elected as the treasurer. That was a brilliant experience too. I now work as a developer Oracle in Bangalore.</p> <span class="cd-date">2013</span> </div>
-                                                                                <!-- cd-timeline-content -->
-                                                                            </div>
-                                                                             <div class="cd-timeline-block" id="showless">
                                                                             <div class="cd-timeline-img cd-picture"> <img src="images/achi/abha.png" alt="ACM VIT"> </div>
                                                                             <!-- cd-timeline-img -->
                                                                             <div class="cd-timeline-content">
                                                                                 <h2>Abha Pandey<span class="underline"></span></h2>
-                                                                                <p>I got into ACM in my first year, after I went to a session on Cloud Computing. I liked it very much, and followed up on the club. Soon I became a club member, and later a core committee member. I got to interact with awesome club members- Kuldeep Singh, Arjun Kapur, Ruchir Patwa to name a few. Over and out, awesome experience. One that I proudly recall from my college life.</p> <span class="cd-date">2013</span> </div>
+                                                                                <p>I got into ACM in my first year, after I went to their session on Cloud Computing. I liked it a lot, and followed up on the chapter. Soon I became a member of ACM, and later a core committee member. I got to interact with awesome club members- Kuldeep Singh, Arjun Kapur, Ruchir Patwa to name a few. All in all, ACM VIT was an awesome experience - one that I proudly recall from my college life.</p> <span class="cd-date">2011-12, <i>Design Head</i></span> </div>
                                                                                 <!-- cd-timeline-content -->
                                                                             </div>
-                                                                            <!-- cd-timeline-block -->
-                                                                            <div id="moreless" class="hiddenn visuallyhidden">
+                                                                            <div class="cd-timeline-block" id="showless">
+                                                                                <div class="cd-timeline-img cd-picture"> <img src="images/achi/saumya.png" alt="ACM VIT"> </div>
+                                                                                <!-- cd-timeline-img -->
+                                                                                <div class="cd-timeline-content">
+                                                                                    <h2>Saumya Pant<span class="underline"></span></h2>
+                                                                                    <p>I joined ACM VIT in my first semester of college and the experience was overwhelming. I learnt a lot from my seniors. I was the organiser of events during graVITas and the responsibility taught me event management. In my third year, I was elected as the treasurer. That was a brilliant experience too. I now work as a developer Oracle in Bangalore.</p> <span class="cd-date">2013-14, <i>Treasurer</i></span> </div>
+                                                                                    <!-- cd-timeline-content -->
+                                                                                </div>
+
                                                                                 <div class="cd-timeline-block">
                                                                                     <div class="cd-timeline-img cd-movie"> <img src="images/achi/prerak.png" alt="ACM VIT"> </div>
                                                                                     <!-- cd-timeline-img -->
                                                                                     <div class="cd-timeline-content">
                                                                                         <h2>Prerak Mody<span class="underline"></span></h2>
-                                                                                        <p>My experience at ACM VIT primarily introduced me to a lot of new technologies and helped me learn more about team and project management. I'm pursuing a field of machine learning called reinforcement learning and studying their applications in robotics in my free time. I currently work as a data scientist in a smart home automation company (<a href="http://leaf.co.in" target="_blank">leaf.co.in</a>).</p> <span class="cd-date">2014</span> </div>
+                                                                                        <p>My experience at ACM VIT primarily introduced me to a lot of new technologies and helped me learn more about team and project management. I'm pursuing a field of machine learning called reinforcement learning and studying their applications in robotics in my free time. I currently work as a data scientist in a smart home automation company (<a href="http://leaf.co.in" target="_blank">leaf.co.in</a>).</p> <span class="cd-date">2013-14, <i>Vice Chair</i></span> </div>
                                                                                         <!-- cd-timeline-content -->
                                                                                     </div>
-                                                                                    <div class="cd-timeline-block">
-                                                                                        <div class="cd-timeline-img cd-movie"> <img src="images/achi/deepankar.png" alt="ACM VIT"> </div>
-                                                                                        <!-- cd-timeline-img -->
-                                                                                        <div class="cd-timeline-content">
-                                                                                            <h2>Deepankar Saxena<span class="underline"></span></h2>
-                                                                                            <p>It was amazing to be a part of a student chapter that revolves around the holistic development of any individual related to it. ACM VIT gives you the freedom to choose any domain or field because you will always find like-minded people in the group who can help and guide you to pursue your desired path. I worked on different applications for SITE School and a few research papers. All these contributions bagged me the Achiever's Award from VIT University in the year 2014.</p> <span class="cd-date">2014</span> </div>
-                                                                                            <!-- cd-timeline-content -->
-                                                                                        </div>
-                                                                                        <!-- cd-timeline-block -->
+                                                                                    <!-- cd-timeline-block -->
+                                                                                    <div id="moreless" class="hiddenn visuallyhidden">
+
                                                                                         <div class="cd-timeline-block">
-                                                                                            <div class="cd-timeline-img cd-location"> <img src="images/achi/rohit.png" alt="ACM VIT"> </div>
+                                                                                            <div class="cd-timeline-img cd-movie"> <img src="images/achi/deepankar.png" alt="ACM VIT"> </div>
                                                                                             <!-- cd-timeline-img -->
                                                                                             <div class="cd-timeline-content">
-                                                                                                <h2>Rohit Sunkari<span class="underline"></span></h2>
-                                                                                                <p>I was a part of ACM VIT for three long years. This chapter helped me develop my technical and management skills. I was the lead organiser for the design and media team in graVITas’14. I also founded a start-up during my college years called XCFactors. It later merged with another start-up, Browseasy. I am now the city manager for Hyderabad and I take care of hyperlocal delivery.</p> <span class="cd-date">2014</span> </div>
+                                                                                                <h2>Deepankar Saxena<span class="underline"></span></h2>
+                                                                                                <p>It was amazing to be a part of a student chapter that revolves around the holistic development of any individual related to it. ACM VIT gives you the freedom to choose any domain or field because you will always find like-minded people in the group who can help and guide you to pursue your desired path. I worked on different applications for SITE School and a few research papers. All these contributions bagged me the Achiever's Award from VIT University in the year 2014.</p> <span class="cd-date">2013-14, <i>General Secretary</i></span> </div>
                                                                                                 <!-- cd-timeline-content -->
                                                                                             </div>
-                                                                                             <div class="cd-timeline-block">
+                                                                                            <!-- cd-timeline-block -->
+                                                                                            <div class="cd-timeline-block">
+                                                                                                <div class="cd-timeline-img cd-location"> <img src="images/achi/rohit.png" alt="ACM VIT"> </div>
+                                                                                                <!-- cd-timeline-img -->
+                                                                                                <div class="cd-timeline-content">
+                                                                                                    <h2>Rohit Sunkari<span class="underline"></span></h2>
+                                                                                                    <p>I was a part of ACM VIT for three long years. This chapter helped me develop my technical and management skills. I was the lead organiser for the design and media team in graVITas’14. I also founded a start-up during my college years called XCFactors. It later merged with another start-up, Browseasy. I am now the city manager for Hyderabad and I take care of hyperlocal delivery.</p> <span class="cd-date">2013-14, <i>Joint Secretary</i></span> </div>
+                                                                                                    <!-- cd-timeline-content -->
+                                                                                                </div>
+                                                                                                <div class="cd-timeline-block">
                                                                                                     <div class="cd-timeline-img cd-movie"> <img src="images/achi/charul.png" alt="ACM VIT"> </div>
                                                                                                     <!-- cd-timeline-img -->
                                                                                                     <div class="cd-timeline-content">
                                                                                                         <h2>Charul Pant<span class="underline"></span></h2>
-                                                                                                        <p>I joined ACM during my second year of college. The journey from a volunteer to a leader has been empowering. I am currently working as an Associate Consultant at Microsoft. I work on interesting projects around devices and internet of things. I get to work with brilliant people and learn something new every day. I believe that we should all continue to nurture our creativity because science and technology is for the mind but the soul needs music, poetry and art.</p> <span class="cd-date">2014</span> </div>
+                                                                                                        <p>I joined ACM during my second year of college. The journey from a volunteer to a leader has been empowering. I am currently working as an Associate Consultant at Microsoft. I work on interesting projects around devices and the internet of things. I get to work with brilliant people and learn something new every day. I believe that we should all continue to nurture our creativity because while science and technology is for the mind, the soul needs music, poetry and art.</p> <span class="cd-date">2013-14, <i>Media Head</i></span> </div>
                                                                                                         <!-- cd-timeline-content -->
                                                                                                     </div>
-                                                                                            <!-- cd-timeline-block -->
-                                                                                            <div class="cd-timeline-block">
-                                                                                                <div class="cd-timeline-img cd-location"> <img src="images/achi/shiva.png" alt="ACM VIT"> </div>
-                                                                                                <!-- cd-timeline-img -->
-                                                                                                <div class="cd-timeline-content">
-                                                                                                    <h2>Shivaranjini Shankar<span class="underline"></span></h2>
-                                                                                                    <p>My experience as a part of ACM VIT was good. This chapter helped develop my technical and management skills. I learnt a lot and helped organize events. I was the runner up of the Bafky Million Dollar Challenge’14 and also worked as a technological associate at Microsoft. I currently work as an analyst at BlackRock Services, Gurgaon.</p> <span class="cd-date">2015</span> </div>
-                                                                                                    <!-- cd-timeline-content -->
-                                                                                                </div>
-                                                                                                <!-- cd-timeline-block -->
-                                                                                                <div class="cd-timeline-block">
-                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/parag.png" alt="ACM VIT"> </div>
-                                                                                                    <!-- cd-timeline-img -->
-                                                                                                    <div class="cd-timeline-content">
-                                                                                                        <h2>Parag Agarwal<span class="underline"></span></h2>
-                                                                                                        <p>I joined ACM VIT in my first semester and it was the best experience of my college life. During my tenure, I met many wonderful people and learnt a lot. I was a member for three years and also a part of the board. I now work at Tata Consultancy Services.</p> <span class="cd-date">2015</span> </div>
-                                                                                                        <!-- cd-timeline-content -->
-                                                                                                    </div>
-                                                                                                     <div class="cd-timeline-block">
-                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/arjun.png" alt="ACM VIT"> </div>
-                                                                                                    <!-- cd-timeline-img -->
-                                                                                                    <div class="cd-timeline-content">
-                                                                                                        <h2>Arjun Jain<span class="underline"></span></h2>
-                                                                                                        <p>Being the Vice President of ACM, I built my management and technical skills. My area of expertise was Web designing. I designed websites for ACM and made a structure on hiring and firing of recruits. I made softwares for gravitas. For the final year project, I created an analysis system for stock analysis using artificial neural networks. I am formally associated with Indian Emerge Youth Summit.</p> <span class="cd-date">2015</span> </div>
-                                                                                                        <!-- cd-timeline-content -->
-                                                                                                    </div>
-                                                                                                     <div class="cd-timeline-block">
-                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/sachin.png" alt="ACM VIT"> </div>
-                                                                                                    <!-- cd-timeline-img -->
-                                                                                                    <div class="cd-timeline-content">
-                                                                                                        <h2>Sachin Vasista<span class="underline"></span></h2>
-                                                                                                        <p>The Android and Web Developer who has a habit of winning hackathons has won aadhaar hackathon, eduhackathon ,Cold Play and won the smart city challenge conducted by Government of India. His love for the coding and his hardwork paid off and he is currently working in Quiddle.</p> <span class="cd-date">2015</span> </div>
-                                                                                                        <!-- cd-timeline-content -->
-                                                                                                    </div>
+                                                                                                    <!-- cd-timeline-block -->
                                                                                                     <div class="cd-timeline-block">
-                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/shreyansh.png" alt="ACM VIT"> </div>
-                                                                                                    <!-- cd-timeline-img -->
-                                                                                                    <div class="cd-timeline-content">
-                                                                                                        <h2>Shreyansh Srivastava<span class="underline"></span></h2>
-                                                                                                        <p> He has been placed at. Futures First. His love for finance, lead him to create the Bulls & Bears: The Finance Club VIT Vellore. Playing very important leadership roles at ACM VIT Student Chapter as a Manager for GDG VIT Vellore, made his 4 years run fruitfully. His internships at ICICIdirect and IIFCL, he believes, have given him a good amount of experience to enter the real world scenario.</p> <span class="cd-date">2015</span> </div>
-                                                                                                        <!-- cd-timeline-content -->
-                                                                                                    </div>
-                                                                                                    
-                                                                                                    <div id="achiscrollto"></div>
-                                                                                                </div>
-                                                                                            </section>
-                                                                                            <!-- cd-timeline -->
-                                                                                        </div>
-                                                                                        <div class="corner cornerright col-md-1"> </div>
-                                                                                    </div>
-                                                                                    <div class="text-center">
-                                                                                        <button id="showbutton" class="btn btn-primary text-center">Show more</button>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div id="yellow" class="wrapper yellow spied target">
-                                                                                    <section id="company" class="scrollable">
-                                                                                        <header>
-                                                                                            <h2>The Board</h2>
-                                                                                            <p> Our board comprises hard-working individuals, dedicated to the progress of this chapter. </p>
-                                                                                        </header>
-                                                                                        <nav> <span class="active"></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </nav>
-                                                                                        <ul class="unstyled-list clearfix upable" id="theboardul">
-                                                                                            <div class="row" id="theboard1uprow">
-                                                                                                <div id="li01wrap">
-                                                                                                    <li class="active" id="theboardli0">
-                                                                                                        <div class="card">
-                                                                                                            <div id="show0">
-                                                                                                                <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
-                                                                                                                <div style="clear:both;"></div>
-                                                                                                                <div class=""> <img src="images/hrv.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav"> </div>
-                                                                                                                <div class="card-content">
-                                                                                                                    <h3 class="smallintablet">Hari Ram Vishwakarma<span class="underline"></span></h3>
-                                                                                                                    <h4><b>Faculty Coordinator</b></h4> </div>
-                                                                                                                </div> <span class="" style="visibility:hidden;"> <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span>
-                                                                                                            </a> <a target href="https://github.com/abhinav-adtechs" target="_blank"><span class="git12"></span></a> </span>
+                                                                                                        <div class="cd-timeline-img cd-location"> <img src="images/achi/shiva.png" alt="ACM VIT"> </div>
+                                                                                                        <!-- cd-timeline-img -->
+                                                                                                        <div class="cd-timeline-content">
+                                                                                                            <h2>Shivaranjini Shankar<span class="underline"></span></h2>
+                                                                                                            <p>My experience as a part of ACM VIT was good. This chapter helped develop my technical and management skills. I learnt a lot and helped organize events. I was the runner up of the Bafky Million Dollar Challenge’14 and also worked as a technological associate at Microsoft. I currently work as an analyst at BlackRock Services, Gurgaon.</p> <span class="cd-date">2014-15, <i>Documentation Head</i></span> </div>
+                                                                                                            <!-- cd-timeline-content -->
                                                                                                         </div>
-                                                                                                    </li>
-                                                                                                    <li id="theboardli1">
-                                                                                                        <div class="card">
-                                                                                                            <div id="show1">
-                                                                                                                <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
-                                                                                                                <div style="clear:both;"></div>
-                                                                                                                <div class=""> <img src="images/abhinav.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav"> </div>
-                                                                                                                <div class="card-content">
-                                                                                                                    <h3 class="">Abhinav Das<span class="underline"></span></h3>
-                                                                                                                    <h4><b>President</b></h4> </div>
-                                                                                                                </div> <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span></a> <a target href="https://github.com/abhinav-adtechs" target="_blank"><span class="git12"></span></a>
-                                                                                                                <div class="card-reveal card-reveal1">
-                                                                                                                    <h3 class="card-title">Abhinav Das</h3>
-                                                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-                                                                                                                    </button>
-                                                                                                                    <p>I am a strong believer in technology and innovation. Here at ACM VIT, we are just about that.</p>
+                                                                                                        <!-- cd-timeline-block -->
+                                                                                                        <div class="cd-timeline-block">
+                                                                                                            <div class="cd-timeline-img cd-movie"> <img src="images/achi/parag.png" alt="ACM VIT"> </div>
+                                                                                                            <!-- cd-timeline-img -->
+                                                                                                            <div class="cd-timeline-content">
+                                                                                                                <h2>Parag Agarwal<span class="underline"></span></h2>
+                                                                                                                <p>I joined ACM VIT in my first semester and it was the best experience of my college life. During my tenure, I met many wonderful people and learnt a lot. I was a member for three years and also a part of the board. I now work at Tata Consultancy Services.</p> <span class="cd-date">2014-15, <i>Membership Co-ordinator</i></span> </div>
+                                                                                                                <!-- cd-timeline-content -->
+                                                                                                            </div>
+                                                                                                            <div class="cd-timeline-block">
+                                                                                                                <div class="cd-timeline-img cd-movie"> <img src="images/achi/arjun.png" alt="ACM VIT"> </div>
+                                                                                                                <!-- cd-timeline-img -->
+                                                                                                                <div class="cd-timeline-content">
+                                                                                                                    <h2>Arjun Jain<span class="underline"></span></h2>
+                                                                                                                    <p>Being the Vice President of ACM, I built up my management and technical skills. My area of expertise was Web designing. I designed websites for ACM, and even submitted an app for graVITas.. For my final year project, I created an analysis system for stock analysis, using artificial neural networks. I am formally associated with India Emerge Youth Summit(<a href="https://www.facebook.com/ieysvit/" target="_blank">IEYS</a>).</p> <span class="cd-date">2014-15, <i>Vice President</i></span> </div>
+                                                                                                                    <!-- cd-timeline-content -->
                                                                                                                 </div>
+                                                                                                                <div class="cd-timeline-block">
+                                                                                                                    <div class="cd-timeline-img cd-movie"> <img src="images/achi/sachin.png" alt="ACM VIT"> </div>
+                                                                                                                    <!-- cd-timeline-img -->
+                                                                                                                    <div class="cd-timeline-content">
+                                                                                                                        <h2>Sachin Vasista<span class="underline"></span></h2>
+                                                                                                                        <p>I am an Android and Web Developer, who has developed a habit of winning hackathons - I won Aadhaar Hackathon, Eduhackathon ,CodePlay and won the smart city challenge conducted by the  Government of India. My love for the coding and sheer hard work has paid off, and I am currently working in Quiddle.</p> <span class="cd-date">2014-15, <i>Design Head</i></span> </div>
+                                                                                                                        <!-- cd-timeline-content -->
+                                                                                                                    </div>
+                                                                                                                    <div class="cd-timeline-block">
+                                                                                                                        <div class="cd-timeline-img cd-movie"> <img src="images/achi/shreyansh.png" alt="ACM VIT"> </div>
+                                                                                                                        <!-- cd-timeline-img -->
+                                                                                                                        <div class="cd-timeline-content">
+                                                                                                                            <h2>Shreyansh Srivastava<span class="underline"></span></h2>
+                                                                                                                            <p>My love of finance lead me to create Bulls & Bears: The Finance Club VIT Vellore. Being the Membership Co-Ordinator at ACM VIT Student Chapter and a  Manager for GDG VIT Vellore, I feel that my four years at VIT were truly fruitful. My internships at ICICI Direct and IIFCL gave me the experience I needed to enter the real world scenario. I have now been placed at Futures First.</p> <span class="cd-date">2014-15, Membership Co-ordinator</span> </div>
+                                                                                                                            <!-- cd-timeline-content -->
+                                                                                                                        </div>
+                                                                                                                        
+                                                                                                                        <div id="achiscrollto"></div>
+                                                                                                                    </div>
+                                                                                                                </section>
+                                                                                                                <!-- cd-timeline -->
                                                                                                             </div>
-                                                                                                        </li>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <li id="companyli2">
-                                                                                                    <div class="card">
-                                                                                                        <div id="show2">
-                                                                                                            <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
-                                                                                                            <div style="clear:both;"></div>
-                                                                                                            <div class=""> <img src="images/pranay.png" alt="Pranay" class="img-responsive img-circle img-thumbnail"> </div>
-                                                                                                            <div class="card-content">
-                                                                                                                <h3 class="">Pranay Gupta<span class="underline"></span></h3>
-                                                                                                                <h4><b>Vice President</b></h4> </div>
-                                                                                                            </div> <a href="https://www.facebook.com/pranay.gupta.3597" target="_blank"><span class="fb12"></span></a>
-                                                                                                            <div class="card-reveal card-reveal2">
-                                                                                                                <h3 class="card-title">Pranay Gupta</h3>
-                                                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-                                                                                                                </button>
-                                                                                                                <p>Working with ACM VIT from the very beginning of my first year, I have built up my marketing and technical skills.</p>
-                                                                                                            </div>
+                                                                                                            <div class="corner cornerright col-md-1"> </div>
                                                                                                         </div>
-                                                                                                    </li>
-                                                                                                    <li id="companyli3">
-                                                                                                        <div class="card">
-                                                                                                            <div id="show3">
-                                                                                                                <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
-                                                                                                                <div style="clear:both;"></div>
-                                                                                                                <div class=""> <img src="images/mugdha.png" alt="Mugdha" class="img-responsive img-circle img-thumbnail"> </div>
-                                                                                                                <div class="card-content">
-                                                                                                                    <h3 class="">Mugdha Pandya<span class="underline"></span></h3>
-                                                                                                                    <h4><b>General Secretary</b></h4> </div>
-                                                                                                                </div><a href="https://www.facebook.com/mugdha.pandya.3?fref=ts" target="_blank"><span class="fb12"></span></a>
-                                                                                                                <div class="card-reveal card-reveal3">
-                                                                                                                    <h3 class="card-title">Mugdha Pandya</h3>
-                                                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-                                                                                                                    </button>
-                                                                                                                    <p>ACM VIT has been quite an experience! I’ve got a great team and they’ve helped me learn so many things.</p>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                        <li id="companyli4">
-                                                                                                            <div class="card">
-                                                                                                                <div id="show4">
-                                                                                                                    <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
-                                                                                                                    <div style="clear:both;"></div>
-                                                                                                                    <div class=""> <img src="images/ashwini.png" alt="Ashwini" class="img-responsive img-circle img-thumbnail"> </div>
-                                                                                                                    <div class="card-content">
-                                                                                                                        <h3 class="">Ashwini Purohit<span class="underline"></span></h3>
-                                                                                                                        <h4><b>Technical Head</b></h4> </div>
-                                                                                                                    </div><a href="https://www.facebook.com/purohit.ashwini" target="_blank"><span class="fb12 fb112"></span></a><a href="https://github.com/ashwini0529" target="_blank"><span class="git12"></span></a>
-                                                                                                                    <div class="card-reveal card-reveal4">
-                                                                                                                        <h3 class="card-title">Ashwini Purohit</h3>
-                                                                                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-                                                                                                                        </button>
-                                                                                                                        <p>Just do git.</p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </li>
-                                                                                                            <li id="companyli5">
-                                                                                                                <div class="card">
-                                                                                                                    <div id="show5">
-                                                                                                                        <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
-                                                                                                                        <div style="clear:both;"></div>
-                                                                                                                        <div class=""> <img src="images/rishi.png" alt="Rishi" class="img-responsive img-circle img-thumbnail"> </div>
-                                                                                                                        <div class="card-content">
-                                                                                                                            <h3 class="">Rishi Raj<span class="underline"></span></h3>
-                                                                                                                            <h4><b>Deputy Technical Head</b></h4> </div>
-                                                                                                                        </div> <a href="https://www.facebook.com/rishirajloyola" target="_blank"><span class="fb12 fb112"></span></a> <a href="https://github.com/rishiraj824" target="_blank"><span class="git12"></span></a>
-                                                                                                                        <div class="card-reveal card-reveal5">
-                                                                                                                            <h3 class="card-title">Rishi Raj</h3>
-                                                                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-                                                                                                                            </button>
-                                                                                                                            <p>I believe in learning new things everyday and keep myself updated with the latest trends in technology.</p>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </li>
-                                                                                                                <li id="companyli6">
-                                                                                                                    <div class="card">
-                                                                                                                        <div id="show6">
-                                                                                                                            <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
-                                                                                                                            <div style="clear:both;"></div>
-                                                                                                                            <div class=""> <img src="images/tanish.png" alt="Tanish" class="img-responsive img-circle img-thumbnail"> </div>
-                                                                                                                            <div class="card-content">
-                                                                                                                                <h3 class="">Tanish Noah<span class="underline"></span></h3>
-                                                                                                                                <h4><b>Treasurer</b></h4> </div>
-                                                                                                                            </div><a href="https://www.facebook.com/tanishnoah?fref=pb_other" target="_blank"><span class="fb12"></span></a>
-                                                                                                                            <div class="card-reveal card-reveal6">
-                                                                                                                                <h3 class="card-title">Tanish Noah</h3>
-                                                                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-                                                                                                                                </button>
-                                                                                                                                <p>ACM VIT made me reckon the fact that in today’s world, no business can exist without technical intervention.</p>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </li>
-                                                                                                                    <li id="companyli7">
-                                                                                                                        <div class="card">
-                                                                                                                            <div id="show7">
-                                                                                                                                <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
-                                                                                                                                <div style="clear:both;"></div>
-                                                                                                                                <div class=""> <img src="images/aarti.png" alt="Aarti" class="img-responsive img-circle img-thumbnail"> </div>
-                                                                                                                                <div class="card-content">
-                                                                                                                                    <h3 class="">Aarti Susan<span class="underline"></span></h3>
-                                                                                                                                    <h4><b>Communication Head</b></h4> </div>
-                                                                                                                                </div><a href="https://www.facebook.com/AartiSusanKuruvilla?fref=ts" target="_blank"><span class="fb12"></span></a>
-                                                                                                                                <div class="card-reveal card-reveal7">
-                                                                                                                                    <h3 class="card-title">Aarti Susan</h3>
-                                                                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-                                                                                                                                    </button>
-                                                                                                                                    <p>I joined this chapter in my first year, and it has become an integral part of my college life. ACM has shaped me and helped me grow, and I take great joy in helping it progress.</p>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </li>
-                                                                                                                        <li id="companyli8">
+                                                                                                        <div class="text-center">
+                                                                                                            <button id="showbutton" class="btn btn-primary text-center">Show more</button>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div id="yellow" class="wrapper yellow spied target">
+                                                                                                        <section id="company" class="scrollable">
+                                                                                                            <header>
+                                                                                                                <h2>The Board</h2>
+                                                                                                                <p> Our board comprises hard-working individuals, dedicated to the progress of this chapter. </p>
+                                                                                                            </header>
+                                                                                                            <nav> <span class="active"></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </nav>
+                                                                                                            <ul class="unstyled-list clearfix upable" id="theboardul">
+                                                                                                                <div class="row" id="theboard1uprow">
+                                                                                                                    <div id="li01wrap">
+                                                                                                                        <li class="active" id="theboardli0">
                                                                                                                             <div class="card">
-                                                                                                                                <div id="show8">
+                                                                                                                                <div id="show0">
                                                                                                                                     <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
                                                                                                                                     <div style="clear:both;"></div>
-                                                                                                                                    <div class=""> <img src="images/rahul.png" alt="Rahul" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                    <div class=""> <img src="images/hrv.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav"> </div>
                                                                                                                                     <div class="card-content">
-                                                                                                                                        <h3 class="">Rahul Nigam<span class="underline"></span></h3>
-                                                                                                                                        <h4><b>Marketing & Design Head</b></h4> </div>
-                                                                                                                                    </div><a href="https://www.facebook.com/rahulnigam95?fref=pb_other" target="_blank"><span class="fb12"></span></a>
-                                                                                                                                    <div class="card-reveal card-reveal8">
-                                                                                                                                        <h3 class="card-title">Rahul Nigam</h3>
+                                                                                                                                        <h3 class="smallintablet">Hari Ram Vishwakarma<span class="underline"></span></h3>
+                                                                                                                                        <h4><b>Faculty Coordinator</b></h4> </div>
+                                                                                                                                    </div> <span class="" style="visibility:hidden;"> <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span>
+                                                                                                                                </a> <a target href="https://github.com/abhinav-adtechs" target="_blank"><span class="git12"></span></a> </span>
+                                                                                                                            </div>
+                                                                                                                        </li>
+                                                                                                                        <li id="theboardli1">
+                                                                                                                            <div class="card">
+                                                                                                                                <div id="show1">
+                                                                                                                                    <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
+                                                                                                                                    <div style="clear:both;"></div>
+                                                                                                                                    <div class=""> <img src="images/abhinav.png" class="img-responsive img-circle img-thumbnail" alt="Abhinav"> </div>
+                                                                                                                                    <div class="card-content">
+                                                                                                                                        <h3 class="">Abhinav Das<span class="underline"></span></h3>
+                                                                                                                                        <h4><b>President</b></h4> </div>
+                                                                                                                                    </div> <a target="_blank" href="https://www.facebook.com/jordiie09?fref=hovercard"><span class="fb12 fb112"></span></a> <a target href="https://github.com/abhinav-adtechs" target="_blank"><span class="git12"></span></a>
+                                                                                                                                    <div class="card-reveal card-reveal1">
+                                                                                                                                        <h3 class="card-title">Abhinav Das</h3>
                                                                                                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                                                                                                                         </button>
-                                                                                                                                        <p>It’s only through innovation that we can make this world a better place.</p>
+                                                                                                                                        <p>I am a strong believer in technology and innovation. Here at ACM VIT, we are just about that.</p>
                                                                                                                                     </div>
                                                                                                                                 </div>
                                                                                                                             </li>
-                                                                                                                            <li id="companyli9">
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <li id="companyli2">
+                                                                                                                        <div class="card">
+                                                                                                                            <div id="show2">
+                                                                                                                                <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
+                                                                                                                                <div style="clear:both;"></div>
+                                                                                                                                <div class=""> <img src="images/pranay.png" alt="Pranay" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                <div class="card-content">
+                                                                                                                                    <h3 class="">Pranay Gupta<span class="underline"></span></h3>
+                                                                                                                                    <h4><b>Vice President</b></h4> </div>
+                                                                                                                                </div> <a href="https://www.facebook.com/pranay.gupta.3597" target="_blank"><span class="fb12"></span></a>
+                                                                                                                                <div class="card-reveal card-reveal2">
+                                                                                                                                    <h3 class="card-title">Pranay Gupta</h3>
+                                                                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                                                                                                                    </button>
+                                                                                                                                    <p>Working with ACM VIT from the very beginning of my first year, I have built up my marketing and technical skills.</p>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </li>
+                                                                                                                        <li id="companyli3">
+                                                                                                                            <div class="card">
+                                                                                                                                <div id="show3">
+                                                                                                                                    <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
+                                                                                                                                    <div style="clear:both;"></div>
+                                                                                                                                    <div class=""> <img src="images/mugdha.png" alt="Mugdha" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                    <div class="card-content">
+                                                                                                                                        <h3 class="">Mugdha Pandya<span class="underline"></span></h3>
+                                                                                                                                        <h4><b>General Secretary</b></h4> </div>
+                                                                                                                                    </div><a href="https://www.facebook.com/mugdha.pandya.3?fref=ts" target="_blank"><span class="fb12"></span></a>
+                                                                                                                                    <div class="card-reveal card-reveal3">
+                                                                                                                                        <h3 class="card-title">Mugdha Pandya</h3>
+                                                                                                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                                                                                                                        </button>
+                                                                                                                                        <p>ACM VIT has been quite an experience! I’ve got a great team and they’ve helped me learn so many things.</p>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </li>
+                                                                                                                            <li id="companyli4">
                                                                                                                                 <div class="card">
-                                                                                                                                    <div id="show9">
+                                                                                                                                    <div id="show4">
                                                                                                                                         <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
                                                                                                                                         <div style="clear:both;"></div>
-                                                                                                                                        <div class=""> <img src="images/mallika.png" alt="Mallika" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                        <div class=""> <img src="images/ashwini.png" alt="Ashwini" class="img-responsive img-circle img-thumbnail"> </div>
                                                                                                                                         <div class="card-content">
-                                                                                                                                            <h3 class="">Mallika Rai<span class="underline"></span></h3>
-                                                                                                                                            <h4><b>University Relations</b></h4> </div>
-                                                                                                                                        </div> <a href="https://www.facebook.com/mallika.rai.96" target="_blank"><span class="fb12"></span></a>
-                                                                                                                                        <div class="card-reveal card-reveal9">
-                                                                                                                                            <h3 class="card-title">Mallika Rai</h3>
+                                                                                                                                            <h3 class="">Ashwini Purohit<span class="underline"></span></h3>
+                                                                                                                                            <h4><b>Technical Head</b></h4> </div>
+                                                                                                                                        </div><a href="https://www.facebook.com/purohit.ashwini" target="_blank"><span class="fb12 fb112"></span></a><a href="https://github.com/ashwini0529" target="_blank"><span class="git12"></span></a>
+                                                                                                                                        <div class="card-reveal card-reveal4">
+                                                                                                                                            <h3 class="card-title">Ashwini Purohit</h3>
                                                                                                                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                                                                                                                             </button>
-                                                                                                                                            <p>A programming enthusiast, specialising in Web development, I see myself as a knowledge hungry person, receptive to any new trend or discovery in the field of information technology.</p>
+                                                                                                                                            <p>Just do git.</p>
                                                                                                                                         </div>
                                                                                                                                     </div>
                                                                                                                                 </li>
-                                                                                                                                <li id="companyli10">
+                                                                                                                                <li id="companyli5">
                                                                                                                                     <div class="card">
-                                                                                                                                        <div id="show10">
+                                                                                                                                        <div id="show5">
                                                                                                                                             <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
                                                                                                                                             <div style="clear:both;"></div>
-                                                                                                                                            <div class=""> <img src="images/lekhani.png" alt="Lekhani" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                            <div class=""> <img src="images/rishi.png" alt="Rishi" class="img-responsive img-circle img-thumbnail"> </div>
                                                                                                                                             <div class="card-content">
-                                                                                                                                                <h3 class="">Lekhani Ray<span class="underline"></span></h3>
-                                                                                                                                                <h4><b>Membership Coordinator</b></h4> </div>
-                                                                                                                                            </div><a href="https://www.facebook.com/lekhani.ray?fref=pb_other" target="_blank"><span class="fb12"></span></a>
-                                                                                                                                            <div class="card-reveal card-reveal10">
-                                                                                                                                                <h3 class="card-title">Lekhani Ray</h3>
+                                                                                                                                                <h3 class="">Rishi Raj<span class="underline"></span></h3>
+                                                                                                                                                <h4><b>Deputy Technical Head</b></h4> </div>
+                                                                                                                                            </div> <a href="https://www.facebook.com/rishirajloyola" target="_blank"><span class="fb12 fb112"></span></a> <a href="https://github.com/rishiraj824" target="_blank"><span class="git12"></span></a>
+                                                                                                                                            <div class="card-reveal card-reveal5">
+                                                                                                                                                <h3 class="card-title">Rishi Raj</h3>
                                                                                                                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                                                                                                                                 </button>
-                                                                                                                                                <p>I have been a part of ACM VIT for more than a year now, and it has helped me understand and keep in touch with the ever-changing world of technology.</p>
+                                                                                                                                                <p>I believe in learning new things everyday and keep myself updated with the latest trends in technology.</p>
                                                                                                                                             </div>
                                                                                                                                         </div>
                                                                                                                                     </li>
-                                                                                                                                </ul>
-                                                                                                                            </section>
-                                                                                                                        </div>
-                                                                                                                        <section id="photo" class="clearfix target">
-                                                                                                                            <header>
-                                                                                                                                <h2 class="navh2s">Gallery</h2>
-                                                                                                                                <p>A sneak peek into some of our stunning events and workshops!</p>
-                                                                                                                            </header>
-                                                                                                                            <div class="left">
-                                                                                                                                <div class="photo-wrapper medium"> <img src="images/rjday/home/photos/1.jpg" alt="ACM VIT"> </div>
-                                                                                                                                <div class="photo-wrapper small"> <img src="images/rjday/home/photos/6.jpg" alt="ACM VIT"> </div>
-                                                                                                                                <div class="photo-wrapper small"> <img src="images/rjday/home/photos/7.jpg" alt="ACM VIT"> </div>
-                                                                                                                                <div class="photo-wrapper medium"> <img src="images/rjday/home/photos/9.jpg" alt="ACM VIT"> </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="right">
-                                                                                                                                <div class="photo-wrapper small"> <img src="images/rjday/home/photos/2.jpg" alt="ACM VIT"> </div>
-                                                                                                                                <div class="photo-wrapper small"> <img src="images/rjday/home/photos/3.jpg" alt="ACM VIT"> </div>
-                                                                                                                                <div class="photo-wrapper small"> <img src="images/rjday/home/photos/5.jpg" alt="ACM VIT"> </div>
-                                                                                                                                <div class="photo-wrapper medium"> <img src="images/rjday/home/photos/4.jpg" alt="ACM VIT"> </div>
-                                                                                                                                <div class="photo-wrapper large"> <img src="images/rjday/home/photos/8.jpg" alt="ACM VIT"> </div>
-                                                                                                                            </div>
-                                                                                                                        </section>
-                                                                                                                        <section id="contactus" class="clearfix target">
-                                                                                                                            <header>
-                                                                                                                                <h2 class="navh2s">Contact Us</h2> </header>
-                                                                                                                                <div class="contactusdiv1 container">
-                                                                                                                                    <div class="addressdiv col-md-4"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;VIT University, Vellore </div>
-                                                                                                                                    <div class="emaildiv col-md-4"> <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;vituacm@gmail.com </div>
-                                                                                                                                    <div class="phndiv col-md-4"> <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;+91 90878 58900 </div>
-                                                                                                                                </div>
-                                                                                                                                <div class="contactusdiv2 container">
-                                                                                                                                    <p class="contusp">Got any queries? Just leave your details below, along with whatever you want to ask us.</p>
-                                                                                                                                    <div class="formdiv">
-                                                                                                                                        <form method="post" action="contact.php" class="">
-                                                                                                                                            <div class="text-field-name col-md-6">
-                                                                                                                                                <input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}"> </div>
-                                                                                                                                                <div class="text-field-name col-md-6">
-                                                                                                                                                    <input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}"> </div>
-                                                                                                                                                    <div class="text-field-subject col-md-12">
-                                                                                                                                                        <input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}"> </div>
-                                                                                                                                                        <div class="text-field-message col-md-12">
-                                                                                                                                                            <textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
-                                                                                                                                                        </div>
-                                                                                                                                                        <div class="text-field-submit col-md-offset-4 col-md-4">
-                                                                                                                                                            <input type="submit" value="Submit"> </div>
-                                                                                                                                                        </form>
+                                                                                                                                    <li id="companyli6">
+                                                                                                                                        <div class="card">
+                                                                                                                                            <div id="show6">
+                                                                                                                                                <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
+                                                                                                                                                <div style="clear:both;"></div>
+                                                                                                                                                <div class=""> <img src="images/tanish.png" alt="Tanish" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                                <div class="card-content">
+                                                                                                                                                    <h3 class="">Tanish Noah<span class="underline"></span></h3>
+                                                                                                                                                    <h4><b>Treasurer</b></h4> </div>
+                                                                                                                                                </div><a href="https://www.facebook.com/tanishnoah?fref=pb_other" target="_blank"><span class="fb12"></span></a>
+                                                                                                                                                <div class="card-reveal card-reveal6">
+                                                                                                                                                    <h3 class="card-title">Tanish Noah</h3>
+                                                                                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                                                                                                                                    </button>
+                                                                                                                                                    <p>ACM VIT made me reckon the fact that in today’s world, no business can exist without technical intervention.</p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </li>
+                                                                                                                                        <li id="companyli7">
+                                                                                                                                            <div class="card">
+                                                                                                                                                <div id="show7">
+                                                                                                                                                    <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
+                                                                                                                                                    <div style="clear:both;"></div>
+                                                                                                                                                    <div class=""> <img src="images/aarti.png" alt="Aarti" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                                    <div class="card-content">
+                                                                                                                                                        <h3 class="">Aarti Susan<span class="underline"></span></h3>
+                                                                                                                                                        <h4><b>Communication Head</b></h4> </div>
+                                                                                                                                                    </div><a href="https://www.facebook.com/AartiSusanKuruvilla?fref=ts" target="_blank"><span class="fb12"></span></a>
+                                                                                                                                                    <div class="card-reveal card-reveal7">
+                                                                                                                                                        <h3 class="card-title">Aarti Susan</h3>
+                                                                                                                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                                                                                                                                        </button>
+                                                                                                                                                        <p>I joined this chapter in my first year, and it has become an integral part of my college life. ACM has shaped me and helped me grow, and I take great joy in helping it progress.</p>
                                                                                                                                                     </div>
                                                                                                                                                 </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li id="companyli8">
+                                                                                                                                                <div class="card">
+                                                                                                                                                    <div id="show8">
+                                                                                                                                                        <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
+                                                                                                                                                        <div style="clear:both;"></div>
+                                                                                                                                                        <div class=""> <img src="images/rahul.png" alt="Rahul" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                                        <div class="card-content">
+                                                                                                                                                            <h3 class="">Rahul Nigam<span class="underline"></span></h3>
+                                                                                                                                                            <h4><b>Marketing & Design Head</b></h4> </div>
+                                                                                                                                                        </div><a href="https://www.facebook.com/rahulnigam95?fref=pb_other" target="_blank"><span class="fb12"></span></a>
+                                                                                                                                                        <div class="card-reveal card-reveal8">
+                                                                                                                                                            <h3 class="card-title">Rahul Nigam</h3>
+                                                                                                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                                                                                                                                            </button>
+                                                                                                                                                            <p>It’s only through innovation that we can make this world a better place.</p>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </li>
+                                                                                                                                                <li id="companyli9">
+                                                                                                                                                    <div class="card">
+                                                                                                                                                        <div id="show9">
+                                                                                                                                                            <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
+                                                                                                                                                            <div style="clear:both;"></div>
+                                                                                                                                                            <div class=""> <img src="images/mallika.png" alt="Mallika" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                                            <div class="card-content">
+                                                                                                                                                                <h3 class="">Mallika Rai<span class="underline"></span></h3>
+                                                                                                                                                                <h4><b>University Relations</b></h4> </div>
+                                                                                                                                                            </div> <a href="https://www.facebook.com/mallika.rai.96" target="_blank"><span class="fb12"></span></a>
+                                                                                                                                                            <div class="card-reveal card-reveal9">
+                                                                                                                                                                <h3 class="card-title">Mallika Rai</h3>
+                                                                                                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                                                                                                                                                </button>
+                                                                                                                                                                <p>A programming enthusiast, specialising in Web development, I see myself as a knowledge hungry person, receptive to any new trend or discovery in the field of information technology.</p>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </li>
+                                                                                                                                                    <li id="companyli10">
+                                                                                                                                                        <div class="card">
+                                                                                                                                                            <div id="show10">
+                                                                                                                                                                <div class="threedotshover"> <i class="fa fa-ellipsis-v"></i> </div>
+                                                                                                                                                                <div style="clear:both;"></div>
+                                                                                                                                                                <div class=""> <img src="images/lekhani.png" alt="Lekhani" class="img-responsive img-circle img-thumbnail"> </div>
+                                                                                                                                                                <div class="card-content">
+                                                                                                                                                                    <h3 class="">Lekhani Ray<span class="underline"></span></h3>
+                                                                                                                                                                    <h4><b>Membership Coordinator</b></h4> </div>
+                                                                                                                                                                </div><a href="https://www.facebook.com/lekhani.ray?fref=pb_other" target="_blank"><span class="fb12"></span></a>
+                                                                                                                                                                <div class="card-reveal card-reveal10">
+                                                                                                                                                                    <h3 class="card-title">Lekhani Ray</h3>
+                                                                                                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                                                                                                                                                    </button>
+                                                                                                                                                                    <p>I have been a part of ACM VIT for more than a year now, and it has helped me understand and keep in touch with the ever-changing world of technology.</p>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </li>
+                                                                                                                                                    </ul>
+                                                                                                                                                </section>
+                                                                                                                                            </div>
+                                                                                                                                            <section id="photo" class="clearfix target">
+                                                                                                                                                <header>
+                                                                                                                                                    <h2 class="navh2s">Gallery</h2>
+                                                                                                                                                    <p>A sneak peek into some of our stunning events and workshops!</p>
+                                                                                                                                                </header>
+                                                                                                                                                <div class="left">
+                                                                                                                                                    <div class="photo-wrapper medium"> <img src="images/rjday/home/photos/1.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                    <div class="photo-wrapper small"> <img src="images/rjday/home/photos/6.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                    <div class="photo-wrapper small"> <img src="images/rjday/home/photos/7.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                    <div class="photo-wrapper medium"> <img src="images/rjday/home/photos/9.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="right">
+                                                                                                                                                    <div class="photo-wrapper small"> <img src="images/rjday/home/photos/2.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                    <div class="photo-wrapper small"> <img src="images/rjday/home/photos/3.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                    <div class="photo-wrapper small"> <img src="images/rjday/home/photos/5.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                    <div class="photo-wrapper medium"> <img src="images/rjday/home/photos/4.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                    <div class="photo-wrapper large"> <img src="images/rjday/home/photos/8.jpg" alt="ACM VIT"> </div>
+                                                                                                                                                </div>
                                                                                                                                             </section>
-                                                                                                                                            <footer id="footer">
-                                                                                                                                                <ul class="unstyled-list social footersocialul">
-                                                                                                                                                    <li id="fooli1"><a class="twitter" href="http://twitter.com/ACMVITU"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                                                                                                                                                    </li>
-                                                                                                                                                    <li id="fooli2"><a class="facebook" href="http://facebook.com/ACM.VITU"><span></span><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                                                                                                                                                    </li>
-                                                                                                                                                    <li id="fooli3"><a class="github" href="https://github.com/ACM-VIT"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                                                                                                                                                    </li>
-                                                                                                                                                </ul>
-                                                                                                                                                <a href="index.html"><img src="images/ourlogo2.png" class="bottomlogo pull-left" id="bottomlogo1" alt="ACM">
-                                                                                                                                                </a>
-                                                                                                                                                <a href="http://www.vit.ac.in" target="_blank"><img src="images/vitlogo.png" class="bottomlogo pull-right" id="bottomlogo2" alt="ACM">
-                                                                                                                                                </a>
-                                                                                                                                            </footer>
-                                                                                                                                        </div>
-                                                                                                                                        <script>
-                                                                                                                                        var require = {
-                                                                                                                                            "baseUrl": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/scripts\/modules\/",
-                                                                                                                                            "cacheVersion": 0,
-                                                                                                                                            "urlArgs": "v=0",
-                                                                                                                                            "waitSeconds": 30,
-                                                                                                                                            "paths": {
-                                                                                                                                                "core": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/core\/js",
-                                                                                                                                                "employer": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/employer\/js",
-                                                                                                                                                "admin": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/admin\/js",
-                                                                                                                                                "jobseeker": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/nonemployer\/js",
-                                                                                                                                                "payment": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/payment\/js",
-                                                                                                                                                "media": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/media\/js",
-                                                                                                                                                "fselectmenu": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fselectmenu\/js\/modules",
-                                                                                                                                                "affiliate": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/affiliate\/js",
-                                                                                                                                                "rjcvclient": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjcvclient\/js",
-                                                                                                                                                "rjmap": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjmap\/js",
-                                                                                                                                                "fpswfupload": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fpswfupload\/js\/swfupload"
-                                                                                                                                            }
-                                                                                                                                        };
-                                                                                                                                        var CACHE_VER = require.cacheVersion;
-                                                                                                                                        </script>
-                                                                                                                                        <script src="js/jquery.js"></script>
-                                                                                                                                        <script src="js/bootstrap.min.js"></script>
-                                                                                                                                        <!--<script src="js/51ba338cfcd.js?0"></script>-->
-                                                                                                                                        <script src="js/c4a545dcfcd.js?0"></script>
-                                                                                                                                        <script src="js/card.js"></script>
-                                                                                                                                        <script src="js/achi.js"></script>
-                                                                                                                                        <script src="js/jquery.particleground.min.js"></script>
-                                                                                                                                        <script src="js/demo.js"></script>
-                                                                                                                                        <script src="js/myjs.js"></script>
-                                                                                                                                        <script>
-                                                                                                                                        (function(i, s, o, g, r, a, m) {
-                                                                                                                                            i['GoogleAnalyticsObject'] = r;
-                                                                                                                                            i[r] = i[r] || function() {
-                                                                                                                                                (i[r].q = i[r].q || []).push(arguments)
-                                                                                                                                            }, i[r].l = 1 * new Date();
-                                                                                                                                            a = s.createElement(o),
-                                                                                                                                            m = s.getElementsByTagName(o)[0];
-                                                                                                                                            a.async = 1;
-                                                                                                                                            a.src = g;
-                                                                                                                                            m.parentNode.insertBefore(a, m)
-                                                                                                                                        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+                                                                                                                                            <section id="contactus" class="clearfix target">
+                                                                                                                                                <header>
+                                                                                                                                                    <h2 class="navh2s">Contact Us</h2> </header>
+                                                                                                                                                    <div class="contactusdiv1 container">
+                                                                                                                                                        <div class="addressdiv col-md-4"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;VIT University, Vellore </div>
+                                                                                                                                                        <div class="emaildiv col-md-4"> <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;vituacm@gmail.com </div>
+                                                                                                                                                        <div class="phndiv col-md-4"> <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;+91 97910 85772 </div>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div class="contactusdiv2 container">
+                                                                                                                                                        <p class="contusp">Got any queries? Just leave your details below, along with whatever you want to ask us.</p>
+                                                                                                                                                        <div class="formdiv">
+                                                                                                                                                            <form method="post" action="contact.php" class="">
+                                                                                                                                                                <div class="text-field-name col-md-6">
+                                                                                                                                                                    <input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}"> </div>
+                                                                                                                                                                    <div class="text-field-name col-md-6">
+                                                                                                                                                                        <input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}"> </div>
+                                                                                                                                                                        <div class="text-field-subject col-md-12">
+                                                                                                                                                                            <input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}"> </div>
+                                                                                                                                                                            <div class="text-field-message col-md-12">
+                                                                                                                                                                                <textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
+                                                                                                                                                                            </div>
+                                                                                                                                                                            <div class="text-field-submit col-md-offset-4 col-md-4">
+                                                                                                                                                                                <input type="submit" value="Submit"> </div>
+                                                                                                                                                                            </form>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </section>
+                                                                                                                                                                <footer id="footer">
+                                                                                                                                                                    <ul class="unstyled-list social footersocialul">
+                                                                                                                                                                        <li id="fooli1"><a class="twitter" href="http://twitter.com/ACMVITU"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                                                                                                                                                                        </li>
+                                                                                                                                                                        <li id="fooli2"><a class="facebook" href="http://facebook.com/ACM.VITU"><span></span><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                                                                                                                                                                        </li>
+                                                                                                                                                                        <li id="fooli3"><a class="github" href="https://github.com/ACM-VIT"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                                                                                                                                                                        </li>
+                                                                                                                                                                    </ul>
+                                                                                                                                                                    <a href="http://acmvit.com"><img src="images/ourlogo2.png" class="bottomlogo pull-left" id="bottomlogo1" alt="ACM">
+                                                                                                                                                                    </a>
+                                                                                                                                                                    <a href="http://www.vit.ac.in" target="_blank"><img src="images/vitlogo.png" class="bottomlogo pull-right" id="bottomlogo2" alt="ACM">
+                                                                                                                                                                    </a>
+                                                                                                                                                                </footer>
+                                                                                                                                                            </div>
+                                                                                                                                                            <script>
+                                                                                                                                                            var require = {
+                                                                                                                                                                "baseUrl": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/scripts\/modules\/",
+                                                                                                                                                                "cacheVersion": 0,
+                                                                                                                                                                "urlArgs": "v=0",
+                                                                                                                                                                "waitSeconds": 30,
+                                                                                                                                                                "paths": {
+                                                                                                                                                                    "core": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/core\/js",
+                                                                                                                                                                    "employer": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/employer\/js",
+                                                                                                                                                                    "admin": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/admin\/js",
+                                                                                                                                                                    "jobseeker": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/nonemployer\/js",
+                                                                                                                                                                    "payment": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/payment\/js",
+                                                                                                                                                                    "media": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/media\/js",
+                                                                                                                                                                    "fselectmenu": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fselectmenu\/js\/modules",
+                                                                                                                                                                    "affiliate": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/affiliate\/js",
+                                                                                                                                                                    "rjcvclient": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjcvclient\/js",
+                                                                                                                                                                    "rjmap": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjmap\/js",
+                                                                                                                                                                    "fpswfupload": "https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fpswfupload\/js\/swfupload"
+                                                                                                                                                                }
+                                                                                                                                                            };
+                                                                                                                                                            var CACHE_VER = require.cacheVersion;
+                                                                                                                                                            </script>
+                                                                                                                                                            <script src="js/jquery.js"></script>
+                                                                                                                                                            <script src="js/bootstrap.min.js"></script>
+                                                                                                                                                            <!--<script src="js/51ba338cfcd.js?0"></script>-->
+                                                                                                                                                            <script src="js/c4a545dcfcd.js?0"></script>
+                                                                                                                                                            <script src="js/card.js"></script>
+                                                                                                                                                            <script src="js/achi.js"></script>
+                                                                                                                                                            <script src="js/jquery.particleground.min.js"></script>
+                                                                                                                                                            <script src="js/demo.js"></script>
+                                                                                                                                                            <script src="js/myjs.js"></script>
+                                                                                                                                                            <script>
+                                                                                                                                                            (function(i, s, o, g, r, a, m) {
+                                                                                                                                                                i['GoogleAnalyticsObject'] = r;
+                                                                                                                                                                i[r] = i[r] || function() {
+                                                                                                                                                                    (i[r].q = i[r].q || []).push(arguments)
+                                                                                                                                                                }, i[r].l = 1 * new Date();
+                                                                                                                                                                a = s.createElement(o),
+                                                                                                                                                                m = s.getElementsByTagName(o)[0];
+                                                                                                                                                                a.async = 1;
+                                                                                                                                                                a.src = g;
+                                                                                                                                                                m.parentNode.insertBefore(a, m)
+                                                                                                                                                            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-                                                                                                                                        ga('create', 'UA-81239297-1', 'auto');
-                                                                                                                                        ga('send', 'pageview');
-                                                                                                                                        </script>
-                                                                                                                                    </body>
+                                                                                                                                                            ga('create', 'UA-81239297-1', 'auto');
+                                                                                                                                                            ga('send', 'pageview');
+                                                                                                                                                            </script>
+                                                                                                                                                        </body>
 
-                                                                                                                                    </html>
+                                                                                                                                                        </html>
