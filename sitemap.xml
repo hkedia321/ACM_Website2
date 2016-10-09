@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://acmvit.com/</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://acmvit.com/html/event0.html</loc>
+  <lastmod>2016-08-09T18:09:14+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://acmvit.com/html/event1.html</loc>
+  <lastmod>2016-07-23T18:32:59+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://acmvit.com/html/event2.html</loc>
+  <lastmod>2016-07-23T18:32:59+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://acmvit.com/html/event3.html</loc>
+  <lastmod>2016-07-23T18:32:59+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://acmvit.com/html/event4.html</loc>
+  <lastmod>2016-07-23T18:32:59+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://acmvit.com/html/event5.html</loc>
+  <lastmod>2016-07-23T18:32:59+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+</urlset>
