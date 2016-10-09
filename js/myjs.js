@@ -6,6 +6,59 @@ $(window).scroll(function() {
         interval: 5e3
     }), window.width > 769 && ($("#bottomlogo1").addClass("pull-left"), $("#bottomlogo2").addClass("pull-right"))
 });
+
+var eveclim4 = 0;
+$(document).ready(function() {
+    $("#eveliidm4").click(function() {
+        eveclim2++, eveclim2 % 2 == 0 ? ($("#eveliidm4").css("background-color", "#ffffff"), $("#eveliidm4 .events3dots").removeClass("fa-arrow-up"), $("#eveliidm4 .events3dots").addClass("fa-arrow-down")) : ($("#eveliidm4").css("background-color", "#eeeeee"), $("#eveliidm4 .events3dots").removeClass("fa-arrow-down"), $("#eveliidm4 .events3dots").addClass("fa-arrow-up"))
+    })
+}), $(document).ready(function() {
+    $("#eveliidm4").hover(function() {
+        eveclim2 % 2 == 0 ? ($("#eveliidm4 .events3dots").addClass("fa-arrow-down"), $("#eveliidm4 .events3dots").fadeIn("fast")) : ($("#eveliidm4 .events3dots").addClass("fa-arrow-up"), $("#eveliidm4 .events3dots").fadeIn("fast"))
+    }, function() {
+        eveclim2 % 2 == 0 ? ($("#eveliidm4 .events3dots").fadeOut("fast"), $("#eveliidm4 .events3dots").removeClass("fa-arrow-down")) : ($("#eveliidm4 .events3dots").fadeOut("fast"), $("#eveliidm4 .events3dots").removeClass("fa-arrow-up"))
+    })
+});
+
+var eveclim3 = 0;
+$(document).ready(function() {
+    $("#eveliidm3").click(function() {
+        eveclim3++, eveclim3 % 2 == 0 ? ($("#eveliidm3").css("background-color", "#ffffff"), $("#eveliidm3 .events3dots").removeClass("fa-arrow-up"), $("#eveliidm3 .events3dots").addClass("fa-arrow-down")) : ($("#eveliidm3").css("background-color", "#eeeeee"), $("#eveliidm3 .events3dots").removeClass("fa-arrow-down"), $("#eveliidm3 .events3dots").addClass("fa-arrow-up"))
+    })
+}), $(document).ready(function() {
+    $("#eveliidm3").hover(function() {
+        eveclim3 % 2 == 0 ? ($("#eveliidm3 .events3dots").addClass("fa-arrow-down"), $("#eveliidm3 .events3dots").fadeIn("fast")) : ($("#eveliidm3 .events3dots").addClass("fa-arrow-up"), $("#eveliidm3 .events3dots").fadeIn("fast"))
+    }, function() {
+        eveclim3 % 2 == 0 ? ($("#eveliidm3 .events3dots").fadeOut("fast"), $("#eveliidm3 .events3dots").removeClass("fa-arrow-down")) : ($("#eveliidm3 .events3dots").fadeOut("fast"), $("#eveliidm3 .events3dots").removeClass("fa-arrow-up"))
+    })
+});
+
+var eveclim2 = 0;
+$(document).ready(function() {
+    $("#eveliidm2").click(function() {
+        eveclim2++, eveclim2 % 2 == 0 ? ($("#eveliidm2").css("background-color", "#ffffff"), $("#eveliidm2 .events3dots").removeClass("fa-arrow-up"), $("#eveliidm2 .events3dots").addClass("fa-arrow-down")) : ($("#eveliidm2").css("background-color", "#eeeeee"), $("#eveliidm2 .events3dots").removeClass("fa-arrow-down"), $("#eveliidm2 .events3dots").addClass("fa-arrow-up"))
+    })
+}), $(document).ready(function() {
+    $("#eveliidm2").hover(function() {
+        eveclim2 % 2 == 0 ? ($("#eveliidm2 .events3dots").addClass("fa-arrow-down"), $("#eveliidm2 .events3dots").fadeIn("fast")) : ($("#eveliidm2 .events3dots").addClass("fa-arrow-up"), $("#eveliidm2 .events3dots").fadeIn("fast"))
+    }, function() {
+        eveclim2 % 2 == 0 ? ($("#eveliidm2 .events3dots").fadeOut("fast"), $("#eveliidm2 .events3dots").removeClass("fa-arrow-down")) : ($("#eveliidm2 .events3dots").fadeOut("fast"), $("#eveliidm2 .events3dots").removeClass("fa-arrow-up"))
+    })
+});
+
+var eveclim1 = 0;
+$(document).ready(function() {
+    $("#eveliidm1").click(function() {
+        eveclim1++, eveclim1 % 2 == 0 ? ($("#eveliidm1").css("background-color", "#ffffff"), $("#eveliidm1 .events3dots").removeClass("fa-arrow-up"), $("#eveliidm1 .events3dots").addClass("fa-arrow-down")) : ($("#eveliidm1").css("background-color", "#eeeeee"), $("#eveliidm1 .events3dots").removeClass("fa-arrow-down"), $("#eveliidm1 .events3dots").addClass("fa-arrow-up"))
+    })
+}), $(document).ready(function() {
+    $("#eveliidm1").hover(function() {
+        eveclim1 % 2 == 0 ? ($("#eveliidm1 .events3dots").addClass("fa-arrow-down"), $("#eveliidm1 .events3dots").fadeIn("fast")) : ($("#eveliidm1 .events3dots").addClass("fa-arrow-up"), $("#eveliidm1 .events3dots").fadeIn("fast"))
+    }, function() {
+        eveclim1 % 2 == 0 ? ($("#eveliidm1 .events3dots").fadeOut("fast"), $("#eveliidm1 .events3dots").removeClass("fa-arrow-down")) : ($("#eveliidm1 .events3dots").fadeOut("fast"), $("#eveliidm1 .events3dots").removeClass("fa-arrow-up"))
+    })
+});
+
 var evecli0 = 0;
 $(document).ready(function() {
     $("#eveliid0").click(function() {
