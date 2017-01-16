@@ -6,11 +6,6 @@ function make_connection(){
 	$dbuser="root";
 	$dbpass="secret";
 	$dbname="acmvit";
-
-		 # $dbhost = 'localhost'; //Define database server host
-		 # $dbuser= 'vitcabsh'; //Define database username
-		 # $dbpass= 'lDTy9176sg'; //Define database password
-		 # $dbname = 'vitcabsh_acmvit'; //Define database name
 	$connection=mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 	if(mysqli_connect_errno()){
 		die("Database connection failed:".mysqli_conect_error()."(".mysqli_connect_errorno().")"

@@ -1,6 +1,6 @@
 <?php
-	session_start();
-	?>
+session_start();
+?>
 <!DOCTYPE html>
 <!--[if lt IE 8]> <html class="no-js ie ie8 ie7"> <![endif]-->
 <!--[if lte IE 8]> <html class="no-js ie ie8"> <![endif]-->
@@ -180,7 +180,7 @@
 
 									myjs.js -->
 									<div class="list upable eveupdiv">
-										<h3>2016</h3>
+										<h3>2017</h3>
 										<ul class="unstyled-list">
 											<li class="clearfix" id="eveliidm3" data-toggle="collapse" data-target="#evecolm3">
 												<div class="date">19 January 2017 </div>
@@ -190,6 +190,11 @@
 												<br>
 												<img src="images/eventm3/recruitment.jpg" class="img-responsive">
 											</div>
+										</ul>
+									</div>
+									<div class="list upable eveupdiv">
+										<h3>2016</h3>
+										<ul class="unstyled-list">
 											<li class="clearfix" id="eveliidm2" data-toggle="collapse" data-target="#evecolm2">
 												<div class="date">15 October 2016 </div>
 												<div class="place">Talk the Future Tech - <span> Bridge between Human and Computer. </span> </div> <i class="fa events3dots"></i> 
