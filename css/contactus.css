@@ -1,1 +1,92 @@
-.contactusdiv1,.contactusdiv2 p{text-align:center;font-family:'Source Sans Pro',sans-serif;font-size:25px}#contactus{background-image:url(../images/contactusbg.png);background-size:cover;background-repeat:no-repeat;margin-top:1px;padding-top:2rem;padding-bottom:4rem}.contactusdiv1,.contactusdiv2{margin-top:4rem}.contactusdiv1{color:#f2f2f2}.contactusdiv2 p{color:rgba(255,255,255,.8)}.addressdiv,.emaildiv,.phndiv{display:inline-block;margin-left:auto;margin-right:auto}.contactusdiv1 i{vertical-align:middle;transition:all .3s ease}.contactusdiv1 i:hover{color:#1a8af3}#contactus form input[type=text],#contactus form input[type=email],#contactus textarea{width:100%;padding:15px 0;margin-bottom:2rem;background:rgba(0,0,0,.57);color:#fff;font-family:Asap,sans-serif;font-size:18px;outline:0;font-weight:400;text-indent:38px;border:none}#contactus textarea{height:15rem!important;border-radius:4px}#contactus form input[type=submit]{padding:.75em 1em;color:#FFF;background-color:#0972d5;font-size:19px;font-weight:400;display:block;outline:0;border:none;border-radius:1px;width:100%}#contactus form input:focus,#contactus textarea:focus{border:1px solid #1a8af3!important}#contactus form input[type=submit]:hover{background-color:#1a8af3;border:none!important}@media(min-width:769px){#contactus .formdiv{margin-top:2rem;margin-right:20rem;margin-left:20rem}}@media (max-width:768px){#contactus form input{font-size:16px}.contusp{font-size:16px!important}}
+.contactusdiv1,
+.contactusdiv2 p {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px
+}
+#contactus {
+    background-image: url(../images/contactusbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    padding-top: 2rem;
+    padding-bottom: 4rem
+}
+.contactusdiv1,
+.contactusdiv2 {
+    margin-top: 4rem
+}
+.contactusdiv1 {
+    color: #f2f2f2
+}
+.contactusdiv2 p {
+    color: rgba(255, 255, 255, .8)
+}
+.addressdiv,
+.emaildiv,
+.phndiv {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto
+}
+.contactusdiv1 i {
+    vertical-align: middle;
+    transition: all .3s ease
+}
+.contactusdiv1 i:hover {
+    color: #1a8af3
+}
+#contactus form input[type=text],
+#contactus form input[type=email],
+#contactus textarea {
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 2rem;
+    background: rgba(0, 0, 0, .57);
+    color: #fff;
+    font-family: Asap, sans-serif;
+    font-size: 18px;
+    outline: 0;
+    font-weight: 400;
+    text-indent: 38px;
+    border: none
+}
+#contactus textarea {
+    height: 15rem!important;
+    border-radius: 4px
+}
+#contactus form input[type=submit] {
+    padding: .75em 1em;
+    color: #FFF;
+    background-color: #0972d5;
+    font-size: 19px;
+    font-weight: 400;
+    display: block;
+    outline: 0;
+    border: none;
+    border-radius: 1px;
+    width: 100%
+}
+#contactus form input:focus,
+#contactus textarea:focus {
+    border: 1px solid #1a8af3!important
+}
+#contactus form input[type=submit]:hover {
+    background-color: #1a8af3;
+    border: none!important
+}
+@media(min-width:769px) {
+    #contactus .formdiv {
+        margin-top: 2rem;
+        margin-right: 20rem;
+        margin-left: 20rem
+    }
+}
+@media (max-width: 768px) {
+    #contactus form input {
+        font-size: 16px
+    }
+    .contusp {
+        font-size: 16px!important
+    }
+}
