@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <!DOCTYPE html>
 <!--[if lt IE 8]> <html class="no-js ie ie8 ie7"> <![endif]-->
 <!--[if lte IE 8]> <html class="no-js ie ie8"> <![endif]-->
@@ -47,6 +45,51 @@ session_start();
 		#evecol0 p{
 			margin-bottom: 15px;
 		}
+		.submit_but{
+			padding: .75em 1em;
+			color: #FFF;
+			background-color: #0972d5;
+			font-size: 19px;
+			font-weight: 400;
+			display: block;
+			outline: 0;
+			border: none;
+			border-radius: 1px;
+			width: 100%;
+		}
+		.submit_but:hover{
+			background-color: #1a8af3;
+			border: none!important;
+		}
+		.but_gif{
+			display: none;
+			width: 30px;
+			height: 30px;
+		}
+		.but_gif_show{
+			display: inline-block;
+		}
+		.sub_disabled{
+			background-color: rgb(80, 80, 80) !important;
+		}
+		.subs_but{
+			height: 65px;
+			font-size: 2rem;
+			line-height: 34px;
+			transition: all .5s ease;
+			margin-top: 4rem;
+			margin-bottom: 4rem;
+		}
+		.subs_but:hover{
+			color: #fff;
+			background: #3f3545;
+			border-color: #fff;
+		}
+		.subs_load{
+			display: none;
+			width: 30px;
+			height: 30px;
+		}
 		@media (max-width: 769px){
 			.leftsuretext{
 				text-align: left !important;
@@ -61,6 +104,12 @@ session_start();
 	<!--[if gt IE 9]><!-->
 	<!-- <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-button/paper-button.html"> -->
 	<!--<![endif]-->
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+			emailjs.init("user_KdsHYnbwRPgcqHJkuyTH7");
+		})();
+	</script>
 </head>
 
 <body>
@@ -138,10 +187,11 @@ session_start();
 									<h3>Subscribe to be the first to receive updates on all our upcoming events, workshops, and any other juicy details!</h3>
 									<form method="post" action="contact.php">
 										<div class="col-md-8">
-											<input type="email" autocomplete="off" placeholder="Your Email address*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Your Email address*';}" class="form-control emailinpform" name="email" required>
+											<input type="email" autocomplete="off" placeholder="Your Email address*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Your Email address*';}" class="form-control emailinpform" name="email" required id="subs_email">
 										</div>
 										<div class="col-md-4">
-											<input type="submit" name="subscribe_submit" value="Subscribe" class="form-control">
+											
+											<button type="button" class="subs_but form-control" onclick="subscribe_submit_func()"><span class="subs_text">Subscribe</span> <img class="subs_load" src="images/loading_round.gif"></button>
 										</div>
 									</form>
 								</div>
@@ -691,21 +741,22 @@ session_start();
 										<div class="contactusdiv2 container">
 											<p class="contusp">Got any queries? Just leave your details below, along with whatever you want to ask us.</p>
 											<div class="formdiv">
-												<form method="post" action="contact.php" class="">
+												<form method="post" class="">
 													<div class="text-field-name col-md-6">
-														<input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}">
+														<input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}" id="name">
 													</div>
 													<div class="text-field-name col-md-6">
-														<input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}"> 
+														<input id="email" type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}"> 
 													</div>
 													<div class="text-field-subject col-md-12">
-														<input type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}"> 
+														<input id="subject" type="text" title="Subject" autocomplete="off" name="subject" placeholder="Subject" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject';}"> 
 													</div>
 													<div class="text-field-message col-md-12">
-														<textarea name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
+														<textarea id="message" name="message" title="Message" autocomplete="off" placeholder="Message" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message';"></textarea>
 													</div>
 													<div class="text-field-submit col-md-offset-4 col-md-4">
-														<input type="submit" name="contact_submit" value="Submit"> 
+														
+														<button onclick="contact_submit()" type="button" name="contact_submit_but" class="submit_but" value="Submit"><span class="submit_text">Submit</span> <img src="images/loading_round.gif" class="but_gif"></button>
 													</div>
 												</form>
 											</div>
@@ -774,24 +825,105 @@ session_start();
 									ga('send', 'pageview');
 								</script>
 								<script type="text/javascript">
-									<?php
-									if(isset($_SESSION['contact_success']))
-									{
-										if($_SESSION['contact_success']=='send')
-											echo "alert('Thank you for contacting us. We will get back to you soon');";
-										if($_SESSION['contact_success']=='fail')
-											echo "alert('Some Error Occurred. Please try emailing or calling us')";
-										$_SESSION['contact_success']='none';
+									function start_loading(){
+										$(".but_gif").addClass("but_gif_show");
+										$(".submit_text").text("Loading..");
+										$(".submit_but").addClass("sub_disabled");
 									}
-									if(isset($_SESSION['subscribe_success']))
-									{
-										if($_SESSION['subscribe_success']=='send')
-											echo "alert('Thank you for subscribing us. We will get back to you soon');";
-										if($_SESSION['subscribe_success']=='fail')
-											echo "alert('Some Error Occurred. Please try emailing or calling us');";
-										$_SESSION['subscribe_success']='none';
+									function finish_loading(){
+										$(".but_gif").removeClass("but_gif_show");
+										$(".submit_text").text("Submit");
+										$(".submit_but").removeClass("sub_disabled");
 									}
-									?>
+									function clean_all(){
+										$("#name").val("");
+										$("#email").val("");
+										$("#subject").val("");
+										$("#message").val("");
+									}
+									function send_mail(name,email,subject,message){
+										console.log("sending..");
+										start_loading();
+										emailjs.send("gmail","acmvit_website_contact_form",{name: name, email: email, subject: subject, message: message})
+										.then(function(response) {
+											finish_loading();
+											alert("Thank you for contacting us! We will get back to you soon.");
+											console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+										}, function(err) {
+											finish_loading();
+											alert("Some Error Occurred. Please try again later");
+											console.log("FAILED. error=", err);
+										});
+
+										
+										clean_all();
+									}
+									function contact_submit(){
+										var name=$("#name").val();
+										var email=$("#email").val();
+										var subject=$("#subject").val();
+										var message=$("#message").val();
+										if(name==""){
+											alert("Please fill in your name");
+										}
+										else if(email==""){
+											alert("Please fill in your email");
+										}
+										else if(subject==""){
+											alert("Please fill in your subject");
+										}
+										else if(message==""){
+											alert("Please fill in your message");
+										}
+										else{
+											send_mail(name,email,subject,message);
+										}
+									}
+
+
+									function start_loading_subs(){
+										$(".subs_load").addClass("but_gif_show");
+										$(".subs_text").text("Loading..");
+										$(".subs_but").addClass("sub_disabled");
+									}
+									function finish_loading_subs(){
+										$(".subs_load").removeClass("but_gif_show");
+										$(".subs_text").text("Submit");
+										$(".subs_but").removeClass("sub_disabled");
+									}
+									function clean_all_subs(){
+										
+										$("#subs_email").val("");
+										
+									}
+									function send_mail_subs(email_s){
+										console.log("sending..");
+										start_loading_subs();
+										emailjs.send("gmail","acm_vit_website_subscribe",{email: email_s})
+										.then(function(response) {
+											finish_loading_subs();
+											alert("Thank you for Subscribing! We will get back to you soon.");
+											console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+										}, function(err) {
+											finish_loading_subs();
+											alert("Some Error Occurred. Please try again later");
+											console.log("FAILED. error=", err);
+										});
+
+										
+										clean_all_subs();
+									}
+									function subscribe_submit_func(){
+										console.log("func executed");
+										var email_s=$("#subs_email").val();
+										if(email_s==""){
+											alert("Please enter your email id");
+										}
+										else
+										{
+											send_mail_subs(email_s);
+										}
+									}
 								</script>
 							</body>
 

@@ -1,1 +1,617 @@
-#aboutus p,#loader img,.evecol p,.headfullform,.headvit,.navh2s{text-align:center}#loader,.downimg{position:absolute}#main-nav,.events3dots,.navdispnone,.no-js #loader,.no-js #pre-div{display:none}b,h1,h2,h3,h4,h5,h6,p{font-family:Source Sans Pro!important}#header p,b,optgroup,strong{font-family:Source Sans Pro}.headvit{font-size:3.6rem!important;font-weight:800!important;color:#f2f2f2!important}@media (max-width:767px){#header header p{margin-top:27px;font-size:31px!important;line-height:42px!important}.hiddeninsmall{display:none}.headvit{font-size:2.8rem!important}}b,optgroup,strong{font-weight:700;color:#727272}#achievements i.fa,.famper,.quoteimg{vertical-align:middle}#bottomlogo{width:120px}#header p{margin:14px 0 0;font-size:37px;font-weight:100;text-transform:none;letter-spacing:.09em;line-height:30px}.head-elem-wrap{color:#fff}.headfullform{font-size:4.5rem;color:#1a8af3}.headvit,.navh2s{color:#fff}@media (max-width:769px){.headfullform{font-size:2.5rem}.headvit{font-size:2rem}#contactus i.fa{display:inline!important}}@media (min-width:1000px) and (max-width:1110px){#main-nav ul li{font-size:.3rem!important;margin-left:5px!important;margin-right:5px!important}}body{font-family:exo;font-family:sans-serif}#aboutus p,#achievements .names,#achievements header p,#achiul,#photo header p{font-family:'Source Sans Pro',sans-serif}#pre-div{background-color:#fff;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;z-index:10000}#loader{background-position:center center;background-repeat:no-repeat;height:200px;left:50%;margin:-100px 0 0 -100px;top:50%;width:230px}#loader img{width:200px;margin-left:auto;margin-right:auto}#header,#large-header{min-height:100vh!important}.border{border:1px solid red}.borderg{border:1px solid green}#main-nav .signin:hover{background-color:#539de3}#achiul,.achi{background-color:#fff}.navh2s{font-size:44px;font-weight:400}@media (max-width:500px){.navh2s{font-size:35px;font-weight:300}}#aboutus p,#achievements header p{font-weight:600;font-size:19px}li blockquote .yelloww{color:#ffc526}#aboutus{margin-bottom:-1rem;padding-bottom:2rem;padding-top:3rem;color:#f2f2f2}#aboutus p{padding-left:1rem;padding-right:1rem;margin-top:5rem}#achievements header p{margin:8px 0 65px;color:#fff}#achievements{padding-top:17rem;min-height:100vh;background-color:#0271d9;margin-top:-4rem;padding-bottom:20rem;margin-bottom:-7rem}.achi{padding:2rem;margin-right:0;position:relative;border-radius:2px;border-bottom:2px solid #e8ecf0}.achi:hover{cursor:pointer}#achiul{list-style-type:none;color:#a2acba;font-size:16px;padding:1rem 2rem 2rem;padding-right:10px!important;border-radius:4px;box-shadow:0 8px 11px 0 rgba(0,0,0,.16),0 8px 16px 0 rgba(0,0,0,.12)}#achievements .names{font-weight:700;font-size:18px;color:#545c68}#achievements .compe{color:#a2acba;font-weight:600;font-size:16px}#achievements i.fa{color:#70757c;transition:all .3s ease}#achievements i.fa:hover{color:brown}#achievements .events3dots{position:absolute;top:40%;right:10px}@media (min-width:769px){#achiul{width:90rem;padding-right:5rem;margin-left:auto;margin-right:auto}#achievements .events3dots{position:absolute;top:40%;right:20px;font-size:16px}.achicol{margin-left:2rem;padding-left:1.5rem;border-left:2px solid #e8ecf0;border-bottom:1px solid #e8ecf0}#achidivscroll:hover{background-color:#005baf}}@media (max-width:769px){#achievements,#achiul,.achidiv,.achidivupcon{padding-left:0!important;padding-right:0!important}.achicol{text-align:center}#achievements{padding-bottom:15rem}.achidivupcon{width:95vw!important}#achiul,.achidiv{margin-left:auto!important;margin-right:auto!important}.achi{min-width:100%!important;max-width:100%!important;padding:.5rem 1rem 1rem;font-size:15px}#showbutton{margin-top:0}.corner{display:none!important}#company .active{z-index:1001}}.modal-body form input{height:65px;font-size:2rem;line-height:34px;transition:all .5s ease;margin-top:4rem;margin-bottom:4rem}.emailinpform{padding:19.5px 20px;border:none;box-shadow:none!important;border-bottom:2px solid #fff;border-radius:0!important;color:#fff!important;background:0 0!important}.modal-body form input[type=submit]:hover{color:#fff;background:#3f3545;border-color:#fff}.modal-body h3{color:#f2f2f2}.emailinpform::-webkit-input-placeholder{color:#f2f2f2!important}.emailinpform:-moz-placeholder{color:#f2f2f2!important}.emailinpform::-moz-placeholder{color:#f2f2f2!important}.emailinpform:-ms-input-placeholder{color:#f2f2f2!important}.modal-body form input[type=email]{border:none!important;background-color:rgba(0,0,0,.1)!important;transition:0!important}.modal-body form input[type=email]:focus{border:1px solid #fff!important}.head-elem-wrap p{color:#1a8af3!important}#photo{background-color:#fff;padding-top:15rem}#photo h2{color:#545c68;font-size:44px;font-weight:400}#photo header p{margin:8px 0 65px;color:#a1aab6;font-weight:600;font-size:19px}#photo .left,#photo .right{background-color:#f2f2f2}#photo img{background-color:#000;transition:opacity 1s ease,transform 1s ease;opacity:.8!important}#photo img:hover{transform:scale(1.2,1.2);opacity:1!important}#testimonial .meta{margin-top:-10px}#company header p{font-weight:10!important}#calendar li{position:relative;transition:background-color .5s}.events3dots{font-size:1.6rem}#calendar .events3dots{position:absolute;top:40%;right:18px;font-size:1.3rem}.evecol{padding-bottom:1rem;border-bottom:3px solid #e8ecf0}.evecol p{margin-bottom:5px}#calendar{margin-top:-5rem!important}#calendar iframe{height:250px;width:100%;border:none;overflow:hidden}@media (min-width:769px){#calendar{margin-top:-10rem!important}#calendar header{margin-top:0!important}#aboutus p{padding-left:20rem;padding-right:20rem}.evecol{margin-left:2rem;padding-left:1rem;border-left:2px solid #e8ecf0}#calendar .events3dots{top:40%;font-size:1.6rem}#calendar .evecol p{text-align:left}#aboutus{padding-bottom:3rem!important}#calendar iframe{height:500px}footer{padding-left:15vw;padding-right:16vw}}@media(max-width:769px){.eveupdiv{margin-left:0;margin-right:0}#calendar{padding-left:0;padding-right:0;width:95vw}#calendar ul{padding-left:0!important;padding-right:0!important;margin-left:0!important;margin-right:0!important;width:100%}#calendar li{margin-left:0!important;width:99%!important;padding-right:3rem!important}#calendar .events3dots{right:12px}}@media (max-width:600px){#presmesh3{display:none}#mainacmlogo{width:95vw!important}}.navactive{color:#bbc3cf!important}#quote-carousel .carousel-control{background:0 0;color:#222;font-size:2.3em;text-shadow:none;margin-top:12rem}#quote-carousel .carousel-control.left{left:-12px}#quote-carousel .carousel-control.right{right:-12px!important}#quote-carousel .carousel-indicators{right:50%;top:auto;bottom:0;margin-right:-19px}#quote-carousel .carousel-indicators li{background:silver}#quote-carousel .carousel-indicators .active{background:#333}.item blockquote{border-left:none;margin:0}.item blockquote img{margin-bottom:10px}.item blockquote p:before{float:left;margin-right:10px}.quoteimg{margin-top:5px}.famper{font-weight:700;font-size:18px}.thequote{font-style:italic}#quote-carousel .phototext{margin-top:15px}@media (min-width:768px){#quote-carousel{margin-bottom:0;padding:0 40px 30px}#quote-carousel .phototext{margin-top:35px}}@media (max-width:768px){#quote-carousel .carousel-indicators{bottom:-20px!important}#quote-carousel .carousel-indicators li{display:inline-block;margin:0 5px;width:15px;height:15px}#quote-carousel .carousel-indicators li.active{margin:0 5px;width:20px;height:20px}#quote-carousel .carousel-control{margin-left:1rem;margin-right:1rem;margin-top:7rem}}.bottomlogo{width:200px;margin-top:0}#bottomlogo2{width:190px;margin-top:0}@media (max-width:769px){.bottomlogo{width:130px;margin-top:0}#bottomlogo2{width:120px}}#header,#particles{width:100%;height:100vh}.footersocialul{margin-bottom:0}#particles{overflow:hidden;background:linear-gradient(to right bottom,#FF9800 50%,#212531 50%);background-size:cover}#header{position:absolute;left:0;top:0;text-align:center}#company{padding-top:0}footer{padding-bottom:4rem!important}footer li{transition:.5s ease}#fooli2:hover .fa-facebook{color:#3b5998}#fooli1:hover .fa-twitter{color:#00abf1}#fooli3:hover .fa-github{color:red}.helping{color:#1a8af3!important}
+#aboutus p,
+#loader img,
+.evecol p,
+.headfullform,
+.headvit,
+.navh2s {
+    text-align: center
+}
+#loader,
+.downimg {
+    position: absolute
+}
+#main-nav,
+.events3dots,
+.navdispnone,
+.no-js #loader,
+.no-js #pre-div {
+    display: none
+}
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Source Sans Pro!important
+}
+#header p,
+b,
+optgroup,
+strong {
+    font-family: Source Sans Pro
+}
+.headvit {
+    font-size: 3.6rem!important;
+    font-weight: 800!important;
+    color: #f2f2f2!important
+}
+@media (max-width: 767px) {
+    #header header p {
+        margin-top: 27px;
+        font-size: 31px!important;
+        line-height: 42px!important
+    }
+    .hiddeninsmall {
+        display: none
+    }
+    .headvit {
+        font-size: 2.8rem!important
+    }
+}
+b,
+optgroup,
+strong {
+    font-weight: 700;
+    color: #727272
+}
+#achievements i.fa,
+.famper,
+.quoteimg {
+    vertical-align: middle
+}
+#bottomlogo {
+    width: 120px
+}
+#header p {
+    margin: 14px 0 0;
+    font-size: 37px;
+    font-weight: 100;
+    text-transform: none;
+    letter-spacing: .09em;
+    line-height: 30px
+}
+.head-elem-wrap {
+    color: #fff
+}
+.headfullform {
+    font-size: 4.5rem;
+    color: #1a8af3
+}
+.headvit,
+.navh2s {
+    color: #fff
+}
+@media (max-width: 769px) {
+    .headfullform {
+        font-size: 2.5rem
+    }
+    .headvit {
+        font-size: 2rem
+    }
+    #contactus i.fa {
+        display: inline!important
+    }
+}
+@media (min-width: 1000px) and (max-width: 1110px) {
+    #main-nav ul li {
+        font-size: .3rem!important;
+        margin-left: 5px!important;
+        margin-right: 5px!important
+    }
+}
+body {
+    font-family: exo;
+    font-family: sans-serif
+}
+#aboutus p,
+#achievements .names,
+#achievements header p,
+#achiul,
+#photo header p {
+    font-family: 'Source Sans Pro', sans-serif
+}
+#pre-div {
+    background-color: #fff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000
+}
+#loader {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    top: 50%;
+    width: 230px
+}
+#loader img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto
+}
+#header,
+#large-header {
+    min-height: 100vh!important
+}
+.border {
+    border: 1px solid red
+}
+.borderg {
+    border: 1px solid green
+}
+#main-nav .signin:hover {
+    background-color: #539de3
+}
+#achiul,
+.achi {
+    background-color: #fff
+}
+.navh2s {
+    font-size: 44px;
+    font-weight: 400
+}
+@media (max-width: 500px) {
+    .navh2s {
+        font-size: 35px;
+        font-weight: 300
+    }
+}
+#aboutus p,
+#achievements header p {
+    font-weight: 600;
+    font-size: 19px
+}
+li blockquote .yelloww {
+    color: #ffc526
+}
+#aboutus {
+    margin-bottom: -1rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    color: #f2f2f2
+}
+#aboutus p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 5rem
+}
+#achievements header p {
+    margin: 8px 0 65px;
+    color: #fff
+}
+#achievements {
+    padding-top: 17rem;
+    min-height: 100vh;
+    background-color: #0271d9;
+    margin-top: -4rem;
+    padding-bottom: 20rem;
+    margin-bottom: -7rem
+}
+.achi {
+    padding: 2rem;
+    margin-right: 0;
+    position: relative;
+    border-radius: 2px;
+    border-bottom: 2px solid #e8ecf0
+}
+.achi:hover {
+    cursor: pointer
+}
+#achiul {
+    list-style-type: none;
+    color: #a2acba;
+    font-size: 16px;
+    padding: 1rem 2rem 2rem;
+    padding-right: 10px!important;
+    border-radius: 4px;
+    box-shadow: 0 8px 11px 0 rgba(0, 0, 0, .16), 0 8px 16px 0 rgba(0, 0, 0, .12)
+}
+#achievements .names {
+    font-weight: 700;
+    font-size: 18px;
+    color: #545c68
+}
+#achievements .compe {
+    color: #a2acba;
+    font-weight: 600;
+    font-size: 16px
+}
+#achievements i.fa {
+    color: #70757c;
+    transition: all .3s ease
+}
+#achievements i.fa:hover {
+    color: brown
+}
+#achievements .events3dots {
+    position: absolute;
+    top: 40%;
+    right: 10px
+}
+@media (min-width: 769px) {
+    #achiul {
+        width: 90rem;
+        padding-right: 5rem;
+        margin-left: auto;
+        margin-right: auto
+    }
+    #achievements .events3dots {
+        position: absolute;
+        top: 40%;
+        right: 20px;
+        font-size: 16px
+    }
+    .achicol {
+        margin-left: 2rem;
+        padding-left: 1.5rem;
+        border-left: 2px solid #e8ecf0;
+        border-bottom: 1px solid #e8ecf0
+    }
+    #achidivscroll:hover {
+        background-color: #005baf
+    }
+}
+@media (max-width: 769px) {
+    #achievements,
+    #achiul,
+    .achidiv,
+    .achidivupcon {
+        padding-left: 0!important;
+        padding-right: 0!important
+    }
+    .achicol {
+        text-align: center
+    }
+    #achievements {
+        padding-bottom: 15rem
+    }
+    .achidivupcon {
+        width: 95vw!important
+    }
+    #achiul,
+    .achidiv {
+        margin-left: auto!important;
+        margin-right: auto!important
+    }
+    .achi {
+        min-width: 100%!important;
+        max-width: 100%!important;
+        padding: .5rem 1rem 1rem;
+        font-size: 15px
+    }
+    #showbutton {
+        margin-top: 0
+    }
+    .corner {
+        display: none!important
+    }
+    #company .active {
+        z-index: 1001
+    }
+}
+.modal-body form input {
+    height: 65px;
+    font-size: 2rem;
+    line-height: 34px;
+    transition: all .5s ease;
+    margin-top: 4rem;
+    margin-bottom: 4rem
+}
+.emailinpform {
+    padding: 19.5px 20px;
+    border: none;
+    box-shadow: none!important;
+    border-bottom: 2px solid #fff;
+    border-radius: 0!important;
+    color: #fff!important;
+    background: 0 0!important
+}
+.modal-body form input[type=submit]:hover {
+    color: #fff;
+    background: #3f3545;
+    border-color: #fff
+}
+.modal-body h3 {
+    color: #f2f2f2
+}
+.emailinpform::-webkit-input-placeholder {
+    color: #f2f2f2!important
+}
+.emailinpform:-moz-placeholder {
+    color: #f2f2f2!important
+}
+.emailinpform::-moz-placeholder {
+    color: #f2f2f2!important
+}
+.emailinpform:-ms-input-placeholder {
+    color: #f2f2f2!important
+}
+.modal-body form input[type=email] {
+    border: none!important;
+    background-color: rgba(0, 0, 0, .1)!important;
+    transition: 0!important
+}
+.modal-body form input[type=email]:focus {
+    border: 1px solid #fff!important
+}
+.head-elem-wrap p {
+    color: #1a8af3!important
+}
+#photo {
+    background-color: #fff;
+    padding-top: 15rem
+}
+#photo h2 {
+    color: #545c68;
+    font-size: 44px;
+    font-weight: 400
+}
+#photo header p {
+    margin: 8px 0 65px;
+    color: #a1aab6;
+    font-weight: 600;
+    font-size: 19px
+}
+#photo .left,
+#photo .right {
+    background-color: #f2f2f2
+}
+#photo img {
+    background-color: #000;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: .8!important
+}
+#photo img:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 1!important
+}
+#testimonial .meta {
+    margin-top: -10px
+}
+#company header p {
+    font-weight: 10!important
+}
+#calendar li {
+    position: relative;
+    transition: background-color .5s
+}
+.events3dots {
+    font-size: 1.6rem
+}
+#calendar .events3dots {
+    position: absolute;
+    top: 40%;
+    right: 18px;
+    font-size: 1.3rem
+}
+.evecol {
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #e8ecf0
+}
+.evecol p {
+    margin-bottom: 5px
+}
+#calendar {
+    margin-top: -5rem!important
+}
+#calendar iframe {
+    height: 250px;
+    width: 100%;
+    border: none;
+    overflow: hidden
+}
+@media (min-width: 769px) {
+    #calendar {
+        margin-top: -10rem!important
+    }
+    #calendar header {
+        margin-top: 0!important
+    }
+    #aboutus p {
+        padding-left: 20rem;
+        padding-right: 20rem
+    }
+    .evecol {
+        margin-left: 2rem;
+        padding-left: 1rem;
+        border-left: 2px solid #e8ecf0
+    }
+    #calendar .events3dots {
+        top: 40%;
+        font-size: 1.6rem
+    }
+    #calendar .evecol p {
+        text-align: left
+    }
+    #aboutus {
+        padding-bottom: 3rem!important
+    }
+    #calendar iframe {
+        height: 500px
+    }
+    footer {
+        padding-left: 15vw;
+        padding-right: 16vw
+    }
+}
+@media(max-width:769px) {
+    .eveupdiv {
+        margin-left: 0;
+        margin-right: 0
+    }
+    #calendar {
+        padding-left: 0;
+        padding-right: 0;
+        width: 95vw
+    }
+    #calendar ul {
+        padding-left: 0!important;
+        padding-right: 0!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        width: 100%
+    }
+    #calendar li {
+        margin-left: 0!important;
+        width: 99%!important;
+        padding-right: 3rem!important
+    }
+    #calendar .events3dots {
+        right: 12px
+    }
+}
+@media (max-width: 600px) {
+    #presmesh3 {
+        display: none
+    }
+    #mainacmlogo {
+        width: 95vw!important
+    }
+}
+.navactive {
+    color: #bbc3cf!important
+}
+#quote-carousel .carousel-control {
+    background: 0 0;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 12rem
+}
+#quote-carousel .carousel-control.left {
+    left: -12px
+}
+#quote-carousel .carousel-control.right {
+    right: -12px!important
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0;
+    margin-right: -19px
+}
+#quote-carousel .carousel-indicators li {
+    background: silver
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333
+}
+.item blockquote {
+    border-left: none;
+    margin: 0
+}
+.item blockquote img {
+    margin-bottom: 10px
+}
+.item blockquote p:before {
+    float: left;
+    margin-right: 10px
+}
+.quoteimg {
+    margin-top: 5px
+}
+.famper {
+    font-weight: 700;
+    font-size: 18px
+}
+.thequote {
+    font-style: italic
+}
+#quote-carousel .phototext {
+    margin-top: 15px
+}
+@media (min-width: 768px) {
+    #quote-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px
+    }
+    #quote-carousel .phototext {
+        margin-top: 35px
+    }
+}
+@media (max-width: 768px) {
+    #quote-carousel .carousel-indicators {
+        bottom: -20px!important
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0 5px;
+        width: 15px;
+        height: 15px
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0 5px;
+        width: 20px;
+        height: 20px
+    }
+    #quote-carousel .carousel-control {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 7rem
+    }
+}
+.bottomlogo {
+    width: 200px;
+    margin-top: 0
+}
+#bottomlogo2 {
+    width: 190px;
+    margin-top: 0
+}
+@media (max-width: 769px) {
+    .bottomlogo {
+        width: 130px;
+        margin-top: 0
+    }
+    #bottomlogo2 {
+        width: 120px
+    }
+}
+#header,
+#particles {
+    width: 100%;
+    height: 100vh
+}
+.footersocialul {
+    margin-bottom: 0
+}
+#particles {
+    overflow: hidden;
+    background: linear-gradient(to right bottom, #FF9800 50%, #212531 50%);
+    background-size: cover
+}
+#header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center
+}
+#company {
+    padding-top: 0
+}
+footer {
+    padding-bottom: 4rem!important
+}
+footer li {
+    transition: .5s ease
+}
+#fooli2:hover .fa-facebook {
+    color: #3b5998
+}
+#fooli1:hover .fa-twitter {
+    color: #00abf1
+}
+#fooli3:hover .fa-github {
+    color: red
+}
+.helping {
+    color: #1a8af3!important
+}
