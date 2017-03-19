@@ -409,6 +409,9 @@ li blockquote .yelloww {
     overflow: hidden
 }
 @media (min-width: 769px) {
+    .hiddeninbig{
+        display: none !important;
+    }
     #calendar {
         margin-top: -10rem!important
     }
@@ -614,4 +617,66 @@ footer li {
 }
 .helping {
     color: #1a8af3!important
+}
+.display-inline-block{
+    display: inline-block;
+}
+.new-head{
+    text-align:right !important;
+    padding: 5rem;
+}
+.ver-line{
+    width: 8px;
+    margin-left: 20px;
+    height: 200px;
+    background-color: #fff;
+}
+.text-white{
+    color: #fff !important;
+}
+.ver-align-middle{
+    vertical-align: middle !important;
+}
+.acmvit-heading{
+    font-size: 6rem;
+}
+#particles{
+    background: #01478a;
+    background-size: cover;
+    background-image: url('../images/map.png');
+}
+.because-tech{
+    font-size: 4rem;
+    margin-top: 160px;
+}
+.vitstudchap{
+    font-size: 4rem;
+}
+@media (max-width: 769px){
+    .acmvit-heading{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .because-tech{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .vitstudchap{
+        font-size: 2rem;
+    }
+    .acmlogo-main{
+        width: 90vw !important;
+    }
+    .ver-line{
+        width: 4px;
+        height: 140px;
+        display: none;
+    }
+    .new-head{
+        padding: 0px;
+    }
+    .becoz{
+        padding-top: 50px;
+    }
+
 }
